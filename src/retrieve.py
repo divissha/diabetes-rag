@@ -5,7 +5,9 @@ Reusable retrieval function: given a question, returns the top-k most relevant c
 import chromadb
 from sentence_transformers import SentenceTransformer
 
-CHROMA_DB_PATH = "data/processed/chroma_db"
+import os
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+CHROMA_DB_PATH = os.path.join(PROJECT_ROOT, "data/processed/chroma_db")
 COLLECTION_NAME = "diabetes_chunks"
 
 _model = None

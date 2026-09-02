@@ -12,7 +12,7 @@ load_dotenv()  # loads GROQ_API_KEY from .env
 
 client = Groq(api_key=os.environ["GROQ_API_KEY"])
 
-MODEL = "llama-3.1-8b-instant"  # fast, free-tier friendly
+MODEL = "openai/gpt-oss-20b"  # fast, free-tier friendly
 
 
 def build_prompt(question, chunks):

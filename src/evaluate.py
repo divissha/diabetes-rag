@@ -38,7 +38,7 @@
 
 #     # ragas needs an LLM to act as the "judge" for these metrics,
 #     # and an embedding model for semantic similarity checks
-#     judge_llm = LangchainLLMWrapper(ChatGroq(model="llama-3.1-8b-instant", temperature=0))
+#     judge_llm = LangchainLLMWrapper(ChatGroq(model="openai/gpt-oss-20b", temperature=0))
 #     judge_embeddings = LangchainEmbeddingsWrapper(
 #         HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 #     )
@@ -78,7 +78,7 @@ from generate import answer_question
 load_dotenv()
 client = Groq(api_key=os.environ["GROQ_API_KEY"])
 
-JUDGE_MODEL = "llama-3.1-8b-instant"
+JUDGE_MODEL = "openai/gpt-oss-20b"
 TEST_QUESTIONS_PATH = "data/eval/test_questions.json"
 
 SECONDS_BETWEEN_CALLS = 3  # pace requests to stay under the per-minute token cap
