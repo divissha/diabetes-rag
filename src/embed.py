@@ -36,7 +36,10 @@ def main():
         batch = chunks[i:i + batch_size]
         texts = [c["text"] for c in batch]
         ids = [c["chunk_id"] for c in batch]
-        metadatas = [{"pmid": c["pmid"], "title": c["title"]} for c in batch]
+        metadatas = [
+            {k: v for k, v in c.items() if k not in ("chunk_id", "text")}
+            for c in batch
+        ]
 
         embeddings = model.encode(texts, show_progress_bar=False).tolist()
 

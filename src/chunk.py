@@ -43,11 +43,12 @@ def main():
         text_chunks = chunk_text(full_text, CHUNK_SIZE, CHUNK_OVERLAP)
 
         for i, chunk in enumerate(text_chunks):
+            meta = {k: v for k, v in paper.items() if k not in ("abstract",)}
+        for i, chunk in enumerate(text_chunks):
             all_chunks.append({
                 "chunk_id": f"{paper['pmid']}_{i}",
-                "pmid": paper["pmid"],
-                "title": paper["title"],
                 "text": chunk,
+                **meta,
             })
 
     with open(OUTPUT_PATH, "w") as f:
