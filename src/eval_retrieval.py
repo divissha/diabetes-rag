@@ -23,7 +23,26 @@ def dense_system(query):
     return ranked
 
 
-SYSTEMS = {"dense": dense_system}
+from retrieve_v2 import retrieve_v2
+
+
+def make_system(mode):
+    def system(query):
+        ranked = []
+        for c in retrieve_v2(query, top_k=POOL, mode=mode):
+            if c["pmid"] not in ranked:
+                ranked.append(c["pmid"])
+        return ranked
+    return system
+
+
+SYSTEMS = {
+    "dense (v1 baseline)": dense_system,
+    "dense": make_system("dense"),
+    "bm25": make_system("bm25"),
+    "hybrid": make_system("hybrid"),
+    "hybrid+rerank": make_system("hybrid_rerank"),
+}
 
 
 def score(system_fn, items):
