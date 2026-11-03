@@ -43,7 +43,7 @@
     },
     "num_misses": 1
   },
-  "hybrid+rerank": {
+  "hybrid+rerank (minilm)": {
     "metrics": {
       "Recall@1": 0.6,
       "Recall@3": 0.75,
@@ -51,6 +51,17 @@
       "Recall@10": 0.9166666666666666,
       "MRR": 0.7102949134199136,
       "nDCG@10": 0.7563110401533597
+    },
+    "num_misses": 1
+  },
+  "hybrid+rerank (medcpt)": {
+    "metrics": {
+      "Recall@1": 0.65,
+      "Recall@3": 0.8166666666666667,
+      "Recall@5": 0.8833333333333333,
+      "Recall@10": 0.9666666666666667,
+      "MRR": 0.7596296296296295,
+      "nDCG@10": 0.808988087614251
     },
     "num_misses": 1
   }

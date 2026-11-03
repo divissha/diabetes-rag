@@ -21,7 +21,11 @@ CHROMA_DB_PATH = os.path.join(PROJECT_ROOT, "data/processed/chroma_db")
 COLLECTION_NAME = "diabetes_chunks"
 
 EMBED_MODEL = "all-MiniLM-L6-v2"
-RERANK_MODEL = "cross-encoder/ms-marco-MiniLM-L-6-v2"
+RERANKERS = {
+    "minilm": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "medcpt": "ncbi/MedCPT-Cross-Encoder",
+    "bge": "BAAI/bge-reranker-base",
+}
 
 CANDIDATES = 50    # candidates per retriever before fusion
 RERANK_POOL = 40   # fused candidates passed to the cross-encoder
@@ -46,7 +50,7 @@ def tokenize(text):
     return re.findall(r"[a-z0-9]+", normalize(text).lower())
 
 
-def _load(need_rerank=False):
+def _load(reranker=None):
     if "chunks" not in _S:
         chunks = json.load(open(CHUNKS_PATH))
         _S["chunks"] = chunks
@@ -55,8 +59,8 @@ def _load(need_rerank=False):
         _S["embedder"] = SentenceTransformer(EMBED_MODEL)
         client = chromadb.PersistentClient(path=CHROMA_DB_PATH)
         _S["collection"] = client.get_collection(COLLECTION_NAME)
-    if need_rerank and "reranker" not in _S:
-        _S["reranker"] = CrossEncoder(RERANK_MODEL)
+    if reranker and reranker not in _S.setdefault("rerankers", {}):
+        _S["rerankers"][reranker] = CrossEncoder(RERANKERS[reranker], max_length=512)
 
 
 # ---------- metadata filtering ----------
@@ -132,18 +136,21 @@ def _rrf(rank_lists):
     return sorted(fused, key=fused.get, reverse=True), fused
 
 
-def _rerank(query, chunk_ids):
+def _rerank(query, chunk_ids, reranker):
     pairs = [(normalize(query), _S["by_id"][cid]["text"]) for cid in chunk_ids]
-    scores = _S["reranker"].predict(pairs)
+    scores = _S["rerankers"][reranker].predict(pairs)
     order = sorted(range(len(chunk_ids)), key=lambda i: scores[i], reverse=True)
     return [chunk_ids[i] for i in order], {chunk_ids[i]: float(scores[i]) for i in order}
 
 
 # ---------- public API ----------
 
-def retrieve_v2(query, top_k=10, mode="hybrid_rerank", filters=None):
+def retrieve_v2(query, top_k=10, mode="hybrid_rerank:medcpt", filters=None):
     """mode: dense | bm25 | hybrid | hybrid_rerank. Returns chunk dicts with a 'score'."""
-    _load(need_rerank=(mode == "hybrid_rerank"))
+    reranker = None
+    if mode.startswith("hybrid_rerank"):
+        reranker = mode.split(":")[1] if ":" in mode else "minilm"
+    _load(reranker=reranker)
 
     if mode == "dense":
         ids = _dense(query, filters)
@@ -153,7 +160,7 @@ def retrieve_v2(query, top_k=10, mode="hybrid_rerank", filters=None):
         scores = {cid: 1.0 / (i + 1) for i, cid in enumerate(ids)}
     else:
         ids, scores = _rrf([_dense(query, filters), _bm25(query, filters)])
-        if mode == "hybrid_rerank":
-            ids, scores = _rerank(query, ids[:RERANK_POOL])
+        if reranker:
+            ids, scores = _rerank(query, ids[:RERANK_POOL], reranker)
 
     return [dict(_S["by_id"][cid], score=scores[cid]) for cid in ids[:top_k]]

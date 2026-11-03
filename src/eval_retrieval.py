@@ -41,7 +41,8 @@ SYSTEMS = {
     "dense": make_system("dense"),
     "bm25": make_system("bm25"),
     "hybrid": make_system("hybrid"),
-    "hybrid+rerank": make_system("hybrid_rerank"),
+    "hybrid+rerank (minilm)": make_system("hybrid_rerank"),
+    "hybrid+rerank (medcpt)": make_system("hybrid_rerank:medcpt"),
 }
 
 
