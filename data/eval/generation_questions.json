@@ -1,0 +1,50 @@
+[
+  {
+    "category": "compare",
+    "question": "How do SGLT2 inhibitors and GLP-1 receptor agonists compare for cardiovascular and kidney outcomes in type 2 diabetes?"
+  },
+  {
+    "category": "compare",
+    "question": "How does metformin compare with GLP-1 receptor agonists for weight loss in type 2 diabetes?"
+  },
+  {
+    "category": "compare",
+    "question": "How does insulin therapy compare with oral medications as second-line treatment in type 2 diabetes?"
+  },
+  {
+    "category": "compare",
+    "question": "How do SGLT2 inhibitors differ from metformin in effects on heart failure and mortality?"
+  },
+  {
+    "category": "compare",
+    "question": "What evidence supports combining insulin with GLP-1 receptor agonists in type 2 diabetes?"
+  },
+  {
+    "category": "subgroup",
+    "question": "What does the evidence say about metformin safety in patients with reduced kidney function?"
+  },
+  {
+    "category": "subgroup",
+    "question": "What patient characteristics should guide the choice between SGLT2 inhibitors and GLP-1 receptor agonists?"
+  },
+  {
+    "category": "safety",
+    "question": "What are the main adverse effects of SGLT2 inhibitors compared with GLP-1 receptor agonists?"
+  },
+  {
+    "category": "safety",
+    "question": "What is the risk of lactic acidosis with metformin compared with other glucose-lowering drugs?"
+  },
+  {
+    "category": "mechanism",
+    "question": "What mechanisms explain the kidney-protective effects of SGLT2 inhibitors?"
+  },
+  {
+    "category": "out_of_scope",
+    "question": "What dietary patterns are recommended for people with type 1 diabetes?"
+  },
+  {
+    "category": "out_of_scope",
+    "question": "How effective are SGLT2 inhibitors for treating type 1 diabetes?"
+  }
+]

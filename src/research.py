@@ -36,6 +36,7 @@ Rules:
 - When sources differ, give more weight to stronger designs (meta-analysis, RCT) and name the design and year behind each claim.
 - If the evidence does not directly answer part of the question, say so explicitly. Never fill gaps from outside knowledge.
 - Attribute a finding to a source ONLY if that source's text reports it. Do not add numbers, effect directions, subgroups, or outcomes that the text does not state. If a source does not report a result, do not state one.
+- Each evidence item shows its publication year. When sources from different years disagree, or an older source gives a recommendation that newer evidence may have changed, report the more recent evidence first and say the older source predates it. Never present an older recommendation as current.
 - No dosing instructions and no personal medical advice.
 - Format: a short summary paragraph, then bullet points per comparison point, then one final line starting with "Evidence gaps:".
 

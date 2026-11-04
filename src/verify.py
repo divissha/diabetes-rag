@@ -165,6 +165,22 @@ def _llm_judge(pending, by_id):
             r["status"] = "unsupported"
 
 
+_ABSENCE = re.compile(
+    r"\b(no (direct |head-to-head |randomi[sz]ed )?(evidence|trial|trials|rct|rcts|study|studies|data|comparison)"
+    r"|(is|are|remains?) (still )?(lacking|limited|unclear|unknown|unresolved|pending|absent)"
+    r"|lack(s|ing)?\b"
+    r"|not (been )?(stratified|studied|compared|reported|addressed|evaluated)"
+    r"|did not (stratify|report|address|evaluate|compare))",
+    re.I,
+)
+
+
+def _is_absence(claim):
+    """Claims about missing evidence can't be checked against a passage.
+    Claims that contain numbers are still verified normally."""
+    return bool(_ABSENCE.search(normalize(claim))) and not re.search(r"\d", claim)
+
+
 def verify_answer(answer, evidence, use_llm=True):
     by_id = {e["id"]: e for e in evidence}
     years = {str(e["year"]) for e in evidence}
@@ -190,6 +206,10 @@ def verify_answer(answer, evidence, use_llm=True):
             "supported_by_other": [],
             "unverified_numbers": sorted(_numbers(c["claim"]) - cited_nums - years),
         })
+
+    for r in results:
+        if r["status"] == "pending" and _is_absence(r["claim"]):
+            r["status"], r["method"] = "not_checkable", "rule"
 
     pending = [r for r in results if r["status"] == "pending"]
     if pending and use_llm:

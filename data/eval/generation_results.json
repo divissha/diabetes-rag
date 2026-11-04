@@ -1,0 +1,226 @@
+[
+  {
+    "category": "compare",
+    "question": "How do SGLT2 inhibitors and GLP-1 receptor agonists compare for cardiovascular and kidney outcomes in type 2 diabetes?",
+    "sub_questions": [
+      "What are the cardiovascular outcomes of SGLT2 inhibitors compared to GLP-1 receptor agonists in patients with type 2 diabetes?",
+      "What are the kidney outcomes of SGLT2 inhibitors compared to GLP-1 receptor agonists in patients with type 2 diabetes?",
+      "How do the cardiovascular and kidney benefits of SGLT2 inhibitors and GLP-1 receptor agonists differ across patient subgroups (e.g., age, baseline kidney function, cardiovascular risk) in type 2 diabetes?"
+    ],
+    "answer": "**Summary**  \nRecent evidence indicates that both SGLT2 inhibitors (SGLT2\u2011I) and GLP\u20111 receptor agonists (GLP\u20111RA) reduce cardiovascular and kidney risk in type\u202f2 diabetes, but their relative benefits differ by outcome and patient phenotype. Meta\u2011analysis data show SGLT2\u2011Is lower major adverse cardiovascular events (MACE) and renal events compared with GLP\u20111RAs, whereas GLP\u20111RAs are more effective for atherosclerotic events such as stroke. Real\u2011world mortality data confirm that each class independently lowers all\u2011cause death, with combination therapy providing the greatest benefit. Phenotype\u2011guided approaches suggest SGLT2\u2011Is for heart\u2011failure and kidney\u2011protective effects, and GLP\u20111RAs for atherosclerotic disease and obesity\u2011related heart\u2011failure.\n\n**Cardiovascular outcomes**  \n- In a 2021 network meta\u2011analysis, SGLT2\u2011Is reduced MACE (RR\u202f0.85\u202f[0.75\u20110.96]) whereas GLP\u20111RAs did not (RR\u202f0.91\u202f[0.80\u20111.04]) [2].  \n- The same analysis found no significant difference between the two classes for MACE (RR\u202f0.94\u202f[0.78\u20111.12]) [2].  \n- Real\u2011world data from 2025 showed that SGLT2\u2011I only therapy lowered all\u2011cause mortality (HR\u202f0.28\u202f[0.27\u20110.29]) and GLP\u20111RA only therapy lowered mortality (HR\u202f0.39\u202f[0.37\u20110.40]) in patients with ASCVD [1].  \n- Review literature (2018, 2020) notes that SGLT2\u2011Is are particularly effective for heart\u2011failure outcomes, while GLP\u20111RAs reduce atherosclerotic events, especially stroke [3][4].\n\n**Kidney outcomes**  \n- The 2021 meta\u2011analysis reported that SGLT2\u2011Is lowered renal events (RR\u202f0.68\u202f[0.59\u20110.78]), whereas GLP\u20111RAs did not (RR\u202f0.86\u202f[0.72\u20111.03]) [2].  \n- Compared with GLP\u20111RAs, SGLT2\u2011Is had a lower risk of renal events (RR\u202f0.79\u202f[0.63\u20110.99]) [2].  \n- 2026 review highlights that SGLT2\u2011Is slow kidney disease progression, whereas GLP\u20111RAs have emerging kidney\u2011outcome data in CKD and obesity\u2011related heart\u2011failure with preserved ejection fraction [5].\n\n**Subgroup differences**  \n- 2018 review suggests heart\u2011failure patients benefit more from SGLT2\u2011Is, while moderate\u2011to\u2011severe CKD patients may favor GLP\u20111RAs [3].  \n- 2026 review proposes phenotype\u2011guided therapy: SGLT2\u2011Is for heart\u2011failure and kidney protection, GLP\u20111RAs for atherosclerotic disease, obesity, and certain heart\u2011failure phenotypes [5].  \n- No specific age\u2011based or baseline\u2011kidney\u2011function subgroup analyses are reported in the cited studies.\n\n**Evidence gaps**  \n- Direct head\u2011to\u2011head randomized trials comparing SGLT2\u2011Is and GLP\u20111RAs for cardiovascular and kidney outcomes are lacking.  \n- Subgroup data on age, baseline kidney function, and specific cardiovascular risk profiles are insufficient to determine differential benefits.  \n- Long\u2011term outcomes of combination therapy versus monotherapy remain to be conclusively established.",
+    "evidence": [
+      {
+        "id": 1,
+        "pmid": "40887578",
+        "chunk_id": "40887578_0",
+        "title": "SGLT2 inhibitors and GLP-1 receptor agonists: impact on mortality in diabetic patients with cardiovascular disease.",
+        "year": 2025,
+        "journal": "Cardiovascular diabetology",
+        "study_type": "Study",
+        "text": "Sodium-glucose cotransporter 2 inhibitors (SGLT2-I) and glucagon-like peptide-1 receptor agonists (GLP-1RA) have been shown to reduce cardiovascular risk and mortality in patients with type 2 diabetes mellitus (T2D), yet remain underutilized in clinical practice. This study aimed to evaluate real-world treatment patterns and associated mortality outcomes among patients with T2D and established atherosclerotic cardiovascular disease (ASCVD). The CARdiovascular and DIABetes (CARDIAB) cohort included 138,397 patients with T2D and ASCVD. Patients were categorized into four treatment groups: (i) both SGLT2-I and GLP-1RA, (ii) SGLT2-I only, (iii) GLP-1RA only, and (iv) neither medication. The primary outcome was all-cause mortality. Of the 138,397 patients, 57% received neither SGLT2-I nor GLP-1RA, 17% received both, 20% received SGLT2-I only, and 6% received GLP-1RA only. Female sex, older age, non-coronary ASCVD, and absence of follow-up in specialized cardiology or diabetes clinics were associated with lower treatment rates. Compared to those receiving neither medication, all-cause mortality was significantly lower among patients treated with SGLT2-I only (HR 0.28, 95% CI 0.27-0.29), GLP-1RA only (HR 0.39, 95% CI 0.37-0.40) and both agents (HR 0.17, 95% CI 0.16-0.18). This association remained significant following a multivariate analysis. In patients with T2D and ASCVD, treatment with SGLT2-I and GLP-1RA, especially in combination, is associated with a substantial reduction in mortality. These findings highlight significant gaps in implementation and the urgent need to optimize use of evidence-based therapies in this high-risk population.",
+        "score": 0.9999998807907104,
+        "sub_questions": [
+          0
+        ]
+      },
+      {
+        "id": 2,
+        "pmid": "33413348",
+        "chunk_id": "33413348_0",
+        "title": "Cardiovascular and renal outcomes with SGLT-2 inhibitors versus GLP-1 receptor agonists in patients with type 2 diabetes mellitus and chronic kidney disease: a systematic review and network meta-analysis.",
+        "year": 2021,
+        "journal": "Cardiovascular diabetology",
+        "study_type": "Meta-analysis",
+        "text": "Emerging evidence suggests that sodium-glucose cotransporter-2 (SGLT-2) inhibitors and glucagon-like peptide-1 receptor agonists (GLP-1 RAs) are associated with decreased risk of cardiovascular and renal events in type 2 diabetes mellitus (DM) patients. However, no study to date has compared the effect of SGLT-2 inhibitors with that of GLP-1 RAs in type 2 DM patients with chronic kidney disease (CKD). We herein investigated the benefits of SGLT-2 inhibitors and GLP-1 RAs in CKD patients. We performed a systematic literature search through November 2020. We selected randomized control trials that compared the risk of major adverse cardiovascular events (MACE) and a composite of renal outcomes. We performed a network meta-analysis to compare SGLT-2 inhibitors with GLP-1 RAs indirectly. Risk ratios (RRs) with corresponding 95% confidence intervals (CI) were synthesized. Thirteen studies were selected with a total of 32,949 patients. SGLT-2 inhibitors led to a risk reduction in MACE and renal events (RR [95% CI]; 0.85 [0.75-0.96] and 0.68 [0.59-0.78], respectively). However, GLP-1 RAs did not reduce the risk of cardiovascular or renal adverse events (RR 0.91 [0.80-1.04] and 0.86 [0.72-1.03], respectively). Compared to GLP-1 RAs, SGLT-2 inhibitors did not demonstrate a significant difference in MACE (RR 0.94 [0.78-1.12]), while SGLT-2 inhibitors were associated with a lower risk of renal events compared to GLP-1 RAs (RR 0.79 [0.63-0.99]). A sensitivity analysis revealed that GLP-1 analogues significantly decreased MACE when compared to placebo treatment (RR 0.81 [0.69-0.95]), while exendin-4 analogues did not (RR 1.03 [0.88-1.20]). In patients with type 2 DM and CKD, SGLT-2 inhibitors were associated with a decreased risk of cardiovascular and renal events, but GLP-1 RAs were not. SGLT-2 inhibitors significantly decreased the risk of renal events compared to GLP-1 RAs. Among GLP-1 RAs, GLP-1 analogues showed a positive impact on cardiovascular and renal outcomes, while exendin-4 analogues did not.",
+        "score": 0.9999998807907104,
+        "sub_questions": [
+          1
+        ]
+      },
+      {
+        "id": 3,
+        "pmid": "29944969",
+        "chunk_id": "29944969_0",
+        "title": "Cardiovascular outcome studies in type 2 diabetes: Comparison between SGLT2 inhibitors and GLP-1 receptor agonists.",
+        "year": 2018,
+        "journal": "Diabetes research and clinical practice",
+        "study_type": "Review",
+        "text": "Sodium-glucose cotransporter type 2 inhibitors (SGLT2is) and glucagon-like peptide-1 receptor agonists (GLP-1RAs) are two pharmacological classes that have proven their efficacy to reduce major cardiovascular events (MACEs) in patients with type 2 diabetes mellitus (T2DM) and established cardiovascular disease in large prospective cardiovascular outcome trials (CVOTs): EMPA-REG OUTCOME (empagliflozin), CANVAS (canagliflozin), LEADER (liraglutide) and SUSTAIN 6 (semaglutide). Some heterogeneity appears to exist between the various agents within the two pharmacological classes. Whether these positive results could be extrapolated to patients without cardiovascular disease is still unknown. The underlying mechanisms remain a matter of debate but appear to differ between SGLT2is and GLP-1RAs. One crucial question is which patient's characteristics should be taken into account to guide the choice between a SGLT2i or a GLP-1RA according to a personalized approach. Heart failure should encourage the use of a SGLT2i whereas moderate to severe chronic kidney disease should favour the prescription of a GLP-1RA. Despite the results of recent CVOTs, numerous patients who are good candidates for benefiting of these agents do not receive them in clinical practice. Currently, there is a paradigm shift in T2DM management, moving from a primary objective of glucose control to a cardiovascular and renal protection.",
+        "score": 0.9999995231628418,
+        "sub_questions": [
+          2,
+          1,
+          0
+        ]
+      },
+      {
+        "id": 4,
+        "pmid": "32306789",
+        "chunk_id": "32306789_0",
+        "title": "Type 2 diabetes mellitus and cardiovascular disease: focus on the effect of antihyperglycemic treatments on cardiovascular outcomes.",
+        "year": 2020,
+        "journal": "Expert review of cardiovascular therapy",
+        "study_type": "Review",
+        "text": "Introduction: Type 2 diabetes mellitus and cardiovascular disease contribute to significant morbidity, mortality, and health-care resource expenditure. The pathophysiological and clinical associations between diabetes and cardiovascular disease have been the subject of multiple studies, most recently culminating in large trials of several new antiglycemic agents being found to confer additional cardiovascular risk reduction. Understanding the potential cardiovascular benefits of antiglycemic medications offers the unique opportunity to reduce the morbidity and mortality presented by both diseases at once.Areas covered: The literature search was comprised of a Pubmed search querying 'cardiovascular outcomes' and 'diabetes'. This article reviews the pathophysiology of cardiovascular complications in type 2 diabetes and the cardiovascular outcome trials related to newer antiglycemic medications.Expert opinion: The treatment of patients with type 2 diabetes mellitus and cardiovascular disease is rapidly advancing. In particular, the sodium-glucose cotransporter-2 (SGLT2) inhibitors and glucagon-like peptide-1 (GLP-1) receptor agonists have demonstrated cardiovascular benefit by reducing major adverse cardiovascular events and cardiovascular mortality. Future directions of the treatment of type 2 diabetes and cardiovascular disease will focus on targeting and preventing diabetic cardiomyopathy and further defining the role of SGLT2 inhibitors and of GLP-1 receptor agonists in additional patient populations.",
+        "score": 0.9999998807907104,
+        "sub_questions": [
+          0
+        ]
+      },
+      {
+        "id": 5,
+        "pmid": "42470502",
+        "chunk_id": "42470502_0",
+        "title": "Combination cardiometabolic therapy in type 2 diabetes: optimizing SGLT2 inhibitor and GLP\u20111 receptor agonist use.",
+        "year": 2026,
+        "journal": "Current atherosclerosis reports",
+        "study_type": "Review",
+        "text": "To evaluate the evidence supporting combined sodium-glucose cotransporter 2 inhibitors (SGLT2is) and glucagon-like peptide-1 receptor agonists (GLP-1RAs) in type 2 diabetes, focusing on cardiometabolic outcomes and practical treatment approaches. Cardiovascular outcomes trials and real-world studies indicate that SGLT2is and GLP-1RAs confer complementary, non-redundant cardiovascular, kidney, and metabolic benefits. SGLT2is primarily reduce hospitalization for heart failure and slow kidney disease progression, while GLP-1RAs more effectively reduce atherosclerotic events, particularly stroke; dedicated kidney-outcome and heart-failure trials of GLP-1RAs in chronic kidney disease and obesity-related heart failure with preserved ejection fraction have further broadened their role. Randomized data show that each class retains its benefit irrespective of background use of the other, supporting independent mechanisms; whether this translates into reductions in hard outcomes is being tested prospectively. Emerging evidence supports a phenotype-guided approach that aligns therapy with dominant comorbidities such as atherosclerotic cardiovascular disease, heart failure, chronic kidney disease, and obesity. Despite advances in pharmacotherapy, substantial cardiometabolic risk remains in type 2 diabetes. Combined SGLT2i and GLP-1RA therapy addresses multiple risk domains through complementary mechanisms and may be most effective within a phenotype-guided framework. This framework prioritizes therapy according to predominant comorbidity and reserves combination treatment for individuals with overlapping high-risk phenotypes.",
+        "score": 0.9999992847442627,
+        "sub_questions": [
+          2,
+          1
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "claim": "In a 2021 network meta\u2011analysis, SGLT2\u2011Is reduced MACE (RR\u202f0.85\u202f[0.75\u20110.96]) whereas GLP\u20111RAs did not (RR\u202f0.91\u202f[0.80\u20111.04]).",
+        "cited": [
+          2
+        ],
+        "status": "supported",
+        "method": "llm_judge",
+        "best_cited": 0.13360710442066193,
+        "quote": "SGLT-2 inhibitors led to a risk reduction in MACE and renal events (RR [95% CI]; 0.85 [0.75-0.96] and 0.68 [0.59-0.78], respectively). However, GLP-1 RAs did not reduce the risk of cardiovascular or renal adverse events (RR 0.91 [0.80-1.04] and 0.86 [0.72-1.03], respectively).",
+        "note": "none",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "The same analysis found no significant difference between the two classes for MACE (RR\u202f0.94\u202f[0.78\u20111.12]).",
+        "cited": [
+          2
+        ],
+        "status": "supported",
+        "method": "llm_judge",
+        "best_cited": 0.02850039303302765,
+        "quote": "Compared to GLP-1 RAs, SGLT-2 inhibitors did not demonstrate a significant difference in MACE (RR 0.94 [0.78-1.12])",
+        "note": "none",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "Real\u2011world data from 2025 showed that SGLT2\u2011I only therapy lowered all\u2011cause mortality (HR\u202f0.28\u202f[0.27\u20110.29]) and GLP\u20111RA only therapy lowered mortality (HR\u202f0.39\u202f[0.37\u20110.40]) in patients with ASCVD.",
+        "cited": [
+          1
+        ],
+        "status": "supported",
+        "method": "llm_judge",
+        "best_cited": 0.01726180873811245,
+        "quote": "all-cause mortality was significantly lower among patients treated with SGLT2-I only (HR 0.28, 95% CI 0.27-0.29), GLP-1RA only (HR 0.39, 95% CI 0.37-0.40)",
+        "note": "none",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "Review literature (2018, 2020) notes that SGLT2\u2011Is are particularly effective for heart\u2011failure outcomes, while GLP\u20111RAs reduce atherosclerotic events, especially stroke.",
+        "cited": [
+          3,
+          4
+        ],
+        "status": "partial",
+        "method": "llm_judge",
+        "best_cited": 0.000525774376001209,
+        "quote": "Heart failure should encourage the use of a SGLT2i whereas moderate to severe chronic kidney disease should favour the prescription of a GLP-1RA.",
+        "note": "does not mention stroke",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "The 2021 meta\u2011analysis reported that SGLT2\u2011Is lowered renal events (RR\u202f0.68\u202f[0.59\u20110.78]), whereas GLP\u20111RAs did not (RR\u202f0.86\u202f[0.72\u20111.03]).",
+        "cited": [
+          2
+        ],
+        "status": "supported",
+        "method": "nli",
+        "best_cited": 0.6613175272941589,
+        "quote": "",
+        "note": "",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "Compared with GLP\u20111RAs, SGLT2\u2011Is had a lower risk of renal events (RR\u202f0.79\u202f[0.63\u20110.99]).",
+        "cited": [
+          2
+        ],
+        "status": "supported",
+        "method": "nli",
+        "best_cited": 0.9907406568527222,
+        "quote": "",
+        "note": "",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "2026 review highlights that SGLT2\u2011Is slow kidney disease progression, whereas GLP\u20111RAs have emerging kidney\u2011outcome data in CKD and obesity\u2011related heart\u2011failure with preserved ejection fraction.",
+        "cited": [
+          5
+        ],
+        "status": "supported",
+        "method": "llm_judge",
+        "best_cited": 0.23410262167453766,
+        "quote": "SGLT2is primarily reduce hospitalization for heart failure and slow kidney disease progression, while GLP-1RAs more effectively reduce atherosclerotic events, particularly stroke; dedicated kidney-outcome and heart-failure trials of GLP-1RAs in chronic kidney disease and obesity-related heart failure with preserved ejection fraction have further broadened their role.",
+        "note": "none",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "2018 review suggests heart\u2011failure patients benefit more from SGLT2\u2011Is, while moderate\u2011to\u2011severe CKD patients may favor GLP\u20111RAs.",
+        "cited": [
+          3
+        ],
+        "status": "supported",
+        "method": "llm_judge",
+        "best_cited": 0.013193421997129917,
+        "quote": "Heart failure should encourage the use of a SGLT2i whereas moderate to severe chronic kidney disease should favour the prescription of a GLP-1RA.",
+        "note": "none",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "2026 review proposes phenotype\u2011guided therapy: SGLT2\u2011Is for heart\u2011failure and kidney protection, GLP\u20111RAs for atherosclerotic disease, obesity, and certain heart\u2011failure phenotypes.",
+        "cited": [
+          5
+        ],
+        "status": "supported",
+        "method": "llm_judge",
+        "best_cited": 0.08873282372951508,
+        "quote": "Combined SGLT2i and GLP-1RA therapy addresses multiple risk domains through complementary mechanisms and may be most effective within a phenotype-guided framework. This framework prioritizes therapy according to predominant comorbidity and reserves combination treatment for individuals with overlapping high-risk phenotypes.",
+        "note": "none",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      }
+    ],
+    "summary": {
+      "claims": 9,
+      "supported": 8,
+      "partial": 1,
+      "unsupported": 0,
+      "miscited": 0,
+      "not_checkable": 0,
+      "citation_precision": 0.889
+    },
+    "relevance": 5,
+    "relevance_note": "SCORE: 5  \nREASON: The answer thoroughly compares cardiovascular and kidney outcomes for SGLT2 inhibitors and GLP\u20111 receptor agonists, cites relevant meta\u2011analyses and real\u2011world data, discusses phenotype\u2011guided use, and clearly states evidence gaps.",
+    "invalid_citations": [],
+    "uncited_evidence": [],
+    "timings": {
+      "decompose": 1.2,
+      "retrieve": 34.7,
+      "synthesize": 1.7,
+      "verify": 18.9
+    }
+  }
+]
