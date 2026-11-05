@@ -26,18 +26,18 @@ _CITE_GROUP = re.compile(r"\[(\d+(?:\s*,\s*\d+)*)\]")
 _CITE_STRIP = re.compile(r"\s*\[\d+(?:\s*,\s*\d+)*\]")
 _state = {}
 
-JUDGE_PROMPT = """You are a strict fact-checker. For each numbered claim, decide whether the evidence it cites supports it.
+JUDGE_PROMPT = """You are a strict fact-checker. For each numbered claim:
+1. Split the claim into its separate assertions ("parts"). Each number, each comparison, each population or subgroup, each direction of effect, and each statement joined by "and", ";" or "while" is its own part. Use 1 to 5 parts.
+2. For each part give a verdict from the cited evidence:
+   - STATED: the evidence states this part. Paraphrase is fine, but every number and every direction of effect must match. A comparison such as "greater", "more", "greatest" or "superior" is STATED only if the evidence reports that compared result, not merely each side separately.
+   - NOT_STATED: the evidence does not state it, states something different, or contradicts it.
+   - ABSENCE: the part says something is missing, lacking, or unreported.
+3. For STATED, give "quote": ONE sentence copied EXACTLY, word for word, from the evidence, with no ellipses, that states this part.
 
-Verdicts:
-- SUPPORTED: the evidence states the claim (paraphrase is fine, but every number and every direction of effect must match).
-- PARTIAL: part of the claim is stated, but part is not (extra detail, a different magnitude, stronger wording, or a subgroup the text does not mention).
-- UNSUPPORTED: the evidence does not state it, or contradicts it.
-- NOT_CHECKABLE: the claim says something is absent, lacking, or unreported.
-
-For SUPPORTED or PARTIAL, give "quote": the single sentence from the evidence that best supports the claim, copied EXACTLY word for word, with no ellipses.
+Judge ONLY against the evidence shown, never against your own knowledge.
 
 Output ONLY this JSON:
-{"verdicts": [{"id": 1, "verdict": "SUPPORTED", "quote": "...", "note": "at most 15 words on what is missing or wrong"}]}
+{"verdicts": [{"id": 1, "parts": [{"part": "short restatement", "verdict": "STATED", "quote": "exact sentence"}], "note": "at most 15 words on what is missing, if anything"}]}
 
 Evidence:
 <<EVIDENCE>>
@@ -129,9 +129,11 @@ def _score(claim, items):
 
 
 def _numbers(text):
+    t = normalize(text)
+    # "7 053" / "47,000" / "7053" all compare equal
+    t = re.sub(r"(?<=\d)[ \u00a0\u2009\u202f,](?=\d{3}(?!\d))", "", t)
     nums = set()
-    for n in re.findall(r"\d[\d,]*\.?\d*", normalize(text)):
-        n = n.replace(",", "").rstrip(".")
+    for n in re.findall(r"\d+(?:\.\d+)?", t):
         if len(n.replace(".", "")) >= 2:
             nums.add(n)
     return nums
@@ -148,46 +150,67 @@ def _quote_in_evidence(quote, items):
     return any(q in _squash(e["text"]) for e in items)
 
 
-def _llm_judge(pending, by_id):
-    ids = sorted({i for r in pending for i in r["cited"] if i in by_id})
-    evidence_block = "\n\n".join(f"[{i}] {by_id[i]['text']}" for i in ids)
-    claims_block = "\n".join(
-        f"{n + 1}. (cites {r['cited']}) {r['claim']}" for n, r in enumerate(pending)
-    )
-    prompt = (JUDGE_PROMPT.replace("<<EVIDENCE>>", evidence_block)
-                          .replace("<<CLAIMS>>", claims_block))
-    raw = call_llm(prompt, temperature=0.0)
+def _is_compound(claim):
+    """Long claims, or ones joining several assertions, need part-by-part checking."""
+    return (len(claim.split()) > 18 or ";" in claim
+            or bool(re.search(r",\s*(and|while|whereas|but)\b|\b(whereas|while|in addition|as well as)\b",
+                              claim, re.I)))
 
-    match = re.search(r"\{.*\}", raw, re.DOTALL)
-    if not match:
-        return
-    try:
-        verdicts = json.loads(match.group(0)).get("verdicts", [])
-    except json.JSONDecodeError:
-        return
 
-    for v in verdicts:
-        try:
-            r = pending[int(v["id"]) - 1]
-        except (KeyError, ValueError, IndexError, TypeError):
+def _llm_judge(pending, by_id, batch_size=6):
+    for start in range(0, len(pending), batch_size):
+        batch = pending[start:start + batch_size]
+        ids = sorted({i for r in batch for i in r["cited"] if i in by_id})
+        evidence_block = "\n\n".join(f"[{i}] {by_id[i]['text']}" for i in ids)
+        claims_block = "\n".join(
+            f"{n + 1}. (cites {r['cited']}) {r['claim']}" for n, r in enumerate(batch)
+        )
+        prompt = (JUDGE_PROMPT.replace("<<EVIDENCE>>", evidence_block)
+                              .replace("<<CLAIMS>>", claims_block))
+        raw = call_llm(prompt, temperature=0.0)
+
+        match = re.search(r"\{.*\}", raw, re.DOTALL)
+        if not match:
             continue
-        verdict = str(v.get("verdict", "")).upper()
-        cited_items = [by_id[i] for i in r["cited"] if i in by_id]
-        r["note"] = v.get("note", "")
-        r["quote"] = v.get("quote", "")
-        r["method"] = "llm_judge"
+        try:
+            verdicts = json.loads(match.group(0)).get("verdicts", [])
+        except json.JSONDecodeError:
+            continue
 
-        if verdict in ("SUPPORTED", "PARTIAL"):
-            if _quote_in_evidence(v.get("quote"), cited_items):
-                r["status"] = "supported" if verdict == "SUPPORTED" else "partial"
+        for v in verdicts:
+            try:
+                r = batch[int(v["id"]) - 1]
+            except (KeyError, ValueError, IndexError, TypeError):
+                continue
+            cited_items = [by_id[i] for i in r["cited"] if i in by_id]
+            stated = total = absence = 0
+            missing, quotes = [], []
+            for p in v.get("parts") or []:
+                pv = str(p.get("verdict", "")).upper()
+                if pv == "ABSENCE":
+                    absence += 1
+                    continue
+                total += 1
+                if pv == "STATED" and _quote_in_evidence(p.get("quote"), cited_items):
+                    stated += 1
+                    quotes.append(p.get("quote"))
+                else:
+                    missing.append(str(p.get("part", ""))[:80])
+
+            if total == 0:
+                r["status"] = "not_checkable" if absence else "unsupported"
+            elif stated == total:
+                r["status"] = "supported"
+            elif stated:
+                r["status"] = "partial"
             else:
                 r["status"] = "unsupported"
-                r["note"] = "judge's quote not found in cited evidence"
-        elif verdict == "NOT_CHECKABLE":
-            r["status"] = "not_checkable"
-        else:
-            r["status"] = "unsupported"
-
+            r["method"] = "llm_judge"
+            r["quote"] = " | ".join(quotes[:2])
+            note = str(v.get("note", "")).strip()
+            if missing:
+                note = (note + " " if note else "") + "not stated: " + "; ".join(missing)
+            r["note"] = note
 
 _ABSENCE = re.compile(
     r"\b(no (direct |head-to-head |randomi[sz]ed )?(evidence|trial|trials|rct|rcts|study|studies|data|comparison)"
@@ -232,7 +255,11 @@ def verify_answer(answer, evidence, use_llm=True):
         })
 
     for r in results:
-        if r["status"] == "pending" and _is_absence(r["claim"]):
+        if r["status"] == "supported" and _is_compound(r["claim"]):
+            r["status"], r["nli_pass"] = "pending", True
+
+    for r in results:
+        if r["status"] == "pending" and _is_absence(r["claim"]) and not _is_compound(r["claim"]):
             r["status"], r["method"] = "not_checkable", "rule"
 
     pending = [r for r in results if r["status"] == "pending"]
@@ -243,7 +270,7 @@ def verify_answer(answer, evidence, use_llm=True):
             print(f"    judge call failed: {e}")
     for r in pending:
         if r["status"] == "pending":
-            r["status"] = "unsupported"
+            r["status"] = "supported" if r.get("nli_pass") else "unsupported"
 
     for r in results:
         if r["status"] == "supported" and r["unverified_numbers"]:

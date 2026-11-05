@@ -92,8 +92,8 @@
         "status": "supported",
         "method": "llm_judge",
         "best_cited": 0.0013942496152594686,
-        "quote": "Compared to those receiving neither medication, all-cause mortality was significantly lower among patients treated with SGLT2-I only (HR 0.28, 95% CI 0.27-0.29), GLP-1RA only (HR 0.39, 95% CI 0.37-0.40) and both agents (HR 0.17, 95% CI 0.16-0.18).",
-        "note": "directly states each class and combination reduce mortality",
+        "quote": "Compared to those receiving neither medication, all\u2011cause mortality was significantly lower among patients treated with SGLT2\u2011I only (HR\u202f0.28, 95%\u202fCI\u202f0.27\u20110.29), GLP\u20111RA only (HR\u202f0.39, 95%\u202fCI\u202f0.37\u20110.40) and both agents (HR\u202f0.17, 95%\u202fCI\u202f0.16\u20110.18). | Compared to those receiving neither medication, all\u2011cause mortality was significantly lower among patients treated with SGLT2\u2011I only (HR\u202f0.28, 95%\u202fCI\u202f0.27\u20110.29), GLP\u20111RA only (HR\u202f0.39, 95%\u202fCI\u202f0.37\u20110.40) and both agents (HR\u202f0.17, 95%\u202fCI\u202f0.16\u20110.18).",
+        "note": "None missing",
         "supported_by_other": [],
         "unverified_numbers": []
       },
@@ -103,12 +103,13 @@
           2
         ],
         "status": "supported",
-        "method": "nli",
+        "method": "llm_judge",
         "best_cited": 0.6319693326950073,
-        "quote": "",
-        "note": "",
+        "quote": "SGLT\u20112 inhibitors led to a risk reduction in MACE and renal events (RR [95% CI]; 0.85 [0.75\u20110.96] and 0.68 [0.59\u20110.78], respectively). | GLP\u20111 RAs did not reduce the risk of cardiovascular or renal adverse events (RR 0.91 [0.80\u20111.04] and 0.86 [0.72\u20111.03], respectively).",
+        "note": "None missing",
         "supported_by_other": [],
-        "unverified_numbers": []
+        "unverified_numbers": [],
+        "nli_pass": true
       },
       {
         "claim": "Review evidence suggests that SGLT2 inhibitors are particularly effective for heart\u2011failure outcomes and slowing kidney disease progression, while GLP\u20111 receptor agonists are more potent for atherosclerotic events such as stroke and for patients with moderate\u2011to\u2011severe chronic kidney disease.",
@@ -117,23 +118,24 @@
           5
         ],
         "status": "supported",
-        "method": "nli",
+        "method": "llm_judge",
         "best_cited": 0.5113137364387512,
-        "quote": "",
-        "note": "",
+        "quote": "Heart failure should encourage the use of a SGLT2i whereas moderate to severe chronic kidney disease should favour the prescription of a GLP\u20111RA. | GLP\u20111RAs more effectively reduce atherosclerotic events, particularly stroke;",
+        "note": "None missing",
         "supported_by_other": [],
-        "unverified_numbers": []
+        "unverified_numbers": [],
+        "nli_pass": true
       },
       {
         "claim": "A 2026 review emphasizes that the two classes provide complementary, non\u2011redundant benefits and that a phenotype\u2011guided approach\u2014choosing therapy based on dominant comorbidities (ASCVD, heart failure, CKD, obesity)\u2014may optimize outcomes.",
         "cited": [
           5
         ],
-        "status": "supported",
+        "status": "partial",
         "method": "llm_judge",
         "best_cited": 0.0014985855668783188,
-        "quote": "Emerging evidence supports a phenotype\u2011guided approach that aligns therapy with dominant comorbidities such as atherosclerotic cardiovascular disease, heart failure, chronic kidney disease, and obesity.",
-        "note": "matches claim",
+        "quote": "SGLT2is and GLP\u20111RAs confer complementary, non\u2011redundant cardiovascular, kidney, and metabolic benefits.",
+        "note": "None missing not stated: A phenotype\u2011guided approach\u2014choosing therapy based on dominant comorbidities\u2014may",
         "supported_by_other": [],
         "unverified_numbers": []
       },
@@ -146,8 +148,8 @@
         "status": "unsupported",
         "method": "llm_judge",
         "best_cited": 0.2090919017791748,
-        "quote": "GLP-1 RAs did not reduce the risk of cardiovascular or renal adverse events (RR 0.91 [0.80-1.04] and 0.86 [0.72-1.03], respectively).",
-        "note": "contradicts claim that GLP\u20111 reduces MACE",
+        "quote": "",
+        "note": "Evidence does not state MACE reduction for either class in ASCVD not stated: SGLT2 inhibitors reduce MACE and cardiovascular mortality in type\u202f2 diabetes wit; GLP\u20111 receptor agonists also reduce MACE but the comparative magnitude is less c",
         "supported_by_other": [],
         "unverified_numbers": []
       },
@@ -157,23 +159,24 @@
           2
         ],
         "status": "supported",
-        "method": "nli",
+        "method": "llm_judge",
         "best_cited": 0.8022099137306213,
-        "quote": "",
-        "note": "",
+        "quote": "SGLT\u20112 inhibitors led to a risk reduction in MACE and renal events (RR [95% CI]; 0.85 [0.75\u20110.96] and 0.68 [0.59\u20110.78], respectively). | GLP\u20111 RAs did not reduce the risk of cardiovascular or renal adverse events (RR 0.91 [0.80\u20111.04] and 0.86 [0.72\u20111.03], respectively).",
+        "note": "None missing",
         "supported_by_other": [],
-        "unverified_numbers": []
+        "unverified_numbers": [],
+        "nli_pass": true
       },
       {
         "claim": "SGLT2 inhibitors lower the risk of composite renal events (RR\u202f0.68) and are superior to GLP\u20111 receptor agonists in reducing renal events (RR\u202f0.79) in CKD patients.",
         "cited": [
           2
         ],
-        "status": "supported",
+        "status": "partial",
         "method": "llm_judge",
         "best_cited": 0.0027204942889511585,
-        "quote": "SGLT-2 inhibitors were associated with a lower risk of renal events compared to GLP-1 RAs (RR 0.79 [0.63-0.99]).",
-        "note": "directly supports",
+        "quote": "SGLT-2 inhibitors led to a risk reduction in MACE and renal events (RR [95% CI]; 0.85 [0.75-0.96] and 0.68 [0.59-0.78], respectively).",
+        "note": "none not stated: SGLT2 inhibitors are superior to GLP\u20111 receptor agonists in reducing renal event",
         "supported_by_other": [],
         "unverified_numbers": []
       },
@@ -182,11 +185,11 @@
         "cited": [
           5
         ],
-        "status": "partial",
+        "status": "unsupported",
         "method": "llm_judge",
         "best_cited": 0.011615036055445671,
-        "quote": "SGLT2is primarily reduce hospitalization for heart failure and slow kidney disease progression, while GLP-1RAs more effectively reduce atherosclerotic events, particularly stroke;",
-        "note": "does not state GLP\u20111 RA slows kidney progression",
+        "quote": "",
+        "note": "no evidence of GLP\u20111RA kidney benefit not stated: GLP\u20111 receptor agonists show benefit in slowing kidney disease progression in ce; evidence is less robust than for SGLT2 inhibitors",
         "supported_by_other": [],
         "unverified_numbers": []
       },
@@ -197,35 +200,37 @@
           5
         ],
         "status": "supported",
-        "method": "nli",
+        "method": "llm_judge",
         "best_cited": 0.9241275787353516,
-        "quote": "",
-        "note": "",
+        "quote": "Heart failure should encourage the use of a SGLT2i whereas moderate to severe chronic kidney disease should favour the prescription of a GLP-1RA. | Heart failure should encourage the use of a SGLT2i whereas moderate to severe chronic kidney disease should favour the prescription of a GLP-1RA.",
+        "note": "none",
         "supported_by_other": [],
-        "unverified_numbers": []
+        "unverified_numbers": [],
+        "nli_pass": true
       },
       {
         "claim": "The complementary nature of the two classes suggests that combination therapy may address multiple risk domains, but randomized data on hard outcomes with combination therapy are still pending.",
         "cited": [
           5
         ],
-        "status": "supported",
-        "method": "nli",
+        "status": "not_checkable",
+        "method": "rule",
         "best_cited": 0.8417486548423767,
         "quote": "",
         "note": "",
         "supported_by_other": [],
-        "unverified_numbers": []
+        "unverified_numbers": [],
+        "nli_pass": true
       }
     ],
     "summary": {
       "claims": 10,
-      "supported": 8,
-      "partial": 1,
-      "unsupported": 1,
+      "supported": 5,
+      "partial": 2,
+      "unsupported": 2,
       "miscited": 0,
-      "not_checkable": 0,
-      "citation_precision": 0.8,
+      "not_checkable": 1,
+      "citation_precision": 0.556,
       "uncited_statements": 1,
       "citation_coverage": 0.909
     },
@@ -240,7 +245,10 @@
       "retrieve": 29.3,
       "synthesize": 1.3,
       "verify": 20.0
-    }
+    },
+    "uncited": [
+      "SGLT2 inhibitors and GLP\u20111 receptor agonists both lower cardiovascular and kidney risk in type\u202f2 diabetes, but their relative strengths differ by outcome and patient phenotype."
+    ]
   },
   {
     "category": "compare",
@@ -335,8 +343,8 @@
         "status": "supported",
         "method": "llm_judge",
         "best_cited": 0.0010909426491707563,
-        "quote": "They are now the preferred drugs to add to the regimen when oral metformin by itself is not enough to meet the patient's hemoglobin A1c goal.",
-        "note": "contains weight\u2011loss and no weight gain",
+        "quote": "In fact, they have been found to be effective for weight loss in patients with obesity with and without diabetes. | and do not cause weight gain or significant hypoglycemia.",
+        "note": "none",
         "supported_by_other": [],
         "unverified_numbers": []
       },
@@ -345,11 +353,11 @@
         "cited": [
           5
         ],
-        "status": "supported",
+        "status": "partial",
         "method": "llm_judge",
         "best_cited": 0.0014329029945656657,
-        "quote": "Most treatment guidelines, including those from the American Diabetes Association/European Association for the Study of Diabetes and the International Diabetes Federation, suggest metformin be used as the first\u2011line therapy after diet and exercise.",
-        "note": "no weight\u2011loss mention",
+        "quote": "Most treatment guidelines, including those from the American Diabetes Association/European Association for the Study of Diabetes and the International Diabetes Federation, suggest metformin be used as the first-line therapy after diet and exercise.",
+        "note": "none not stated: metformin is not highlighted for weight loss in the evidence set",
         "supported_by_other": [],
         "unverified_numbers": []
       },
@@ -358,24 +366,25 @@
         "cited": [
           5
         ],
-        "status": "supported",
-        "method": "nli",
+        "status": "partial",
+        "method": "llm_judge",
         "best_cited": 0.9878366589546204,
-        "quote": "",
-        "note": "",
+        "quote": "This recommendation is based on the considerable body of evidence that has accumulated over the last 30 years, but it is also supported on clinical grounds based on metformin's affordability and tolerability.",
+        "note": "none not stated: Metformin is widely used as a foundation therapy",
         "supported_by_other": [],
-        "unverified_numbers": []
+        "unverified_numbers": [],
+        "nli_pass": true
       },
       {
         "claim": "GLP\u20111 receptor agonists have \u201cseveral significant adverse effects\u201d and a distinct adverse\u2011event profile, although the specific events are not listed in the evidence provided.",
         "cited": [
           3
         ],
-        "status": "supported",
+        "status": "partial",
         "method": "llm_judge",
         "best_cited": 0.002904037479311228,
-        "quote": "GLP\u20111 receptor agonists provide multiple benefits for patients with type 2 diabetes. Nonetheless, there are also several significant adverse effects associated with these agents.",
-        "note": "adverse\u2011effect claim",
+        "quote": "Nonetheless, there are also several significant adverse effects associated with these agents.",
+        "note": "none not stated: GLP\u20111 receptor agonists have a distinct adverse\u2011event profile",
         "supported_by_other": [],
         "unverified_numbers": []
       },
@@ -388,7 +397,7 @@
         "method": "llm_judge",
         "best_cited": 0.0912548080086708,
         "quote": "",
-        "note": "No comparison to metformin safety profile in evidence",
+        "note": "none not stated: GLP\u20111 receptor agonists differ from metformin safety profile; metformin generally having fewer gastrointestinal side\u2011effects and no hypoglycae; GLP\u20111 receptor agonists carry gastrointestinal adverse events and a different to",
         "supported_by_other": [
           2,
           5
@@ -403,8 +412,8 @@
         "status": "supported",
         "method": "llm_judge",
         "best_cited": 0.004040638916194439,
-        "quote": "GLP\u20111 receptor agonists improve glycemic control in patients with type 2 diabetes mellitus, have cardioprotective and renoprotective effects, and do not cause weight gain or significant hypoglycemia. In fact, they have been found to be effective for weight loss in patients with obesity with and without diabetes. They are now the preferred drugs to add to the regimen when oral metformin by itself is not enough to meet the patient's hemoglobin A1c goal.",
-        "note": "glycemic control and preference",
+        "quote": "GLP\u20111 receptor agonists improve glycemic control in patients with type 2 diabetes mellitus. | They are now the preferred drugs to add to the regimen when oral metformin by itself is not enough to meet the patient's hemoglobin A1c goal.",
+        "note": "none",
         "supported_by_other": [],
         "unverified_numbers": []
       },
@@ -413,23 +422,23 @@
         "cited": [
           5
         ],
-        "status": "supported",
+        "status": "partial",
         "method": "llm_judge",
         "best_cited": 0.0003297499497421086,
         "quote": "Most treatment guidelines, including those from the American Diabetes Association/European Association for the Study of Diabetes and the International Diabetes Federation, suggest metformin be used as the first\u2011line therapy after diet and exercise.",
-        "note": "no comparative HbA1c figure",
+        "note": "No comparative HbA1c figure is reported. not stated: The evidence does not provide a direct comparative HbA1c reduction figure betwee",
         "supported_by_other": [],
         "unverified_numbers": []
       }
     ],
     "summary": {
       "claims": 7,
-      "supported": 6,
-      "partial": 0,
+      "supported": 2,
+      "partial": 4,
       "unsupported": 0,
       "miscited": 1,
       "not_checkable": 0,
-      "citation_precision": 0.857,
+      "citation_precision": 0.286,
       "uncited_statements": 3,
       "citation_coverage": 0.7
     },
@@ -445,7 +454,12 @@
       "retrieve": 19.9,
       "synthesize": 1.3,
       "verify": 9.5
-    }
+    },
+    "uncited": [
+      "Metformin and GLP\u20111 receptor agonists both improve glycaemic control in adults with type\u202f2 diabetes, but GLP\u20111 receptor agonists are associated with greater weight loss and a different safety profile.",
+      "Weight loss \u2013 GLP\u20111 receptor agonists produce more weight loss than metformin.",
+      "Glycaemic control (HbA1c) \u2013 Both classes lower HbA1c."
+    ]
   },
   {
     "category": "compare",
@@ -523,7 +537,10 @@
       "retrieve": 12.6,
       "synthesize": 2.4,
       "verify": 0.0
-    }
+    },
+    "uncited": [
+      "The available evidence does not address a direct comparison between insulin therapy and oral medications as second\u2011line treatment in type\u202f2 diabetes."
+    ]
   },
   {
     "category": "compare",
@@ -615,11 +632,11 @@
         "cited": [
           3
         ],
-        "status": "supported",
+        "status": "partial",
         "method": "llm_judge",
         "best_cited": 0.0011405730620026588,
-        "quote": "SGLT2 inhibitors reduce progression of chronic kidney disease (CKD) and heart failure hospitalizations",
-        "note": "exact match",
+        "quote": "A total of 130 publications from 84 RCTs were identified.",
+        "note": "All parts supported. not stated: reports a reduction in heart\u2011failure hospitalizations; with SGLT2 inhibitors",
         "supported_by_other": [],
         "unverified_numbers": []
       },
@@ -628,11 +645,11 @@
         "cited": [
           3
         ],
-        "status": "unsupported",
+        "status": "partial",
         "method": "llm_judge",
         "best_cited": 0.025105005130171776,
-        "quote": "SGLT2 inhibitors reduce all-cause mortality (high CoE)",
-        "note": "judge's quote not found in cited evidence",
+        "quote": "Compared with usual care, SGLT2 inhibitors and GLP1 agonists reduce all\u2011cause mortality (high CoE). | Compared with usual care, SGLT2 inhibitors and GLP1 agonists reduce all\u2011cause mortality (high CoE).",
+        "note": "Part 1 not explicitly stated as network meta\u2011analysis. not stated: same network meta\u2011analysis",
         "supported_by_other": [],
         "unverified_numbers": []
       },
@@ -641,23 +658,24 @@
         "cited": [
           1
         ],
-        "status": "supported",
-        "method": "nli",
+        "status": "partial",
+        "method": "llm_judge",
         "best_cited": 0.8658101558685303,
-        "quote": "",
-        "note": "",
+        "quote": "Use an SGLT\u20112 inhibitor to reduce the risk for all\u2011cause mortality, major adverse cardiovascular events, progression of chronic kidney disease, and hospitalization due to congestive heart failure. | Use an SGLT\u20112 inhibitor to reduce the risk for all\u2011cause mortality, major adverse cardiovascular events, progression of chronic kidney disease, and hospitalization due to congestive heart failure.",
+        "note": "Guideline does not mention cardiovascular mortality specifically. not stated: guideline review highlights; SGLT2 inhibitors reduce cardiovascular mortality",
         "supported_by_other": [],
-        "unverified_numbers": []
+        "unverified_numbers": [],
+        "nli_pass": true
       }
     ],
     "summary": {
       "claims": 3,
-      "supported": 2,
-      "partial": 0,
-      "unsupported": 1,
+      "supported": 0,
+      "partial": 3,
+      "unsupported": 0,
       "miscited": 0,
       "not_checkable": 0,
-      "citation_precision": 0.667,
+      "citation_precision": 0.0,
       "uncited_statements": 6,
       "citation_coverage": 0.333
     },
@@ -674,7 +692,15 @@
       "retrieve": 54.2,
       "synthesize": 1.5,
       "verify": 9.5
-    }
+    },
+    "uncited": [
+      "SGLT2 inhibitors provide clear cardiorenal benefits that are not seen with metformin alone.",
+      "In adults with type\u202f2 diabetes, SGLT2 inhibitors reduce the risk of heart\u2011failure hospitalization, all\u2011cause mortality, and cardiovascular mortality compared with usual care, whereas metformin does not confer these advantages.",
+      "The evidence comes from systematic reviews and meta\u2011analyses of randomized trials and large cardiovascular outcome studies.",
+      "Heart\u2011failure hospitalization \u2013 SGLT2 inhibitors consistently lower the risk of heart\u2011failure admission versus usual care, whereas metformin alone has no demonstrated effect on this outcome.",
+      "All\u2011cause mortality \u2013 SGLT2 inhibitors reduce all\u2011cause mortality in type\u202f2 diabetes patients, a benefit not observed with metformin alone.",
+      "Cardiovascular mortality \u2013 SGLT2 inhibitors lower cardiovascular death, whereas metformin does not show a mortality benefit."
+    ]
   },
   {
     "category": "compare",
@@ -764,15 +790,14 @@
         "cited": [
           1
         ],
-        "status": "partial",
-        "method": "nli",
+        "status": "supported",
+        "method": "llm_judge",
         "best_cited": 0.9022342562675476,
-        "quote": "",
-        "note": "numbers not in cited evidence: ['053']",
+        "quote": "reduction in glycated hemoglobin (HbA1c) from baseline (difference in means: -0.48% [95% confidence interval (CI), -0.67 to -0.30]; p\u00a0<\u00a00.0001)",
+        "note": "none",
         "supported_by_other": [],
-        "unverified_numbers": [
-          "053"
-        ]
+        "unverified_numbers": [],
+        "nli_pass": true
       },
       {
         "claim": "Weight effect: The same meta\u2011analysis reported a mean weight loss of 2.60\u202fkg with basal insulin\u202f+\u202fGLP\u20111\u202fRA versus basal insulin \u00b1 rapid\u2011acting insulin (p\u202f<\u202f0.0001).",
@@ -780,25 +805,27 @@
           1
         ],
         "status": "supported",
-        "method": "nli",
+        "method": "llm_judge",
         "best_cited": 0.9475006461143494,
-        "quote": "",
-        "note": "",
+        "quote": "-2.60\u00a0kg [95% CI, -3.32 to -1.89]; p\u00a0<\u00a00.0001",
+        "note": "none",
         "supported_by_other": [],
-        "unverified_numbers": []
+        "unverified_numbers": [],
+        "nli_pass": true
       },
       {
         "claim": "Hypoglycaemia: Basal insulin\u202f+\u202fGLP\u20111\u202fRA was associated with a significantly lower risk of symptomatic hypoglycaemia (odds ratio\u202f0.52; 95\u202f%\u202fCI\u202f0.42\u20110.64; p\u202f<\u202f0.0001) compared with basal insulin\u202f+\u202frapid\u2011acting insulin.",
         "cited": [
           1
         ],
-        "status": "supported",
-        "method": "nli",
+        "status": "unsupported",
+        "method": "llm_judge",
         "best_cited": 0.9826194047927856,
         "quote": "",
-        "note": "",
+        "note": "none not stated: adding a GLP\u20111 RA to basal insulin was associated with a significantly lower ris",
         "supported_by_other": [],
-        "unverified_numbers": []
+        "unverified_numbers": [],
+        "nli_pass": true
       },
       {
         "claim": "Gastrointestinal adverse events: Fixed\u2011ratio combinations of insulin and GLP\u20111\u202fRA (e.g., iGlarLixi, IDegLira) have a lower risk of gastrointestinal events compared with GLP\u20111\u202fRA monotherapy, according to a 2022 review of RCTs and real\u2011world data.",
@@ -808,7 +835,7 @@
         "status": "supported",
         "method": "llm_judge",
         "best_cited": 0.0020887060090899467,
-        "quote": "lower risk of gastrointestinal adverse effects in comparison to GLP-1 receptor agonists.",
+        "quote": "lower risk of gastrointestinal adverse effects in comparison to GLP-1 receptor agonists",
         "note": "none",
         "supported_by_other": [],
         "unverified_numbers": []
@@ -822,7 +849,7 @@
         "method": "llm_judge",
         "best_cited": 0.021772323176264763,
         "quote": "",
-        "note": "no mention of insulin+GLP\u20111RA combos or inferred benefits",
+        "note": "no evidence of limited combo data not stated: data specifically for insulin\u202f+\u202fGLP\u20111\u202fRA combinations are limited and cardiovasc",
         "supported_by_other": [
           1
         ],
@@ -837,7 +864,7 @@
         "method": "llm_judge",
         "best_cited": 0.0013693138025701046,
         "quote": "",
-        "note": "evidence cites fewer hypoglycaemic events, not adherence",
+        "note": "adherence not reported not stated: GLP\u20111\u202fRA therapy is associated with better adherence and fewer hypoglycaemic eve",
         "supported_by_other": [],
         "unverified_numbers": []
       }
@@ -845,8 +872,8 @@
     "summary": {
       "claims": 6,
       "supported": 3,
-      "partial": 1,
-      "unsupported": 1,
+      "partial": 0,
+      "unsupported": 2,
       "miscited": 1,
       "not_checkable": 0,
       "citation_precision": 0.5,
@@ -864,7 +891,10 @@
       "retrieve": 48.1,
       "synthesize": 1.5,
       "verify": 15.9
-    }
+    },
+    "uncited": [
+      "Combining insulin with GLP\u20111 receptor agonists (GLP\u20111\u202fRAs) improves glycaemic control, reduces weight, and lowers symptomatic hypoglycaemia compared with intensified insulin regimens, while the safety profile is generally favourable and cardiovascular benefits are suggested by GLP\u20111\u202fRA data."
+    ]
   },
   {
     "category": "subgroup",
@@ -924,11 +954,11 @@
           1,
           2
         ],
-        "status": "supported",
-        "method": "llm_judge",
+        "status": "unsupported",
+        "method": "nli",
         "best_cited": 0.0008023289847187698,
-        "quote": "Data have emerged questioning the previous reluctance to use this agent in those with mild to moderate chronic kidney disease. Regulations guiding its use in patients with stable, modest renal dysfunction have, as a result, become more lenient in recent years.",
-        "note": "matches claim about safety and low\u2011quality evidence",
+        "quote": "",
+        "note": "",
         "supported_by_other": [],
         "unverified_numbers": []
       },
@@ -937,11 +967,11 @@
         "cited": [
           3
         ],
-        "status": "supported",
-        "method": "llm_judge",
+        "status": "unsupported",
+        "method": "nli",
         "best_cited": 0.001605567871592939,
-        "quote": "The most serious complication associated with metformin is lactic acidosis which has an incidence of about 0.03 cases per 1000 patients years of treatment and a mortality risk of about 0.015 per 1000 patient-years. Most cases occur in patients who are wrongly prescribed the drug, particularly patients with impaired renal function (e.g. serum creatinine level > 130 micromol/L or > 1.5 g/L).",
-        "note": "matches incidence and renal function detail",
+        "quote": "",
+        "note": "",
         "supported_by_other": [],
         "unverified_numbers": []
       },
@@ -956,17 +986,18 @@
         "quote": "",
         "note": "",
         "supported_by_other": [],
-        "unverified_numbers": []
+        "unverified_numbers": [],
+        "nli_pass": true
       }
     ],
     "summary": {
       "claims": 3,
-      "supported": 3,
+      "supported": 1,
       "partial": 0,
-      "unsupported": 0,
+      "unsupported": 2,
       "miscited": 0,
       "not_checkable": 0,
-      "citation_precision": 1.0,
+      "citation_precision": 0.333,
       "uncited_statements": 4,
       "citation_coverage": 0.429
     },
@@ -979,7 +1010,13 @@
       "retrieve": 20.6,
       "synthesize": 1.6,
       "verify": 4.0
-    }
+    },
+    "uncited": [
+      "Metformin is generally considered safe in patients with mild to moderate chronic kidney disease (CKD) when prescribing guidelines are followed, but the evidence is largely based on older reviews and observational data rather than contemporary randomized trials.",
+      "The most recent systematic reviews (2017) highlight that metformin\u2019s safety profile is comparable to or better than other antidiabetic agents in older adults, yet they also note that data on renal adverse events are limited and of low quality.",
+      "Earlier reviews (1999) emphasize that lactic acidosis is a rare but serious risk, especially in patients with impaired renal function (e.g., serum creatinine >130\u202f\u00b5mol/L), and that strict adherence to prescribing guidelines can mitigate this risk.",
+      "No recent meta\u2011analysis or RCT directly addresses metformin safety in reduced kidney function, so the current evidence is primarily historical and observational."
+    ]
   },
   {
     "category": "subgroup",
@@ -1079,18 +1116,19 @@
         "quote": "",
         "note": "",
         "supported_by_other": [],
-        "unverified_numbers": []
+        "unverified_numbers": [],
+        "nli_pass": true
       },
       {
         "claim": "Weight\u2011loss goals and obesity: Both classes produce weight loss, but GLP\u20111 receptor agonists tend to yield greater reductions in body weight and are often chosen when weight loss is a primary goal.",
         "cited": [
           4
         ],
-        "status": "partial",
-        "method": "llm_judge",
+        "status": "unsupported",
+        "method": "nli",
         "best_cited": 0.003166371723636985,
-        "quote": "Only SGLT2 inhibitors and GLP-1 analogues led to a weight loss (-1.71 kg and -1.14 kg, respectively)",
-        "note": "does not state GLP-1 > SGLT2",
+        "quote": "",
+        "note": "",
         "supported_by_other": [],
         "unverified_numbers": []
       },
@@ -1105,18 +1143,19 @@
         "quote": "",
         "note": "",
         "supported_by_other": [],
-        "unverified_numbers": []
+        "unverified_numbers": [],
+        "nli_pass": true
       },
       {
         "claim": "Cost, insurance coverage, and adherence: GLP\u20111 receptor agonists can reduce overall healthcare costs relative to insulin and may improve adherence by reducing glucose\u2011monitoring burden, but drug discontinuation rates are higher; insurance coverage and patient affordability are critical determinants of choice.",
         "cited": [
           5
         ],
-        "status": "partial",
-        "method": "llm_judge",
+        "status": "unsupported",
+        "method": "nli",
         "best_cited": 0.012273755855858326,
-        "quote": "Overall healthcare costs may be lower with GLP-1 RAs compared to insulin.",
-        "note": "does not mention insurance coverage or affordability",
+        "quote": "",
+        "note": "",
         "supported_by_other": [],
         "unverified_numbers": []
       }
@@ -1124,8 +1163,8 @@
     "summary": {
       "claims": 4,
       "supported": 2,
-      "partial": 2,
-      "unsupported": 0,
+      "partial": 0,
+      "unsupported": 2,
       "miscited": 0,
       "not_checkable": 0,
       "citation_precision": 0.5,
@@ -1144,7 +1183,10 @@
       "retrieve": 39.5,
       "synthesize": 1.6,
       "verify": 5.7
-    }
+    },
+    "uncited": [
+      "Patients should be selected for an SGLT2 inhibitor or a GLP\u20111 receptor agonist based on a combination of cardiovascular, renal, weight, hypoglycemia, and practical factors."
+    ]
   },
   {
     "category": "safety",
@@ -1272,11 +1314,11 @@
         "cited": [
           2
         ],
-        "status": "supported",
-        "method": "llm_judge",
+        "status": "unsupported",
+        "method": "nli",
         "best_cited": 0.0031290240585803986,
-        "quote": "hypoglycaemia is rarely reported when GLP-1 RAs not are combined with sulfonylurea or insulin.",
-        "note": "none",
+        "quote": "",
+        "note": "",
         "supported_by_other": [],
         "unverified_numbers": []
       },
@@ -1285,11 +1327,11 @@
         "cited": [
           1
         ],
-        "status": "partial",
-        "method": "llm_judge",
+        "status": "unsupported",
+        "method": "nli",
         "best_cited": 0.0035792547278106213,
-        "quote": "The most common adverse effect noted with SGLT2 inhibitors is genital mycotic infections, primarily in women. Less common, but concerning effects associated with canagliflozin include increased risk of fractures and lower limb amputations, particularly in patients with previous amputation history.",
-        "note": "does not compare seriousness to GLP-1 RA GI side\u2011effects",
+        "quote": "",
+        "note": "",
         "supported_by_other": [],
         "unverified_numbers": []
       },
@@ -1299,22 +1341,22 @@
           2
         ],
         "status": "unsupported",
-        "method": "llm_judge",
+        "method": "nli",
         "best_cited": 0.0006432496593333781,
         "quote": "",
-        "note": "no mention of musculoskeletal/genitourinary risks of SGLT2 inhibitors",
+        "note": "",
         "supported_by_other": [],
         "unverified_numbers": []
       }
     ],
     "summary": {
       "claims": 6,
-      "supported": 4,
-      "partial": 1,
-      "unsupported": 1,
+      "supported": 3,
+      "partial": 0,
+      "unsupported": 3,
       "miscited": 0,
       "not_checkable": 0,
-      "citation_precision": 0.667,
+      "citation_precision": 0.5,
       "uncited_statements": 4,
       "citation_coverage": 0.6
     },
@@ -1331,7 +1373,13 @@
       "retrieve": 28.2,
       "synthesize": 2.0,
       "verify": 14.0
-    }
+    },
+    "uncited": [
+      "SGLT2 inhibitors and GLP\u20111 receptor agonists both improve glycaemic control and cardiovascular outcomes in type\u202f2 diabetes, but their safety profiles differ.",
+      "The most frequently reported adverse events for SGLT2 inhibitors are genital mycotic infections, with rarer but clinically significant risks of fractures and lower\u2011limb amputations, especially with canagliflozin.",
+      "GLP\u20111 receptor agonists are most commonly associated with gastrointestinal side\u2011effects such as nausea and other GI discomfort, while hypoglycaemia is uncommon when not combined with sulfonylureas or insulin.",
+      "Overall, SGLT2 inhibitors tend to cause more genitourinary and musculoskeletal adverse events, whereas GLP\u20111 receptor agonists mainly produce GI symptoms, with a lower incidence of serious events."
+    ]
   },
   {
     "category": "safety",
@@ -1424,33 +1472,31 @@
           2
         ],
         "status": "partial",
-        "method": "nli",
+        "method": "llm_judge",
         "best_cited": 0.9718999266624451,
-        "quote": "",
-        "note": "numbers not in cited evidence: ['000', '100', '200', '47']",
+        "quote": "Pooled data from 206 comparative trials and cohort studies revealed no cases of fatal or nonfatal lactic acidosis in 47,846 patient-years of metformin use | Using Poisson statistics the upper limit for the true incidence of lactic acidosis per 100,000 patient-years was 4.3 cases in the metformin group",
+        "note": "numbers not in cited evidence: ['200', '47000']",
         "supported_by_other": [],
         "unverified_numbers": [
-          "000",
-          "100",
           "200",
-          "47"
-        ]
+          "47000"
+        ],
+        "nli_pass": true
       },
       {
         "claim": "Similar findings were reported in an earlier review of 176 studies, which also found no cases in 35\u202f000 patient\u2011years of metformin use and calculated an upper limit of 5.4 cases per 100\u202f000 patient\u2011years for non\u2011metformin therapies.",
         "cited": [
           4
         ],
-        "status": "partial",
+        "status": "unsupported",
         "method": "llm_judge",
         "best_cited": 0.0003989558608736843,
-        "quote": "Pooled data from 176 comparative trials and cohort studies revealed no cases of fatal or nonfatal lactic acidosis in 35,61",
-        "note": "numbers not in cited evidence: ['000', '100', '35', '5.4']",
+        "quote": "",
+        "note": "Evidence truncated; numbers not fully provided not stated: Similar findings were reported in an earlier review of 176 studies, which also f; and calculated an upper limit of 5.4 cases per 100\u202f000 patient\u2011years for non\u2011met",
         "supported_by_other": [],
         "unverified_numbers": [
-          "000",
-          "100",
-          "35",
+          "100000",
+          "35000",
           "5.4"
         ]
       },
@@ -1461,11 +1507,11 @@
           2,
           4
         ],
-        "status": "unsupported",
+        "status": "partial",
         "method": "llm_judge",
         "best_cited": 0.023896561935544014,
-        "quote": "the meta\u2011analyses above compare metformin with placebo or non\u2011metformin therapies in aggregate, but do not separate GLP\u20111 agents.",
-        "note": "judge's quote not found in cited evidence",
+        "quote": "There is no evidence from prospective comparative trials or from observational cohort studies that metformin is associated with an increased risk of lactic acidosis, or with increased levels of lactate, compared to other anti\u2011hyperglycemic treatments.",
+        "note": "Both parts supported not stated: the meta\u2011analyses above compare metformin with placebo or non\u2011metformin therapie",
         "supported_by_other": [],
         "unverified_numbers": []
       },
@@ -1476,11 +1522,11 @@
           2,
           4
         ],
-        "status": "unsupported",
+        "status": "partial",
         "method": "llm_judge",
         "best_cited": 0.3800148367881775,
-        "quote": "The evidence does not report a comparative risk of lactic acidosis between metformin and SGLT2 inhibitors; no incidence data for SGLT2 inhibitors are included in the cited reviews.",
-        "note": "judge's quote not found in cited evidence",
+        "quote": "There is no evidence from prospective comparative trials or from observational cohort studies that metformin is associated with an increased risk of lactic acidosis, or with increased levels of lactate, compared to other anti\u2011hyperglycemic treatments.",
+        "note": "Both parts supported not stated: no incidence data for SGLT2 inhibitors are included in the cited reviews",
         "supported_by_other": [],
         "unverified_numbers": []
       },
@@ -1503,8 +1549,8 @@
     "summary": {
       "claims": 5,
       "supported": 0,
-      "partial": 2,
-      "unsupported": 2,
+      "partial": 3,
+      "unsupported": 1,
       "miscited": 0,
       "not_checkable": 1,
       "citation_precision": 0.0,
@@ -1523,7 +1569,10 @@
       "retrieve": 68.2,
       "synthesize": 1.6,
       "verify": 24.2
-    }
+    },
+    "uncited": [
+      "Metformin is associated with an extremely low incidence of lactic acidosis in patients with type\u202f2 diabetes."
+    ]
   },
   {
     "category": "mechanism",
@@ -1583,12 +1632,13 @@
           2
         ],
         "status": "supported",
-        "method": "nli",
+        "method": "llm_judge",
         "best_cited": 0.9974272847175598,
-        "quote": "",
-        "note": "",
+        "quote": "SGLT2 inhibitors lower glomerular pressure and filtration, thereby reducing the physical stress on the filtration barrier and the oxygen demand for tubular reabsorption. | SGLT2 inhibitors lower glomerular pressure and filtration, thereby reducing the physical stress on the filtration barrier and the oxygen demand for tubular reabsorption.",
+        "note": "All parts are supported.",
         "supported_by_other": [],
-        "unverified_numbers": []
+        "unverified_numbers": [],
+        "nli_pass": true
       },
       {
         "claim": "Improved tubular function through decreased glucotoxicity, enhanced mitochondrial function, and autophagy, preserving tubular health and GFR long term.",
@@ -1596,12 +1646,13 @@
           2
         ],
         "status": "supported",
-        "method": "nli",
+        "method": "llm_judge",
         "best_cited": 0.9970719814300537,
-        "quote": "",
-        "note": "",
+        "quote": "This improves cortical oxygenation, which, together with lesser tubular glucotoxicity and improved mitochondrial function and autophagy, can reduce proinflammatory and profibrotic signaling and preserve tubular function and GFR in long term. | This improves cortical oxygenation, which, together with lesser tubular glucotoxicity and improved mitochondrial function and autophagy, can reduce proinflammatory and profibrotic signaling and preserve tubular function and GFR in long term.",
+        "note": "All parts are supported.",
         "supported_by_other": [],
-        "unverified_numbers": []
+        "unverified_numbers": [],
+        "nli_pass": true
       },
       {
         "claim": "Systemic hypoxia\u2011like effect that stimulates erythropoiesis, increasing oxygen delivery to the kidney and other organs.",
@@ -1622,12 +1673,13 @@
           3
         ],
         "status": "supported",
-        "method": "nli",
+        "method": "llm_judge",
         "best_cited": 0.9924955368041992,
-        "quote": "",
-        "note": "",
+        "quote": "By inducing relative hypoglycemia, these agents promote ketogenesis, optimize myocardial energy metabolism, and reduce lipotoxicity. | By inducing relative hypoglycemia, these agents promote ketogenesis, optimize myocardial energy metabolism, and reduce lipotoxicity.",
+        "note": "All parts are supported.",
         "supported_by_other": [],
-        "unverified_numbers": []
+        "unverified_numbers": [],
+        "nli_pass": true
       },
       {
         "claim": "Blood pressure lowering, uric acid reduction, and improved endothelial function that collectively support renal perfusion and reduce damage.",
@@ -1635,12 +1687,13 @@
           3
         ],
         "status": "supported",
-        "method": "nli",
+        "method": "llm_judge",
         "best_cited": 0.9960198998451233,
-        "quote": "",
-        "note": "",
+        "quote": "These pleiotropic effects, including modulation of blood pressure, reduction of uric acid, and improved endothelial function, collectively contribute to the cardiovascular and renal benefits observed with SGLT2 inhibitor therapy. | These pleiotropic effects, including modulation of blood pressure, reduction of uric acid, and improved endothelial function, collectively contribute to the cardiovascular and renal benefits observed with SGLT2 inhibitor therapy.",
+        "note": "All parts are supported.",
         "supported_by_other": [],
-        "unverified_numbers": []
+        "unverified_numbers": [],
+        "nli_pass": true
       }
     ],
     "summary": {
@@ -1665,7 +1718,13 @@
       "retrieve": 40.8,
       "synthesize": 1.3,
       "verify": 2.2
-    }
+    },
+    "uncited": [
+      "SGLT2 inhibitors protect the kidney through several interrelated mechanisms that extend beyond glucose lowering.",
+      "They reduce intraglomerular pressure and filtration load, improve cortical oxygenation, and lessen tubular glucotoxicity, which together dampen inflammation and fibrosis while preserving glomerular filtration rate over time.",
+      "Additionally, the drugs induce a mild systemic hypoxic signal that stimulates erythropoiesis, enhancing oxygen delivery to renal tissue.",
+      "They also promote ketogenesis, optimize myocardial energy metabolism, attenuate inflammation, improve iron metabolism, lower blood pressure, reduce uric acid, and enhance endothelial function, all of which contribute to renal protection."
+    ]
   },
   {
     "category": "out_of_scope",
@@ -1743,7 +1802,10 @@
       "retrieve": 43.4,
       "synthesize": 0.8,
       "verify": 0.0
-    }
+    },
+    "uncited": [
+      "The available evidence does not cover dietary patterns for people with type\u202f1 diabetes."
+    ]
   },
   {
     "category": "out_of_scope",
@@ -1857,6 +1919,9 @@
       "retrieve": 64.5,
       "synthesize": 0.8,
       "verify": 0.0
-    }
+    },
+    "uncited": [
+      "The available evidence does not cover the use of SGLT2 inhibitors in patients with type\u202f1 diabetes."
+    ]
   }
 ]

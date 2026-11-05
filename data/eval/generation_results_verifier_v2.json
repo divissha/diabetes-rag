@@ -1,0 +1,1862 @@
+[
+  {
+    "category": "compare",
+    "question": "How do SGLT2 inhibitors and GLP-1 receptor agonists compare for cardiovascular and kidney outcomes in type 2 diabetes?",
+    "sub_questions": [
+      "What are the cardiovascular outcomes of SGLT2 inhibitors compared to GLP-1 receptor agonists in patients with type 2 diabetes?",
+      "What are the kidney outcomes of SGLT2 inhibitors compared to GLP-1 receptor agonists in patients with type 2 diabetes?",
+      "How do the cardiovascular and kidney benefits of SGLT2 inhibitors and GLP-1 receptor agonists differ across patient subgroups (e.g., age, baseline kidney function, cardiovascular risk) in type 2 diabetes?"
+    ],
+    "answer": "SGLT2 inhibitors and GLP\u20111 receptor agonists both lower cardiovascular and kidney risk in type\u202f2 diabetes, but their relative strengths differ by outcome and patient phenotype. Real\u2011world data show that each class independently reduces all\u2011cause mortality, with the greatest benefit when both are used together [1]. In patients with chronic kidney disease, a network meta\u2011analysis found that SGLT2 inhibitors lowered major adverse cardiovascular events (MACE) and renal events, whereas GLP\u20111 receptor agonists did not show a significant reduction in either domain; SGLT2 inhibitors also had a lower risk of renal events compared with GLP\u20111 receptor agonists (RR\u202f0.79) [2]. Review evidence suggests that SGLT2 inhibitors are particularly effective for heart\u2011failure outcomes and slowing kidney disease progression, while GLP\u20111 receptor agonists are more potent for atherosclerotic events such as stroke and for patients with moderate\u2011to\u2011severe chronic kidney disease [3,\u202f5]. A 2026 review emphasizes that the two classes provide complementary, non\u2011redundant benefits and that a phenotype\u2011guided approach\u2014choosing therapy based on dominant comorbidities (ASCVD, heart failure, CKD, obesity)\u2014may optimize outcomes [5].\n\n**Cardiovascular outcomes**\n\n- SGLT2 inhibitors reduce MACE and cardiovascular mortality in type\u202f2 diabetes with established ASCVD; GLP\u20111 receptor agonists also reduce MACE but the comparative magnitude is less clear in CKD populations [2,\u202f3].\n- In CKD, SGLT2 inhibitors lower MACE (RR\u202f0.85) whereas GLP\u20111 receptor agonists do not reach statistical significance (RR\u202f0.91) [2].\n\n**Kidney outcomes**\n\n- SGLT2 inhibitors lower the risk of composite renal events (RR\u202f0.68) and are superior to GLP\u20111 receptor agonists in reducing renal events (RR\u202f0.79) in CKD patients [2].\n- GLP\u20111 receptor agonists show benefit in slowing kidney disease progression in certain trials, but evidence is less robust than for SGLT2 inhibitors [5].\n\n**Subgroup differences**\n\n- Heart\u2011failure patients benefit most from SGLT2 inhibitors, whereas patients with moderate\u2011to\u2011severe CKD may derive greater benefit from GLP\u20111 receptor agonists [3,\u202f5].\n- The complementary nature of the two classes suggests that combination therapy may address multiple risk domains, but randomized data on hard outcomes with combination therapy are still pending [5].\n\nEvidence gaps: Direct head\u2011to\u2011head randomized trials comparing SGLT2 inhibitors and GLP\u20111 receptor agonists for cardiovascular and kidney outcomes, and subgroup analyses in diverse populations, are lacking.",
+    "evidence": [
+      {
+        "id": 1,
+        "pmid": "40887578",
+        "chunk_id": "40887578_0",
+        "title": "SGLT2 inhibitors and GLP-1 receptor agonists: impact on mortality in diabetic patients with cardiovascular disease.",
+        "year": 2025,
+        "journal": "Cardiovascular diabetology",
+        "study_type": "Study",
+        "text": "Sodium-glucose cotransporter 2 inhibitors (SGLT2-I) and glucagon-like peptide-1 receptor agonists (GLP-1RA) have been shown to reduce cardiovascular risk and mortality in patients with type 2 diabetes mellitus (T2D), yet remain underutilized in clinical practice. This study aimed to evaluate real-world treatment patterns and associated mortality outcomes among patients with T2D and established atherosclerotic cardiovascular disease (ASCVD). The CARdiovascular and DIABetes (CARDIAB) cohort included 138,397 patients with T2D and ASCVD. Patients were categorized into four treatment groups: (i) both SGLT2-I and GLP-1RA, (ii) SGLT2-I only, (iii) GLP-1RA only, and (iv) neither medication. The primary outcome was all-cause mortality. Of the 138,397 patients, 57% received neither SGLT2-I nor GLP-1RA, 17% received both, 20% received SGLT2-I only, and 6% received GLP-1RA only. Female sex, older age, non-coronary ASCVD, and absence of follow-up in specialized cardiology or diabetes clinics were associated with lower treatment rates. Compared to those receiving neither medication, all-cause mortality was significantly lower among patients treated with SGLT2-I only (HR 0.28, 95% CI 0.27-0.29), GLP-1RA only (HR 0.39, 95% CI 0.37-0.40) and both agents (HR 0.17, 95% CI 0.16-0.18). This association remained significant following a multivariate analysis. In patients with T2D and ASCVD, treatment with SGLT2-I and GLP-1RA, especially in combination, is associated with a substantial reduction in mortality. These findings highlight significant gaps in implementation and the urgent need to optimize use of evidence-based therapies in this high-risk population.",
+        "score": 0.9999998807907104,
+        "sub_questions": [
+          0
+        ]
+      },
+      {
+        "id": 2,
+        "pmid": "33413348",
+        "chunk_id": "33413348_0",
+        "title": "Cardiovascular and renal outcomes with SGLT-2 inhibitors versus GLP-1 receptor agonists in patients with type 2 diabetes mellitus and chronic kidney disease: a systematic review and network meta-analysis.",
+        "year": 2021,
+        "journal": "Cardiovascular diabetology",
+        "study_type": "Meta-analysis",
+        "text": "Emerging evidence suggests that sodium-glucose cotransporter-2 (SGLT-2) inhibitors and glucagon-like peptide-1 receptor agonists (GLP-1 RAs) are associated with decreased risk of cardiovascular and renal events in type 2 diabetes mellitus (DM) patients. However, no study to date has compared the effect of SGLT-2 inhibitors with that of GLP-1 RAs in type 2 DM patients with chronic kidney disease (CKD). We herein investigated the benefits of SGLT-2 inhibitors and GLP-1 RAs in CKD patients. We performed a systematic literature search through November 2020. We selected randomized control trials that compared the risk of major adverse cardiovascular events (MACE) and a composite of renal outcomes. We performed a network meta-analysis to compare SGLT-2 inhibitors with GLP-1 RAs indirectly. Risk ratios (RRs) with corresponding 95% confidence intervals (CI) were synthesized. Thirteen studies were selected with a total of 32,949 patients. SGLT-2 inhibitors led to a risk reduction in MACE and renal events (RR [95% CI]; 0.85 [0.75-0.96] and 0.68 [0.59-0.78], respectively). However, GLP-1 RAs did not reduce the risk of cardiovascular or renal adverse events (RR 0.91 [0.80-1.04] and 0.86 [0.72-1.03], respectively). Compared to GLP-1 RAs, SGLT-2 inhibitors did not demonstrate a significant difference in MACE (RR 0.94 [0.78-1.12]), while SGLT-2 inhibitors were associated with a lower risk of renal events compared to GLP-1 RAs (RR 0.79 [0.63-0.99]). A sensitivity analysis revealed that GLP-1 analogues significantly decreased MACE when compared to placebo treatment (RR 0.81 [0.69-0.95]), while exendin-4 analogues did not (RR 1.03 [0.88-1.20]). In patients with type 2 DM and CKD, SGLT-2 inhibitors were associated with a decreased risk of cardiovascular and renal events, but GLP-1 RAs were not. SGLT-2 inhibitors significantly decreased the risk of renal events compared to GLP-1 RAs. Among GLP-1 RAs, GLP-1 analogues showed a positive impact on cardiovascular and renal outcomes, while exendin-4 analogues did not.",
+        "score": 0.9999998807907104,
+        "sub_questions": [
+          1
+        ]
+      },
+      {
+        "id": 3,
+        "pmid": "29944969",
+        "chunk_id": "29944969_0",
+        "title": "Cardiovascular outcome studies in type 2 diabetes: Comparison between SGLT2 inhibitors and GLP-1 receptor agonists.",
+        "year": 2018,
+        "journal": "Diabetes research and clinical practice",
+        "study_type": "Review",
+        "text": "Sodium-glucose cotransporter type 2 inhibitors (SGLT2is) and glucagon-like peptide-1 receptor agonists (GLP-1RAs) are two pharmacological classes that have proven their efficacy to reduce major cardiovascular events (MACEs) in patients with type 2 diabetes mellitus (T2DM) and established cardiovascular disease in large prospective cardiovascular outcome trials (CVOTs): EMPA-REG OUTCOME (empagliflozin), CANVAS (canagliflozin), LEADER (liraglutide) and SUSTAIN 6 (semaglutide). Some heterogeneity appears to exist between the various agents within the two pharmacological classes. Whether these positive results could be extrapolated to patients without cardiovascular disease is still unknown. The underlying mechanisms remain a matter of debate but appear to differ between SGLT2is and GLP-1RAs. One crucial question is which patient's characteristics should be taken into account to guide the choice between a SGLT2i or a GLP-1RA according to a personalized approach. Heart failure should encourage the use of a SGLT2i whereas moderate to severe chronic kidney disease should favour the prescription of a GLP-1RA. Despite the results of recent CVOTs, numerous patients who are good candidates for benefiting of these agents do not receive them in clinical practice. Currently, there is a paradigm shift in T2DM management, moving from a primary objective of glucose control to a cardiovascular and renal protection.",
+        "score": 0.9999995231628418,
+        "sub_questions": [
+          2,
+          1,
+          0
+        ]
+      },
+      {
+        "id": 4,
+        "pmid": "32306789",
+        "chunk_id": "32306789_0",
+        "title": "Type 2 diabetes mellitus and cardiovascular disease: focus on the effect of antihyperglycemic treatments on cardiovascular outcomes.",
+        "year": 2020,
+        "journal": "Expert review of cardiovascular therapy",
+        "study_type": "Review",
+        "text": "Introduction: Type 2 diabetes mellitus and cardiovascular disease contribute to significant morbidity, mortality, and health-care resource expenditure. The pathophysiological and clinical associations between diabetes and cardiovascular disease have been the subject of multiple studies, most recently culminating in large trials of several new antiglycemic agents being found to confer additional cardiovascular risk reduction. Understanding the potential cardiovascular benefits of antiglycemic medications offers the unique opportunity to reduce the morbidity and mortality presented by both diseases at once.Areas covered: The literature search was comprised of a Pubmed search querying 'cardiovascular outcomes' and 'diabetes'. This article reviews the pathophysiology of cardiovascular complications in type 2 diabetes and the cardiovascular outcome trials related to newer antiglycemic medications.Expert opinion: The treatment of patients with type 2 diabetes mellitus and cardiovascular disease is rapidly advancing. In particular, the sodium-glucose cotransporter-2 (SGLT2) inhibitors and glucagon-like peptide-1 (GLP-1) receptor agonists have demonstrated cardiovascular benefit by reducing major adverse cardiovascular events and cardiovascular mortality. Future directions of the treatment of type 2 diabetes and cardiovascular disease will focus on targeting and preventing diabetic cardiomyopathy and further defining the role of SGLT2 inhibitors and of GLP-1 receptor agonists in additional patient populations.",
+        "score": 0.9999998807907104,
+        "sub_questions": [
+          0
+        ]
+      },
+      {
+        "id": 5,
+        "pmid": "42470502",
+        "chunk_id": "42470502_0",
+        "title": "Combination cardiometabolic therapy in type 2 diabetes: optimizing SGLT2 inhibitor and GLP\u20111 receptor agonist use.",
+        "year": 2026,
+        "journal": "Current atherosclerosis reports",
+        "study_type": "Review",
+        "text": "To evaluate the evidence supporting combined sodium-glucose cotransporter 2 inhibitors (SGLT2is) and glucagon-like peptide-1 receptor agonists (GLP-1RAs) in type 2 diabetes, focusing on cardiometabolic outcomes and practical treatment approaches. Cardiovascular outcomes trials and real-world studies indicate that SGLT2is and GLP-1RAs confer complementary, non-redundant cardiovascular, kidney, and metabolic benefits. SGLT2is primarily reduce hospitalization for heart failure and slow kidney disease progression, while GLP-1RAs more effectively reduce atherosclerotic events, particularly stroke; dedicated kidney-outcome and heart-failure trials of GLP-1RAs in chronic kidney disease and obesity-related heart failure with preserved ejection fraction have further broadened their role. Randomized data show that each class retains its benefit irrespective of background use of the other, supporting independent mechanisms; whether this translates into reductions in hard outcomes is being tested prospectively. Emerging evidence supports a phenotype-guided approach that aligns therapy with dominant comorbidities such as atherosclerotic cardiovascular disease, heart failure, chronic kidney disease, and obesity. Despite advances in pharmacotherapy, substantial cardiometabolic risk remains in type 2 diabetes. Combined SGLT2i and GLP-1RA therapy addresses multiple risk domains through complementary mechanisms and may be most effective within a phenotype-guided framework. This framework prioritizes therapy according to predominant comorbidity and reserves combination treatment for individuals with overlapping high-risk phenotypes.",
+        "score": 0.9999992847442627,
+        "sub_questions": [
+          2,
+          1
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "claim": "Real\u2011world data show that each class independently reduces all\u2011cause mortality, with the greatest benefit when both are used together.",
+        "cited": [
+          1
+        ],
+        "status": "supported",
+        "method": "llm_judge",
+        "best_cited": 0.0013942496152594686,
+        "quote": "Compared to those receiving neither medication, all-cause mortality was significantly lower among patients treated with SGLT2-I only (HR 0.28, 95% CI 0.27-0.29), GLP-1RA only (HR 0.39, 95% CI 0.37-0.40) and both agents (HR 0.17, 95% CI 0.16-0.18).",
+        "note": "directly states each class and combination reduce mortality",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "In patients with chronic kidney disease, a network meta\u2011analysis found that SGLT2 inhibitors lowered major adverse cardiovascular events (MACE) and renal events, whereas GLP\u20111 receptor agonists did not show a significant reduction in either domain; SGLT2 inhibitors also had a lower risk of renal events compared with GLP\u20111 receptor agonists (RR\u202f0.79).",
+        "cited": [
+          2
+        ],
+        "status": "supported",
+        "method": "nli",
+        "best_cited": 0.6319693326950073,
+        "quote": "",
+        "note": "",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "Review evidence suggests that SGLT2 inhibitors are particularly effective for heart\u2011failure outcomes and slowing kidney disease progression, while GLP\u20111 receptor agonists are more potent for atherosclerotic events such as stroke and for patients with moderate\u2011to\u2011severe chronic kidney disease.",
+        "cited": [
+          3,
+          5
+        ],
+        "status": "supported",
+        "method": "nli",
+        "best_cited": 0.5113137364387512,
+        "quote": "",
+        "note": "",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "A 2026 review emphasizes that the two classes provide complementary, non\u2011redundant benefits and that a phenotype\u2011guided approach\u2014choosing therapy based on dominant comorbidities (ASCVD, heart failure, CKD, obesity)\u2014may optimize outcomes.",
+        "cited": [
+          5
+        ],
+        "status": "supported",
+        "method": "llm_judge",
+        "best_cited": 0.0014985855668783188,
+        "quote": "Emerging evidence supports a phenotype\u2011guided approach that aligns therapy with dominant comorbidities such as atherosclerotic cardiovascular disease, heart failure, chronic kidney disease, and obesity.",
+        "note": "matches claim",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "SGLT2 inhibitors reduce MACE and cardiovascular mortality in type\u202f2 diabetes with established ASCVD; GLP\u20111 receptor agonists also reduce MACE but the comparative magnitude is less clear in CKD populations.",
+        "cited": [
+          2,
+          3
+        ],
+        "status": "unsupported",
+        "method": "llm_judge",
+        "best_cited": 0.2090919017791748,
+        "quote": "GLP-1 RAs did not reduce the risk of cardiovascular or renal adverse events (RR 0.91 [0.80-1.04] and 0.86 [0.72-1.03], respectively).",
+        "note": "contradicts claim that GLP\u20111 reduces MACE",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "In CKD, SGLT2 inhibitors lower MACE (RR\u202f0.85) whereas GLP\u20111 receptor agonists do not reach statistical significance (RR\u202f0.91).",
+        "cited": [
+          2
+        ],
+        "status": "supported",
+        "method": "nli",
+        "best_cited": 0.8022099137306213,
+        "quote": "",
+        "note": "",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "SGLT2 inhibitors lower the risk of composite renal events (RR\u202f0.68) and are superior to GLP\u20111 receptor agonists in reducing renal events (RR\u202f0.79) in CKD patients.",
+        "cited": [
+          2
+        ],
+        "status": "supported",
+        "method": "llm_judge",
+        "best_cited": 0.0027204942889511585,
+        "quote": "SGLT-2 inhibitors were associated with a lower risk of renal events compared to GLP-1 RAs (RR 0.79 [0.63-0.99]).",
+        "note": "directly supports",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "GLP\u20111 receptor agonists show benefit in slowing kidney disease progression in certain trials, but evidence is less robust than for SGLT2 inhibitors.",
+        "cited": [
+          5
+        ],
+        "status": "partial",
+        "method": "llm_judge",
+        "best_cited": 0.011615036055445671,
+        "quote": "SGLT2is primarily reduce hospitalization for heart failure and slow kidney disease progression, while GLP-1RAs more effectively reduce atherosclerotic events, particularly stroke;",
+        "note": "does not state GLP\u20111 RA slows kidney progression",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "Heart\u2011failure patients benefit most from SGLT2 inhibitors, whereas patients with moderate\u2011to\u2011severe CKD may derive greater benefit from GLP\u20111 receptor agonists.",
+        "cited": [
+          3,
+          5
+        ],
+        "status": "supported",
+        "method": "nli",
+        "best_cited": 0.9241275787353516,
+        "quote": "",
+        "note": "",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "The complementary nature of the two classes suggests that combination therapy may address multiple risk domains, but randomized data on hard outcomes with combination therapy are still pending.",
+        "cited": [
+          5
+        ],
+        "status": "supported",
+        "method": "nli",
+        "best_cited": 0.8417486548423767,
+        "quote": "",
+        "note": "",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      }
+    ],
+    "summary": {
+      "claims": 10,
+      "supported": 8,
+      "partial": 1,
+      "unsupported": 1,
+      "miscited": 0,
+      "not_checkable": 0,
+      "citation_precision": 0.8,
+      "uncited_statements": 1,
+      "citation_coverage": 0.909
+    },
+    "relevance": 5,
+    "relevance_note": "SCORE: 5  \nREASON: The answer thoroughly compares cardiovascular and kidney outcomes for SGLT2 inhibitors and GLP\u20111 receptor agonists, discusses relative strengths, subgroups, and evidence gaps.",
+    "invalid_citations": [],
+    "uncited_evidence": [
+      4
+    ],
+    "timings": {
+      "decompose": 0.9,
+      "retrieve": 29.3,
+      "synthesize": 1.3,
+      "verify": 20.0
+    }
+  },
+  {
+    "category": "compare",
+    "question": "How does metformin compare with GLP-1 receptor agonists for weight loss in type 2 diabetes?",
+    "sub_questions": [
+      "What is the average weight loss achieved with metformin compared to GLP\u20111 receptor agonists in adults with type 2 diabetes?",
+      "How do the safety and tolerability profiles of metformin differ from those of GLP\u20111 receptor agonists in patients with type 2 diabetes?",
+      "What are the effects of metformin versus GLP\u20111 receptor agonists on glycemic control (HbA1c) in adults with type 2 diabetes?"
+    ],
+    "answer": "Metformin and GLP\u20111 receptor agonists both improve glycaemic control in adults with type\u202f2 diabetes, but GLP\u20111 receptor agonists are associated with greater weight loss and a different safety profile.  \n\n- **Weight loss** \u2013 GLP\u20111 receptor agonists produce more weight loss than metformin.  The 2022 review notes that GLP\u20111 receptor agonists are \u201ceffective for weight loss in patients with obesity with and without diabetes\u201d and that they \u201cdo not cause weight gain\u201d [1].  In contrast, metformin is not highlighted for weight loss in the evidence set and is described primarily as a first\u2011line agent with good tolerability [5].  \n\n- **Safety and tolerability** \u2013 Metformin is characterised by \u201caffordability and tolerability\u201d and is widely used as a foundation therapy [5].  GLP\u20111 receptor agonists have \u201cseveral significant adverse effects\u201d and a distinct adverse\u2011event profile, although the specific events are not listed in the evidence provided [3].  Thus, the safety profile of GLP\u20111 receptor agonists differs from that of metformin, with metformin generally having fewer gastrointestinal side\u2011effects and no hypoglycaemia risk, whereas GLP\u20111 receptor agonists carry gastrointestinal adverse events and a different tolerability profile [3].  \n\n- **Glycaemic control (HbA1c)** \u2013 Both classes lower HbA1c.  The 2022 review states that GLP\u20111 receptor agonists \u201cimprove glycaemic control\u201d and are preferred when metformin alone is insufficient to meet HbA1c goals [1].  Metformin is also noted as the first\u2011line therapy for glycaemic control, but the evidence does not provide a direct comparative HbA1c reduction figure between the two classes [5].  \n\n**Evidence gaps:** The available evidence does not provide direct quantitative comparisons of average weight loss or HbA1c reduction between metformin and GLP\u20111 receptor agonists, nor does it detail specific adverse events for each drug class.",
+    "evidence": [
+      {
+        "id": 1,
+        "pmid": "35914933",
+        "chunk_id": "35914933_0",
+        "title": "The role of GLP-1 receptor agonists in managing type 2 diabetes.",
+        "year": 2022,
+        "journal": "Cleveland Clinic journal of medicine",
+        "study_type": "Review",
+        "text": "Glucagon-like peptide-1 (GLP-1) receptor agonists improve glycemic control in patients with type 2 diabetes mellitus, have cardioprotective and renoprotective effects, and do not cause weight gain or significant hypoglycemia. In fact, they have been found to be effective for weight loss in patients with obesity with and without diabetes. They are now the preferred drugs to add to the regimen when oral metformin by itself is not enough to meet the patient's hemoglobin A1c goal.",
+        "score": 0.9999980926513672,
+        "sub_questions": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "id": 2,
+        "pmid": "38639546",
+        "chunk_id": "38639546_0",
+        "title": "Newer Pharmacologic Treatments in Adults With Type 2 Diabetes: A Clinical Guideline From the American College of Physicians.",
+        "year": 2024,
+        "journal": "Annals of internal medicine",
+        "study_type": "Guideline",
+        "text": "The American College of Physicians (ACP) developed this clinical guideline to update recommendations on newer pharmacologic treatments of type 2 diabetes. This clinical guideline is based on the best available evidence for effectiveness, comparative benefits and harms, consideration of patients' values and preferences, and costs. This clinical guideline is based on a systematic review of the effectiveness and harms of newer pharmacologic treatments of type 2 diabetes, including glucagon-like peptide-1 (GLP-1) agonists, a GLP-1 agonist and glucose-dependent insulinotropic polypeptide agonist, sodium-glucose cotransporter-2 (SGLT-2) inhibitors, dipeptidyl peptidase-4 (DPP-4) inhibitors, and long-acting insulins, used either as monotherapy or in combination with other medications. The Clinical Guidelines Committee prioritized the following outcomes, which were evaluated using the GRADE (Grading of Recommendations Assessment, Development and Evaluation) approach: all-cause mortality, major adverse cardiovascular events, myocardial infarction, stroke, hospitalization for congestive heart failure, progression of chronic kidney disease, serious adverse events, and severe hypoglycemia. Weight loss, as measured by percentage of participants who achieved at least 10% total body weight loss, was a prioritized outcome, but data were insufficient for network meta-analysis and were not rated with GRADE. The audience for this clinical guideline is physicians and other clinicians. The population is nonpregnant adults with type 2 diabetes. ACP recommends adding a sodium-glucose cotransporter-2 (SGLT-2) inhibitor or glucagon-like peptide-1 (GLP-1) agonist to metformin and lifestyle modifications in adults with type 2 diabetes and inadequate glycemic control (strong recommendation; high-certainty evidence). \u2022 Use an SGLT-2 inhibitor to reduce the risk for all-cause mortality, major adverse cardiovascular events, progression of chronic kidney disease, and hospitalization due to congestive heart failure. \u2022 Use a GLP-1 agonist to reduce the risk for all-cause mortality, major adverse cardiovascular events, and stroke. ACP recommends against adding a dipeptidyl peptidase-4 (DPP-4) inhibitor to metformin and lifestyle modifications in adults with type 2 diabetes and inadequate glycemic control to reduce morbidity and all-cause mortality (strong recommendation; high-certainty evidence).",
+        "score": 0.9999949932098389,
+        "sub_questions": [
+          0
+        ]
+      },
+      {
+        "id": 3,
+        "pmid": "39268978",
+        "chunk_id": "39268978_0",
+        "title": "Assessing the therapeutic and toxicological profile of novel GLP-1 receptor agonists for type 2 diabetes.",
+        "year": 2024,
+        "journal": "Expert opinion on drug metabolism & toxicology",
+        "study_type": "Review",
+        "text": "GLP-1 receptor agonists provide multiple benefits for patients with type 2 diabetes. Nonetheless, there are also several significant adverse effects associated with these agents. A thorough understanding of both therapeutic and toxicological profiles of GLP-1 receptor agonists is crucial for appropriate utilization of this medication class. A literature search of PubMed and ClinicalTrials.gov was carried out to inform discussion on the topic. This review article discusses the key advantages and disadvantages derived from the use of GLP-1 receptor agonists in the treatment of type 2 diabetes. Landmark trials which helped characterize the cardiovascular and renal benefits of GLP-1 receptor agonists are highlighted. We also discuss key studies still in progress and new formulations under investigation. GLP-1 receptor agonists provide glycemic and complication-risk reduction benefits for individuals with type 2 diabetes. Current data suggests there is a lot of potential for further applications, even outside of type 2 diabetes management. It would be of particular interest to see the range of benefits conferred from GLP-1 receptor agonists in individuals without type 2 diabetes. Broader application of these medications could be expected given the ongoing development of new oral formulations and combination agents.",
+        "score": 0.9999932050704956,
+        "sub_questions": [
+          1
+        ]
+      },
+      {
+        "id": 4,
+        "pmid": "27350752",
+        "chunk_id": "27350752_0",
+        "title": "SGLT2 inhibitors or GLP-1 receptor agonists as second-line therapy in type 2 diabetes: patient selection and perspectives.",
+        "year": 2016,
+        "journal": "Vascular health and risk management",
+        "study_type": "Review",
+        "text": "Controversy exists regarding the selection of second-line therapy for patients with type 2 diabetes mellitus (T2DM) who are unable to achieve glycemic control with metformin therapy alone. Newer pharmacologic treatments for T2DM include glucagon-like peptide-1 receptor agonists and sodium-glucose cotransporter 2 inhibitors. Both the classes of medication are efficacious, exhibit positive effects on weight, and are associated with minimal risk of hypoglycemia. The purpose of this review is to compare the clinical trial and real-world effectiveness data of glucagon-like peptide-1 receptor agonists versus sodium-glucose cotransporter 2 inhibitors related to A1c reduction, weight loss, cost-effectiveness, cardiovascular outcomes, and safety in patients with T2DM. This review summarizes comparative evidence for providers who are determining which of the two classes may be the most appropriate for a specific patient.",
+        "score": 0.9999994039535522,
+        "sub_questions": [
+          2,
+          0
+        ]
+      },
+      {
+        "id": 5,
+        "pmid": "28733378",
+        "chunk_id": "28733378_0",
+        "title": "Is It Time to Change the Type 2 Diabetes Treatment Paradigm? No! Metformin Should Remain the Foundation Therapy for Type 2 Diabetes.",
+        "year": 2017,
+        "journal": "Diabetes care",
+        "study_type": "Study",
+        "text": "Most treatment guidelines, including those from the American Diabetes Association/European Association for the Study of Diabetes and the International Diabetes Federation, suggest metformin be used as the first-line therapy after diet and exercise. This recommendation is based on the considerable body of evidence that has accumulated over the last 30 years, but it is also supported on clinical grounds based on metformin's affordability and tolerability. As such, metformin is the most commonly used oral antihyperglycemic agent in the U.S. However, based on the release of newer agents over the recent past, some have suggested that the modern approach to disease management should be based upon identification of its etiology and correcting the underlying biological disturbances. That is, we should use interventions that normalize or at least ameliorate the recognized derangements in physiology that drive the clinical manifestation of disease, in this circumstance, hyperglycemia. Thus, it is argued that therapeutic interventions that target glycemia but do not correct the underlying pathogenic disturbances are unlikely to result in a sustained benefit on the disease process. In our field, there is an evolving debate regarding the suggested first step in diabetes management and a call for a new paradigm. Given the current controversy, we provide a Point-Counterpoint debate on this issue. In the point narrative that precedes the counterpoint narrative below, Drs. Abdul-Ghani and DeFronzo provide their argument that a treatment approach for type 2 diabetes based upon correcting the underlying pathophysiological abnormalities responsible for the development of hyperglycemia provides the best therapeutic strategy. Such an approach requires a change in the recommendation for first-line therapy from metformin to a GLP-1 receptor agonist. In the counterpoint narrative below, Dr. Inzucchi argues that based on the medical community's extensive experience and the drug's demonstrated efficacy, safety, low cost, and cardiovascular benefits, metformin should remain the \"foundation therapy\" for all patients with type 2 diabetes, barring contraindications.-William T. CefaluChief Scientific, Medical & Mission Officer, American Diabetes Association.",
+        "score": 0.9999823570251465,
+        "sub_questions": [
+          1
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "claim": "The 2022 review notes that GLP\u20111 receptor agonists are \u201ceffective for weight loss in patients with obesity with and without diabetes\u201d and that they \u201cdo not cause weight gain\u201d.",
+        "cited": [
+          1
+        ],
+        "status": "supported",
+        "method": "llm_judge",
+        "best_cited": 0.0010909426491707563,
+        "quote": "They are now the preferred drugs to add to the regimen when oral metformin by itself is not enough to meet the patient's hemoglobin A1c goal.",
+        "note": "contains weight\u2011loss and no weight gain",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "In contrast, metformin is not highlighted for weight loss in the evidence set and is described primarily as a first\u2011line agent with good tolerability.",
+        "cited": [
+          5
+        ],
+        "status": "supported",
+        "method": "llm_judge",
+        "best_cited": 0.0014329029945656657,
+        "quote": "Most treatment guidelines, including those from the American Diabetes Association/European Association for the Study of Diabetes and the International Diabetes Federation, suggest metformin be used as the first\u2011line therapy after diet and exercise.",
+        "note": "no weight\u2011loss mention",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "Safety and tolerability \u2013 Metformin is characterised by \u201caffordability and tolerability\u201d and is widely used as a foundation therapy.",
+        "cited": [
+          5
+        ],
+        "status": "supported",
+        "method": "nli",
+        "best_cited": 0.9878366589546204,
+        "quote": "",
+        "note": "",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "GLP\u20111 receptor agonists have \u201cseveral significant adverse effects\u201d and a distinct adverse\u2011event profile, although the specific events are not listed in the evidence provided.",
+        "cited": [
+          3
+        ],
+        "status": "supported",
+        "method": "llm_judge",
+        "best_cited": 0.002904037479311228,
+        "quote": "GLP\u20111 receptor agonists provide multiple benefits for patients with type 2 diabetes. Nonetheless, there are also several significant adverse effects associated with these agents.",
+        "note": "adverse\u2011effect claim",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "Thus, the safety profile of GLP\u20111 receptor agonists differs from that of metformin, with metformin generally having fewer gastrointestinal side\u2011effects and no hypoglycaemia risk, whereas GLP\u20111 receptor agonists carry gastrointestinal adverse events and a different tolerability profile.",
+        "cited": [
+          3
+        ],
+        "status": "miscited",
+        "method": "llm_judge",
+        "best_cited": 0.0912548080086708,
+        "quote": "",
+        "note": "No comparison to metformin safety profile in evidence",
+        "supported_by_other": [
+          2,
+          5
+        ],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "The 2022 review states that GLP\u20111 receptor agonists \u201cimprove glycaemic control\u201d and are preferred when metformin alone is insufficient to meet HbA1c goals.",
+        "cited": [
+          1
+        ],
+        "status": "supported",
+        "method": "llm_judge",
+        "best_cited": 0.004040638916194439,
+        "quote": "GLP\u20111 receptor agonists improve glycemic control in patients with type 2 diabetes mellitus, have cardioprotective and renoprotective effects, and do not cause weight gain or significant hypoglycemia. In fact, they have been found to be effective for weight loss in patients with obesity with and without diabetes. They are now the preferred drugs to add to the regimen when oral metformin by itself is not enough to meet the patient's hemoglobin A1c goal.",
+        "note": "glycemic control and preference",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "Metformin is also noted as the first\u2011line therapy for glycaemic control, but the evidence does not provide a direct comparative HbA1c reduction figure between the two classes.",
+        "cited": [
+          5
+        ],
+        "status": "supported",
+        "method": "llm_judge",
+        "best_cited": 0.0003297499497421086,
+        "quote": "Most treatment guidelines, including those from the American Diabetes Association/European Association for the Study of Diabetes and the International Diabetes Federation, suggest metformin be used as the first\u2011line therapy after diet and exercise.",
+        "note": "no comparative HbA1c figure",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      }
+    ],
+    "summary": {
+      "claims": 7,
+      "supported": 6,
+      "partial": 0,
+      "unsupported": 0,
+      "miscited": 1,
+      "not_checkable": 0,
+      "citation_precision": 0.857,
+      "uncited_statements": 3,
+      "citation_coverage": 0.7
+    },
+    "relevance": 5,
+    "relevance_note": "SCORE: 5  \nREASON: The answer fully compares metformin and GLP\u20111 receptor agonists on weight loss, safety, and glycaemic control, and clearly notes evidence gaps.",
+    "invalid_citations": [],
+    "uncited_evidence": [
+      2,
+      4
+    ],
+    "timings": {
+      "decompose": 0.8,
+      "retrieve": 19.9,
+      "synthesize": 1.3,
+      "verify": 9.5
+    }
+  },
+  {
+    "category": "compare",
+    "question": "How does insulin therapy compare with oral medications as second-line treatment in type 2 diabetes?",
+    "sub_questions": [
+      "How does insulin therapy compare with oral medications as second-line treatment in type 2 diabetes?"
+    ],
+    "answer": "The available evidence does not address a direct comparison between insulin therapy and oral medications as second\u2011line treatment in type\u202f2 diabetes.",
+    "evidence": [
+      {
+        "id": 1,
+        "pmid": "23953074",
+        "chunk_id": "23953074_0",
+        "title": "Options for combination therapy in type 2 diabetes: comparison of the ADA/EASD position statement and AACE/ACE algorithm.",
+        "year": 2013,
+        "journal": "The American journal of medicine",
+        "study_type": "Review",
+        "text": "Treating patients with diabetes is one of the most challenging and important activities a physician (primary care physician or specialist) can undertake. A key to successful therapy for type 2 diabetes is the insight that this condition is progressive and that the need for additional agents over time is normative. The ability to individualize therapy by patient and medication characteristics comes from experience and knowledge of pertinent clinical studies. However, guidelines from expert bodies such as the American Diabetes Association/European Association for the Study of Diabetes and American Association of Clinical Endocrinologists/American College of Endocrinology can help clinicians of all levels of expertise to approach therapy choices more rationally. There is unity across these guidelines about the role and benefits of metformin as first-line pharmacological treatment, probability of good efficacy, low risk of hypoglycemia, modest weight loss, and overall long-term data. Unfortunately, this unity does not extend to recommendations for subsequent pharmacological agents and their use in combination to intensify treatment when insulin is not (yet) appropriate. Across both statements, some drug classes seem more prominent, and looking at their benefit-risk profile, it is clear why this is the case. The most profound recent change in diabetes therapy has been the introduction of incretin therapies. Incretin therapies minimize 2 important adverse effects seen with many other therapies: hypoglycemia and weight gain. These agents have increased the range of options available for early intensification of treatment of type 2 diabetes. In combination with more established therapies, there are more opportunities than ever to accommodate patient preferences while improving glycemic control and harnessing extraglycemic benefits of a second (or third) agent.",
+        "score": 0.9999996423721313,
+        "sub_questions": [
+          0
+        ]
+      },
+      {
+        "id": 2,
+        "pmid": "27350752",
+        "chunk_id": "27350752_0",
+        "title": "SGLT2 inhibitors or GLP-1 receptor agonists as second-line therapy in type 2 diabetes: patient selection and perspectives.",
+        "year": 2016,
+        "journal": "Vascular health and risk management",
+        "study_type": "Review",
+        "text": "Controversy exists regarding the selection of second-line therapy for patients with type 2 diabetes mellitus (T2DM) who are unable to achieve glycemic control with metformin therapy alone. Newer pharmacologic treatments for T2DM include glucagon-like peptide-1 receptor agonists and sodium-glucose cotransporter 2 inhibitors. Both the classes of medication are efficacious, exhibit positive effects on weight, and are associated with minimal risk of hypoglycemia. The purpose of this review is to compare the clinical trial and real-world effectiveness data of glucagon-like peptide-1 receptor agonists versus sodium-glucose cotransporter 2 inhibitors related to A1c reduction, weight loss, cost-effectiveness, cardiovascular outcomes, and safety in patients with T2DM. This review summarizes comparative evidence for providers who are determining which of the two classes may be the most appropriate for a specific patient.",
+        "score": 0.9999995231628418,
+        "sub_questions": [
+          0
+        ]
+      },
+      {
+        "id": 3,
+        "pmid": "18363534",
+        "chunk_id": "18363534_0",
+        "title": "Third-line agent selection for patients with type 2 diabetes mellitus uncontrolled with sulfonylureas and metformin.",
+        "year": 2008,
+        "journal": "Pharmacotherapy",
+        "study_type": "Review",
+        "text": "Patients with type 2 diabetes mellitus often begin treatment by taking oral agents, usually metformin or a sulfonylurea, and then progress to the combination of these two agents. Most patients often require three or more agents or a change to an insulin regimen. However, no guidelines are available to aid the clinician in the decision-making process for selecting the third agent. Many options are available for additional therapy, including thiazolidinediones, intermediate- and long-acting insulins, exenatide, and dipeptidyl peptidase-4 inhibitors. Although the American Diabetes Association recommends metformin as first-line therapy, it does not give exact specifications for second- and third-line agents but only summarizes clinical data and options about each therapeutic drug class. Guidelines from the American College of Endocrinology and American Association of Clinical Endocrinologists recommend several options depending on the patient's hemoglobin A(1c) level. Therefore, a standard of care cannot be provided; rather, clinicians must evaluate each patient to ascertain that patient's optimum therapy. In doing so, clinicians need to be familiar with the efficacy, safety, and cost of each agent.",
+        "score": 0.999998927116394,
+        "sub_questions": [
+          0
+        ]
+      }
+    ],
+    "claims": [],
+    "summary": {
+      "claims": 0,
+      "supported": 0,
+      "partial": 0,
+      "unsupported": 0,
+      "miscited": 0,
+      "not_checkable": 0,
+      "citation_precision": 0.0,
+      "uncited_statements": 1,
+      "citation_coverage": 0.0
+    },
+    "relevance": 5,
+    "relevance_note": "SCORE: 5  \nREASON: The answer clearly states that no direct comparison evidence exists, directly addressing the question.",
+    "invalid_citations": [],
+    "uncited_evidence": [
+      1,
+      2,
+      3
+    ],
+    "timings": {
+      "decompose": 0.9,
+      "retrieve": 12.6,
+      "synthesize": 2.4,
+      "verify": 0.0
+    }
+  },
+  {
+    "category": "compare",
+    "question": "How do SGLT2 inhibitors differ from metformin in effects on heart failure and mortality?",
+    "sub_questions": [
+      "What is the impact of SGLT2 inhibitors versus metformin on the risk of heart failure hospitalization in patients with type 2 diabetes?",
+      "How do SGLT2 inhibitors compare to metformin in terms of all-cause mortality among individuals with type 2 diabetes?",
+      "What differences exist between SGLT2 inhibitors and metformin regarding cardiovascular mortality in type 2 diabetes patients?"
+    ],
+    "answer": "SGLT2 inhibitors provide clear cardiorenal benefits that are not seen with metformin alone.  In adults with type\u202f2 diabetes, SGLT2 inhibitors reduce the risk of heart\u2011failure hospitalization, all\u2011cause mortality, and cardiovascular mortality compared with usual care, whereas metformin does not confer these advantages.  The evidence comes from systematic reviews and meta\u2011analyses of randomized trials and large cardiovascular outcome studies.  \n\n- **Heart\u2011failure hospitalization** \u2013 SGLT2 inhibitors consistently lower the risk of heart\u2011failure admission versus usual care, whereas metformin alone has no demonstrated effect on this outcome.  The meta\u2011analysis of 84 RCTs (2010\u20112023) reports a reduction in heart\u2011failure hospitalizations with SGLT2 inhibitors [3].  \n- **All\u2011cause mortality** \u2013 SGLT2 inhibitors reduce all\u2011cause mortality in type\u202f2 diabetes patients, a benefit not observed with metformin alone.  The same network meta\u2011analysis shows a high\u2011certainty reduction in mortality with SGLT2 inhibitors versus usual care [3].  \n- **Cardiovascular mortality** \u2013 SGLT2 inhibitors lower cardiovascular death, whereas metformin does not show a mortality benefit.  The guideline review highlights that SGLT2 inhibitors reduce cardiovascular mortality in addition to all\u2011cause mortality and heart\u2011failure outcomes [1].  \n\nEvidence gaps: No direct head\u2011to\u2011head randomized trials comparing SGLT2 inhibitors with metformin alone for these outcomes are available; most data come from comparisons with usual care or other drug classes.",
+    "evidence": [
+      {
+        "id": 1,
+        "pmid": "38639546",
+        "chunk_id": "38639546_1",
+        "title": "Newer Pharmacologic Treatments in Adults With Type 2 Diabetes: A Clinical Guideline From the American College of Physicians.",
+        "year": 2024,
+        "journal": "Annals of internal medicine",
+        "study_type": "Guideline",
+        "text": "The American College of Physicians (ACP) developed this clinical guideline to update recommendations on newer pharmacologic treatments of type 2 diabetes. This clinical guideline is based on the best available evidence for effectiveness, comparative benefits and harms, consideration of patients' values and preferences, and costs. This clinical guideline is based on a systematic review of the effectiveness and harms of newer pharmacologic treatments of type 2 diabetes, including glucagon-like peptide-1 (GLP-1) agonists, a GLP-1 agonist and glucose-dependent insulinotropic polypeptide agonist, sodium-glucose cotransporter-2 (SGLT-2) inhibitors, dipeptidyl peptidase-4 (DPP-4) inhibitors, and long-acting insulins, used either as monotherapy or in combination with other medications. The Clinical Guidelines Committee prioritized the following outcomes, which were evaluated using the GRADE (Grading of Recommendations Assessment, Development and Evaluation) approach: all-cause mortality, major adverse cardiovascular events, myocardial infarction, stroke, hospitalization for congestive heart failure, progression of chronic kidney disease, serious adverse events, and severe hypoglycemia. Weight loss, as measured by percentage of participants who achieved at least 10% total body weight loss, was a prioritized outcome, but data were insufficient for network meta-analysis and were not rated with GRADE. The audience for this clinical guideline is physicians and other clinicians. The population is nonpregnant adults with type 2 diabetes. ACP recommends adding a sodium-glucose cotransporter-2 (SGLT-2) inhibitor or glucagon-like peptide-1 (GLP-1) agonist to metformin and lifestyle modifications in adults with type 2 diabetes and inadequate glycemic control (strong recommendation; high-certainty evidence). \u2022 Use an SGLT-2 inhibitor to reduce the risk for all-cause mortality, major adverse cardiovascular events, progression of chronic kidney disease, and hospitalization due to congestive heart failure. \u2022 Use a GLP-1 agonist to reduce the risk for all-cause mortality, major adverse cardiovascular events, and stroke. ACP recommends against adding a dipeptidyl peptidase-4 (DPP-4) inhibitor to metformin and lifestyle modifications in adults with type 2 diabetes and inadequate glycemic control to reduce morbidity and all-cause mortality (strong recommendation; high-certainty evidence).",
+        "score": 0.9999994039535522,
+        "sub_questions": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "id": 2,
+        "pmid": "37154218",
+        "chunk_id": "37154218_0",
+        "title": "The current role of SGLT2 inhibitors in type 2 diabetes and beyond: a narrative review.",
+        "year": 2023,
+        "journal": "Expert review of endocrinology & metabolism",
+        "study_type": "Review",
+        "text": "Sodium-glucose cotransporter 2 inhibitors (SGLT2is, gliflozins), the most recent oral antihyperglycaemic agents, provide a cardiorenal protection, an effect independent of their glucose-lowering potency. The antihyperglycaemic potency of SGLT2is was compared with that of dipeptidyl peptidase-4 inhibitors and glucagon-like peptide-1 receptor agonists, especially when added to metformin monotherapy. Main results of cardiovascular/renal outcome trials with SGLT2is were summarized in different populations: patients with type 2 diabetes mellitus (T2DM) with or without established cardiovascular disease, patients (with or without T2DM) with heart failure (with reduced or preserved left ventricular ejection fraction) and in patients (with or without T2DM) with chronic kidney disease (CKD, including stage 4). Original papers and meta-analyses of these different trials have consistently reported a reduction in hospitalization for heart failure (alone or combined with cardiovascular mortality) and a reduced progression of CKD, with an overall good safety profile. Global use of SGLT2is has increased over time but remains suboptimal despite clinically relevant cardiovascular and renal protection, particularly in patients most likely to benefit. SGLT2is has proven both positive benefit-risk balance and cost-effectiveness in at risk patients. New prospects are expected in other complications, i.e. metabolic-associated fatty liver disease and neurodegenerative disorders.",
+        "score": 0.9999986886978149,
+        "sub_questions": [
+          0,
+          2
+        ]
+      },
+      {
+        "id": 3,
+        "pmid": "38639549",
+        "chunk_id": "38639549_0",
+        "title": "Newer Pharmacologic Treatments in Adults With Type 2 Diabetes: A Systematic Review and Network Meta-analysis for the American College of Physicians.",
+        "year": 2024,
+        "journal": "Annals of internal medicine",
+        "study_type": "Meta-analysis",
+        "text": "Newer diabetes medications may have beneficial effects on mortality, cardiovascular outcomes, and renal outcomes. To evaluate the effectiveness, comparative effectiveness, and harms of sodium-glucose cotransporter-2 (SGLT2) inhibitors, glucagon-like peptide-1 (GLP1) agonists, dipeptidyl peptidase-4 (DPP4) inhibitors, and long-acting insulins as monotherapy or combination therapy in adults with type 2 diabetes mellitus (T2DM). MEDLINE and EMBASE for randomized controlled trials (RCTs) published from 2010 through January 2023. RCTs lasting at least 52 weeks that included at least 500 adults with T2DM receiving eligible medications and reported any outcomes of interest. Data were abstracted by 1 reviewer and verified by a second. Independent, dual assessments of risk of bias and certainty of evidence (CoE) were done. A total of 130 publications from 84 RCTs were identified. CoE was appraised using GRADE (Grading of Recommendations Assessment, Development and Evaluation) criteria for direct, indirect, and network meta-analysis (NMA); the highest CoE was reported. Compared with usual care, SGLT2 inhibitors and GLP1 agonists reduce all-cause mortality (high CoE) and major adverse cardiovascular events (MACE) (moderate to high CoE), SGLT2 inhibitors reduce progression of chronic kidney disease (CKD) and heart failure hospitalizations and GLP1 agonists reduce stroke (high CoE), and SGLT2 inhibitors reduce serious adverse events and severe hypoglycemia (high CoE). The threshold for minimally important differences, which was predefined with the American College of Physicians Clinical Guidelines Committee, was not met for these outcomes. Compared with usual care, insulin, tirzepatide, and DPP4 inhibitors do not reduce all-cause mortality (low to high CoE). Compared with insulin, SGLT2 inhibitors and GLP1 agonists reduce all-cause mortality (low to moderate CoE). Compared with DPP4 inhibitors, GLP1 agonists reduce all-cause mortality (moderate CoE). Compared with DPP4 inhibitors and sulfonylurea (SU), SGLT2 inhibitors reduce MACE (moderate to high CoE). Compared with SU and insulin, SGLT2 inhibitors and GLP1 agonists reduce severe hypoglycemia (low to high CoE). Infrequent direct comparisons between drugs of interest; sparse data for NMA on most outcomes; possible incoherence due to differences in baseline patient characteristics and usual care; insufficient data on predefined subgroups, including demographic subgroups, patients with prior cardiovascular disease, and treatment-naive persons. In adults with T2DM, SGLT2 inhibitors and GLP1 agonists (but not DPP4 inhib",
+        "score": 0.9999939203262329,
+        "sub_questions": [
+          1
+        ]
+      },
+      {
+        "id": 4,
+        "pmid": "29944969",
+        "chunk_id": "29944969_0",
+        "title": "Cardiovascular outcome studies in type 2 diabetes: Comparison between SGLT2 inhibitors and GLP-1 receptor agonists.",
+        "year": 2018,
+        "journal": "Diabetes research and clinical practice",
+        "study_type": "Review",
+        "text": "Sodium-glucose cotransporter type 2 inhibitors (SGLT2is) and glucagon-like peptide-1 receptor agonists (GLP-1RAs) are two pharmacological classes that have proven their efficacy to reduce major cardiovascular events (MACEs) in patients with type 2 diabetes mellitus (T2DM) and established cardiovascular disease in large prospective cardiovascular outcome trials (CVOTs): EMPA-REG OUTCOME (empagliflozin), CANVAS (canagliflozin), LEADER (liraglutide) and SUSTAIN 6 (semaglutide). Some heterogeneity appears to exist between the various agents within the two pharmacological classes. Whether these positive results could be extrapolated to patients without cardiovascular disease is still unknown. The underlying mechanisms remain a matter of debate but appear to differ between SGLT2is and GLP-1RAs. One crucial question is which patient's characteristics should be taken into account to guide the choice between a SGLT2i or a GLP-1RA according to a personalized approach. Heart failure should encourage the use of a SGLT2i whereas moderate to severe chronic kidney disease should favour the prescription of a GLP-1RA. Despite the results of recent CVOTs, numerous patients who are good candidates for benefiting of these agents do not receive them in clinical practice. Currently, there is a paradigm shift in T2DM management, moving from a primary objective of glucose control to a cardiovascular and renal protection.",
+        "score": 0.9999945163726807,
+        "sub_questions": [
+          2
+        ]
+      },
+      {
+        "id": 5,
+        "pmid": "36322877",
+        "chunk_id": "36322877_0",
+        "title": "Contemporary choice of glucose lowering agents in heart failure patients with type 2 diabetes.",
+        "year": 2022,
+        "journal": "Expert opinion on pharmacotherapy",
+        "study_type": "Review",
+        "text": "There is a bi-directional link between type 2 diabetes mellitus (T2DM) and heart failure (HF) and their co-existence markedly increases an individual's morbidity and mortality. Therefore, it is of major importance to diagnose early (and, even better, prevent) HF in T2DM patients, as well as adequately treat T2DM patients with HF. The present narrative review discusses the effects of different antidiabetic drugs [metformin, pioglitazone, sulphonylureas (SUs), dipeptidyl peptidase 4 inhibitors (DPP4i), glucagon-like peptide-1 receptor agonists (GLP-1 RAs), sodium-glucose cotransporter 2 inhibitors (SGLT2i) and insulin] on HF incidence, hospitalization and outcomes. Current guidelines of diabetes and cardiology societies on this issue are also commented on. Metformin (+lifestyle interventions) is the first-line treatment for all T2DM patients and SGLT2i are the preferred drugs (class I, level of evidence A) in patients with T2DM and HF. Pioglitazone is contraindicated in HF, whereas SUs, DPP4i, GLP-1 RAs and insulin are considered as neutral. However, SUs may cause hypoglycemia and weight gain, saxagliptin (a DPP4i) must be avoided in this setting and GLP-1 RAs seem not to affect HF risk. There is an urgent need of increasing guidelines implementation regarding SGLT2i use in clinical practice, to sufficiently tackle the HF burden in T2DM.",
+        "score": 0.9999924898147583,
+        "sub_questions": [
+          0
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "claim": "The meta\u2011analysis of 84 RCTs (2010\u20112023) reports a reduction in heart\u2011failure hospitalizations with SGLT2 inhibitors.",
+        "cited": [
+          3
+        ],
+        "status": "supported",
+        "method": "llm_judge",
+        "best_cited": 0.0011405730620026588,
+        "quote": "SGLT2 inhibitors reduce progression of chronic kidney disease (CKD) and heart failure hospitalizations",
+        "note": "exact match",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "The same network meta\u2011analysis shows a high\u2011certainty reduction in mortality with SGLT2 inhibitors versus usual care.",
+        "cited": [
+          3
+        ],
+        "status": "unsupported",
+        "method": "llm_judge",
+        "best_cited": 0.025105005130171776,
+        "quote": "SGLT2 inhibitors reduce all-cause mortality (high CoE)",
+        "note": "judge's quote not found in cited evidence",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "The guideline review highlights that SGLT2 inhibitors reduce cardiovascular mortality in addition to all\u2011cause mortality and heart\u2011failure outcomes.",
+        "cited": [
+          1
+        ],
+        "status": "supported",
+        "method": "nli",
+        "best_cited": 0.8658101558685303,
+        "quote": "",
+        "note": "",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      }
+    ],
+    "summary": {
+      "claims": 3,
+      "supported": 2,
+      "partial": 0,
+      "unsupported": 1,
+      "miscited": 0,
+      "not_checkable": 0,
+      "citation_precision": 0.667,
+      "uncited_statements": 6,
+      "citation_coverage": 0.333
+    },
+    "relevance": 5,
+    "relevance_note": "SCORE: 5  \nREASON: The answer clearly explains how SGLT2 inhibitors differ from metformin in heart\u2011failure and mortality outcomes, cites systematic reviews and meta\u2011analyses, and acknowledges evidence gaps.",
+    "invalid_citations": [],
+    "uncited_evidence": [
+      2,
+      4,
+      5
+    ],
+    "timings": {
+      "decompose": 1.1,
+      "retrieve": 54.2,
+      "synthesize": 1.5,
+      "verify": 9.5
+    }
+  },
+  {
+    "category": "compare",
+    "question": "What evidence supports combining insulin with GLP-1 receptor agonists in type 2 diabetes?",
+    "sub_questions": [
+      "What randomized controlled trials demonstrate improved glycemic control when insulin is combined with GLP\u20111 receptor agonists in patients with type 2 diabetes?",
+      "What evidence exists regarding the safety profile, particularly hypoglycemia and gastrointestinal adverse events, of insulin plus GLP\u20111 receptor agonist therapy compared to insulin alone?",
+      "How does the combination of insulin and GLP\u20111 receptor agonists affect weight and cardiovascular outcomes in type 2 diabetes patients?",
+      "What data are available on the cost\u2011effectiveness and patient adherence of dual therapy with insulin and GLP\u20111 receptor agonists versus monotherapy?"
+    ],
+    "answer": "Combining insulin with GLP\u20111 receptor agonists (GLP\u20111\u202fRAs) improves glycaemic control, reduces weight, and lowers symptomatic hypoglycaemia compared with intensified insulin regimens, while the safety profile is generally favourable and cardiovascular benefits are suggested by GLP\u20111\u202fRA data.  \n\n- **Glycaemic efficacy**: A 2017 meta\u2011analysis of 19 RCTs (7\u202f053 patients) found that adding a GLP\u20111\u202fRA to basal insulin lowered HbA1c by an additional 0.48\u202f% versus basal insulin \u00b1 rapid\u2011acting insulin (p\u202f<\u202f0.0001) [1].  \n- **Weight effect**: The same meta\u2011analysis reported a mean weight loss of 2.60\u202fkg with basal insulin\u202f+\u202fGLP\u20111\u202fRA versus basal insulin \u00b1 rapid\u2011acting insulin (p\u202f<\u202f0.0001) [1].  \n- **Hypoglycaemia**: Basal insulin\u202f+\u202fGLP\u20111\u202fRA was associated with a significantly lower risk of symptomatic hypoglycaemia (odds ratio\u202f0.52; 95\u202f%\u202fCI\u202f0.42\u20110.64; p\u202f<\u202f0.0001) compared with basal insulin\u202f+\u202frapid\u2011acting insulin [1].  \n- **Gastrointestinal adverse events**: Fixed\u2011ratio combinations of insulin and GLP\u20111\u202fRA (e.g., iGlarLixi, IDegLira) have a lower risk of gastrointestinal events compared with GLP\u20111\u202fRA monotherapy, according to a 2022 review of RCTs and real\u2011world data [2].  \n- **Cardiovascular outcomes**: While GLP\u20111\u202fRA monotherapy has demonstrated cardiovascular benefit in outcome trials, the 2024 review notes that data specifically for insulin\u202f+\u202fGLP\u20111\u202fRA combinations are limited and that cardiovascular benefits may be inferred from the GLP\u20111\u202fRA component alone [3].  \n- **Adherence and real\u2011world effectiveness**: A 2019 review of real\u2011life studies indicates that GLP\u20111\u202fRA therapy is associated with better adherence and fewer hypoglycaemic events than insulin alone, though results vary across studies [4].  \n- **Cost\u2011effectiveness and adherence data**: No evidence in the provided list addresses cost\u2011effectiveness or comparative adherence between dual therapy and monotherapy.  \n\nEvidence gaps: No direct RCT or real\u2011world data on cost\u2011effectiveness or patient adherence comparing insulin\u202f+\u202fGLP\u20111\u202fRA therapy with monotherapy are available in the cited evidence.",
+    "evidence": [
+      {
+        "id": 1,
+        "pmid": "28294702",
+        "chunk_id": "28294702_0",
+        "title": "Safety and efficacy of a glucagon-like peptide-1 receptor agonist added to basal insulin therapy versus basal insulin with or without a rapid-acting insulin in patients with type 2 diabetes: results of a meta-analysis.",
+        "year": 2017,
+        "journal": "Postgraduate medicine",
+        "study_type": "Meta-analysis",
+        "text": "To consolidate the evidence from randomized controlled trials evaluating the use of glucagon-like peptide-1 receptor agonists (GLP-1 RAs) as add-on to basal insulin therapy in type 2 diabetes (T2D) patients. We searched the EMBASE\u00ae and NCBI PubMed (Medline) databases and relevant congress abstracts for randomized controlled trials evaluating the efficacy and safety of GLP-1 RAs as add-on to basal insulin compared with basal insulin with or without rapid-acting insulin (RAI) through 23 May 2016. The pooled data were analyzed using a random-effects meta-analysis model. A subanalysis was performed for trials investigating basal insulin plus GLP-1 RAs versus basal insulin plus RAI. Of the 2617 retrieved records, 19 randomized controlled trials enrolling 7,053 patients with T2D were included. Compared with basal insulin \u00b1 RAI, reduction in glycated hemoglobin (HbA1c) from baseline (difference in means: -0.48% [95% confidence interval (CI), -0.67 to -0.30]; p\u00a0<\u00a00.0001) and weight loss (-2.60\u00a0kg [95% CI, -3.32 to -1.89]; p\u00a0<\u00a00.0001) were significantly greater with basal insulin plus GLP-1 RA. The subanalysis similarly showed significant results for change in HbA1c from baseline and for weight loss, as well as a significantly lower risk of symptomatic hypoglycemia in patients treated with basal insulin plus GLP-1 RA versus basal insulin plus RAI (odds ratio, 0.52 [95% CI, 0.42 to 0.64]; p\u00a0<\u00a00.0001). Addition of GLP-1 RA to basal insulin provided improved glycemic control, led to weight reduction and similar hypoglycemia rates versus an intensified insulin strategy; however, symptomatic hypoglycemia rates were significantly lower when compared with a basal insulin plus RAI.",
+        "score": 0.9999995231628418,
+        "sub_questions": [
+          0
+        ]
+      },
+      {
+        "id": 2,
+        "pmid": "34641742",
+        "chunk_id": "34641742_0",
+        "title": "An update on the safety of insulin-GLP-1 receptor agonist combinations in type 2 diabetes mellitus.",
+        "year": 2022,
+        "journal": "Expert opinion on drug safety",
+        "study_type": "Study",
+        "text": "Recent development of novel antidiabetic drugs with proven cardiovascular (CV) and renal benefit and positive effect on body weight enable to take a more complex approach toward the management of type 2 diabetes mellitus (T2DM). Fixed-ratio combinations of insulin-GLP-1 receptor agonist (FRC) utilize complementary mechanisms of action of their individual components and address multiple pathologies linked with T2DM at the same time. There are currently three FRCs on the market: iGlarLixi (glargine and lixisenatide in 2 different formulations) and IDegLira (degludec and liraglutide). We provide an up-to-date review on the rationale for the use of FRCs and their current position in the management of T2DM. We discuss the available evidence from randomized controlled trials, post hoc analyses, indirect comparative studies and real-world data on their effect on glycemic control, risk of hypoglycemia, body weight, CV safety, and their safety profile. FRCs represent an efficacious option for treatment intensification from basal insulin or even the first insulin-based therapy in T2DM. Their excellent glucose-lowering efficacy is complemented with lower risk of hypoglycemia in comparison to basal insulin, neutral effect on body weight and the lower risk of gastrointestinal adverse effects in comparison to GLP-1 receptor agonists.",
+        "score": 0.9999997615814209,
+        "sub_questions": [
+          1
+        ]
+      },
+      {
+        "id": 3,
+        "pmid": "39145614",
+        "chunk_id": "39145614_0",
+        "title": "GLP-1 receptor agonist-based therapies and cardiovascular risk: a review of mechanisms.",
+        "year": 2024,
+        "journal": "The Journal of endocrinology",
+        "study_type": "Review",
+        "text": "Cardiovascular outcome trials (CVOTs) in people living with type 2 diabetes mellitus and obesity have confirmed the cardiovascular benefits of glucagon-like peptide 1 receptor agonists (GLP-1RAs), including reduced cardiovascular mortality, lower rates of myocardial infarction, and lower rates of stroke. The cardiovascular benefits observed following GLP-1RA treatment could be secondary to improvements in glycemia, blood pressure, postprandial lipidemia, and inflammation. Yet, the GLP-1R is also expressed in the heart and vasculature, suggesting that GLP-1R agonism may impact the cardiovascular system. The emergence of GLP-1RAs combined with glucose-dependent insulinotropic polypeptide and glucagon receptor agonists has shown promising results as new weight loss medications. Dual-agonist and tri-agonist therapies have demonstrated superior outcomes in weight loss, lowered blood sugar and lipid levels, restoration of tissue function, and enhancement of overall substrate metabolism compared to using GLP-1R agonists alone. However, the precise mechanisms underlying their cardiovascular benefits remain to be fully elucidated. This review aims to summarize the findings from CVOTs of GLP-1RAs, explore the latest data on dual and tri-agonist therapies, and delve into potential mechanisms contributing to their cardioprotective effects. It also addresses current gaps in understanding and areas for further research.",
+        "score": 0.9999997615814209,
+        "sub_questions": [
+          2
+        ]
+      },
+      {
+        "id": 4,
+        "pmid": "30677504",
+        "chunk_id": "30677504_0",
+        "title": "Efficacy and adherence of glucagon-like peptide-1 receptor agonist treatment in patients with type 2 diabetes mellitus in real-life settings.",
+        "year": 2019,
+        "journal": "Diabetes & metabolism",
+        "study_type": "Review",
+        "text": "Despite the availability of a large number of therapeutic options throughout the world, rates of optimal glycaemic control in adult patients with type 2 diabetes mellitus remain low. Delays in treatment intensification to insulin and low adherence to insulin regimes, which are well-documented contributors to poor glycaemic control, are in many cases driven by fear of hypoglycaemic events, weight gain and injections. Over the last 10 years, injectable glucagon-like peptide-1 receptor agonists (GLP1-RAs) have emerged as alternatives to basal insulin for treatment intensification in patients inadequately controlled with oral antidiabetic drugs. As a class, GLP1-RAs are associated with weight loss and fewer hypoglycaemic events than insulin. In addition, some of them are available in once-a-week formulations and therefore require fewer injections. However, as randomized controlled trials are not representative of everyday practice, physicians should consider the results of real-life studies to guide their treatment decisions. In this review, while significant variations in efficacy, tolerability and adherence data were noted from one study to another, rates of glycaemic control overall were low. Indeed, our present analysis has suggested that regular re-evaluations of treatment, including response, tolerability, adherence, cost and quality of life, are necessary.",
+        "score": 0.999997615814209,
+        "sub_questions": [
+          3
+        ]
+      },
+      {
+        "id": 5,
+        "pmid": "35914933",
+        "chunk_id": "35914933_0",
+        "title": "The role of GLP-1 receptor agonists in managing type 2 diabetes.",
+        "year": 2022,
+        "journal": "Cleveland Clinic journal of medicine",
+        "study_type": "Review",
+        "text": "Glucagon-like peptide-1 (GLP-1) receptor agonists improve glycemic control in patients with type 2 diabetes mellitus, have cardioprotective and renoprotective effects, and do not cause weight gain or significant hypoglycemia. In fact, they have been found to be effective for weight loss in patients with obesity with and without diabetes. They are now the preferred drugs to add to the regimen when oral metformin by itself is not enough to meet the patient's hemoglobin A1c goal.",
+        "score": 0.9999992847442627,
+        "sub_questions": [
+          0
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "claim": "Glycaemic efficacy: A 2017 meta\u2011analysis of 19 RCTs (7\u202f053 patients) found that adding a GLP\u20111\u202fRA to basal insulin lowered HbA1c by an additional 0.48\u202f% versus basal insulin \u00b1 rapid\u2011acting insulin (p\u202f<\u202f0.0001).",
+        "cited": [
+          1
+        ],
+        "status": "partial",
+        "method": "nli",
+        "best_cited": 0.9022342562675476,
+        "quote": "",
+        "note": "numbers not in cited evidence: ['053']",
+        "supported_by_other": [],
+        "unverified_numbers": [
+          "053"
+        ]
+      },
+      {
+        "claim": "Weight effect: The same meta\u2011analysis reported a mean weight loss of 2.60\u202fkg with basal insulin\u202f+\u202fGLP\u20111\u202fRA versus basal insulin \u00b1 rapid\u2011acting insulin (p\u202f<\u202f0.0001).",
+        "cited": [
+          1
+        ],
+        "status": "supported",
+        "method": "nli",
+        "best_cited": 0.9475006461143494,
+        "quote": "",
+        "note": "",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "Hypoglycaemia: Basal insulin\u202f+\u202fGLP\u20111\u202fRA was associated with a significantly lower risk of symptomatic hypoglycaemia (odds ratio\u202f0.52; 95\u202f%\u202fCI\u202f0.42\u20110.64; p\u202f<\u202f0.0001) compared with basal insulin\u202f+\u202frapid\u2011acting insulin.",
+        "cited": [
+          1
+        ],
+        "status": "supported",
+        "method": "nli",
+        "best_cited": 0.9826194047927856,
+        "quote": "",
+        "note": "",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "Gastrointestinal adverse events: Fixed\u2011ratio combinations of insulin and GLP\u20111\u202fRA (e.g., iGlarLixi, IDegLira) have a lower risk of gastrointestinal events compared with GLP\u20111\u202fRA monotherapy, according to a 2022 review of RCTs and real\u2011world data.",
+        "cited": [
+          2
+        ],
+        "status": "supported",
+        "method": "llm_judge",
+        "best_cited": 0.0020887060090899467,
+        "quote": "lower risk of gastrointestinal adverse effects in comparison to GLP-1 receptor agonists.",
+        "note": "none",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "Cardiovascular outcomes: While GLP\u20111\u202fRA monotherapy has demonstrated cardiovascular benefit in outcome trials, the 2024 review notes that data specifically for insulin\u202f+\u202fGLP\u20111\u202fRA combinations are limited and that cardiovascular benefits may be inferred from the GLP\u20111\u202fRA component alone.",
+        "cited": [
+          3
+        ],
+        "status": "miscited",
+        "method": "llm_judge",
+        "best_cited": 0.021772323176264763,
+        "quote": "",
+        "note": "no mention of insulin+GLP\u20111RA combos or inferred benefits",
+        "supported_by_other": [
+          1
+        ],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "Adherence and real\u2011world effectiveness: A 2019 review of real\u2011life studies indicates that GLP\u20111\u202fRA therapy is associated with better adherence and fewer hypoglycaemic events than insulin alone, though results vary across studies.",
+        "cited": [
+          4
+        ],
+        "status": "unsupported",
+        "method": "llm_judge",
+        "best_cited": 0.0013693138025701046,
+        "quote": "",
+        "note": "evidence cites fewer hypoglycaemic events, not adherence",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      }
+    ],
+    "summary": {
+      "claims": 6,
+      "supported": 3,
+      "partial": 1,
+      "unsupported": 1,
+      "miscited": 1,
+      "not_checkable": 0,
+      "citation_precision": 0.5,
+      "uncited_statements": 1,
+      "citation_coverage": 0.857
+    },
+    "relevance": 5,
+    "relevance_note": "SCORE: 5  \nREASON: The answer comprehensively lists and cites evidence supporting insulin + GLP\u20111 RA combination therapy, covering glycaemic efficacy, weight, hypoglycaemia, GI events, cardiovascular inference, and adherence, and clearly notes gaps.",
+    "invalid_citations": [],
+    "uncited_evidence": [
+      5
+    ],
+    "timings": {
+      "decompose": 0.8,
+      "retrieve": 48.1,
+      "synthesize": 1.5,
+      "verify": 15.9
+    }
+  },
+  {
+    "category": "subgroup",
+    "question": "What does the evidence say about metformin safety in patients with reduced kidney function?",
+    "sub_questions": [
+      "What does the evidence say about metformin safety in patients with reduced kidney function?"
+    ],
+    "answer": "Metformin is generally considered safe in patients with mild to moderate chronic kidney disease (CKD) when prescribing guidelines are followed, but the evidence is largely based on older reviews and observational data rather than contemporary randomized trials. The most recent systematic reviews (2017) highlight that metformin\u2019s safety profile is comparable to or better than other antidiabetic agents in older adults, yet they also note that data on renal adverse events are limited and of low quality. Earlier reviews (1999) emphasize that lactic acidosis is a rare but serious risk, especially in patients with impaired renal function (e.g., serum creatinine >130\u202f\u00b5mol/L), and that strict adherence to prescribing guidelines can mitigate this risk. No recent meta\u2011analysis or RCT directly addresses metformin safety in reduced kidney function, so the current evidence is primarily historical and observational.  \n\n- **Safety in mild to moderate CKD**: 2017 reviews suggest metformin is safe when guidelines are respected, but evidence is mainly observational and of low quality. [1][2]  \n- **Risk of lactic acidosis**: 1999 review reports a very low incidence (\u22480.03 per 1000 patient\u2011years) and notes that most cases occur in patients with impaired renal function (serum creatinine >130\u202f\u00b5mol/L). [3]  \n- **Guideline evolution**: Recent guidelines have become more lenient for patients with modest renal dysfunction, reflecting emerging data that question earlier reluctance. [1]  \n\nEvidence gaps: The available evidence does not include contemporary randomized controlled trials or systematic reviews specifically evaluating metformin safety in patients with reduced kidney function, leaving uncertainty about current risk estimates and optimal dosing thresholds.",
+    "evidence": [
+      {
+        "id": 1,
+        "pmid": "28770321",
+        "chunk_id": "28770321_0",
+        "title": "Metformin: clinical use in type 2 diabetes.",
+        "year": 2017,
+        "journal": "Diabetologia",
+        "study_type": "Review",
+        "text": "Metformin is one of the most popular oral glucose-lowering medications, widely considered to be the optimal initial therapy for patients with type 2 diabetes mellitus. Interestingly, there still remains controversy regarding the drug's precise mechanism of action, which is thought to involve a reduction in hepatic glucose production. It is now recommended as first-line treatment in various guidelines, including that of the EASD and ADA. Its favoured status lies in its efficacy, low cost, weight neutrality and good safety profile. Other benefits have also been described, including improvements in certain lipids, inflammatory markers, and a reduction in cardiovascular events, apparently independent from the drug's glucose-lowering effect. Data have emerged questioning the previous reluctance to use this agent in those with mild to moderate chronic kidney disease. Regulations guiding its use in patients with stable, modest renal dysfunction have, as a result, become more lenient in recent years. With no long-term studies comparing it against newer glucose-lowering drugs, some of which have more robust evidence for cardioprotection, metformin's established role as 'foundation therapy' in type 2 diabetes may justifiably be challenged.",
+        "score": 0.9999997615814209,
+        "sub_questions": [
+          0
+        ]
+      },
+      {
+        "id": 2,
+        "pmid": "29047344",
+        "chunk_id": "29047344_1",
+        "title": "Efficacy and safety of metformin in the management of type 2 diabetes mellitus in older adults: a systematic review for the development of recommendations to reduce potentially inappropriate prescribing.",
+        "year": 2017,
+        "journal": "BMC geriatrics",
+        "study_type": "Review",
+        "text": "Metformin is usually prescribed as first line therapy for type 2 diabetes mellitus (DM2). However, the benefits and risks of metformin may be different for older people. This systematic review examined the available evidence on the safety and efficacy of metformin in the management of DM2 in older adults. The findings were used to develop recommendations for the electronic decision support tool of the European project PRIMA-eDS. The systematic review followed a staged approach, initially searching for systematic reviews and meta-analyses first, and then individual studies when prior searches were inconclusive. The target population was older people (\u226565\u00a0years old) with DM2. Studies were included if they reported safety or efficacy outcomes with metformin (alone or in combination) for the management of DM2 compared to placebo, usual or no treatment, or other antidiabetics. Using the evidence identified, recommendations were developed using GRADE methodology. Fifteen studies were included (4 intervention and 11 observational studies). In ten studies at least 80% of participants were 65\u00a0years or older and 5 studies reported subgroup analyses by age. Comorbidities were reported by 9 studies, cognitive status was reported by 4 studies and functional status by 1 study. In general, metformin showed similar or better safety and efficacy than other specific or non-specific active treatments. However, these findings were mainly based on retrospective observational studies. Four recommendations were developed suggesting to discontinue the use of metformin for the management of DM2 in older adults with risk factors such as age\u00a0>\u00a080, gastrointestinal complaints during the last year and/or GFR \u226460\u00a0ml/min. On the evidence available, the safety and efficacy profiles of metformin appear to be better, and certainly no worse, than other treatments for the management of DM2 in older adults. However, the quality and quantity of the evidence is low, with scarce data on adverse events such as gastrointestinal complaints or renal failure. Further studies are needed to more reliably assess the benefits and risks of metformin in very old (>80), cognitively and functionally impaired older people.",
+        "score": 0.9999979734420776,
+        "sub_questions": [
+          0
+        ]
+      },
+      {
+        "id": 3,
+        "pmid": "10392666",
+        "chunk_id": "10392666_0",
+        "title": "A risk-benefit assessment of metformin in type 2 diabetes mellitus.",
+        "year": 1999,
+        "journal": "Drug safety",
+        "study_type": "Review",
+        "text": "Metformin has been used for over 40 years as an effective glucose-lowering agent in type 2 (noninsulin-dependent) diabetes mellitus. Typically it reduces basal and postprandial hyperglycaemia by about 25% in more than 90% of patients when either given alone or coadministered with other therapies including insulin during a programme of managed care. Metformin counters insulin resistance and offers benefits against many features of the insulin resistance syndrome (Syndrome X) by preventing bodyweight gain, reducing hyperinsulinaemia and improving the lipid profile. In contrast to sulphonylureas, metformin does not increase insulin secretion or cause serious hypoglycaemia. Treatment of type 2 diabetes mellitus with metformin from diagnosis also offers greater protection against the chronic vascular complications of type 2 diabetes mellitus. The most serious complication associated with metformin is lactic acidosis which has an incidence of about 0.03 cases per 1000 patients years of treatment and a mortality risk of about 0.015 per 1000 patient-years. Most cases occur in patients who are wrongly prescribed the drug, particularly patients with impaired renal function (e.g. serum creatinine level > 130 micromol/L or > 1.5 g/L). Other major contraindications include congestive heart failure, hypoxic states and advanced liver disease. Serious adverse events with metformin are predictable rather than spontaneous and are potentially preventable if the prescribing guidelines are respected. Gastrointestinal adverse effects, notably diarrhoea, occur in less than 20% of patients and remit when the dosage is reduced. The life-threatening risks associated with metformin are rare and could mostly be avoided by strict adherence to the prescribing guidelines. Given the 4 decades of clinical experience with metformin, its antihyperglycaemic efficacy and benefits against Syndrome X, metformin offers a very favourable risk-benefit assessment when compared with the chronic morbidity and premature mortality among patients with type 2 diabetes mellitus.",
+        "score": 0.99985671043396,
+        "sub_questions": [
+          0
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "claim": "Safety in mild to moderate CKD: 2017 reviews suggest metformin is safe when guidelines are respected, but evidence is mainly observational and of low quality.",
+        "cited": [
+          1,
+          2
+        ],
+        "status": "supported",
+        "method": "llm_judge",
+        "best_cited": 0.0008023289847187698,
+        "quote": "Data have emerged questioning the previous reluctance to use this agent in those with mild to moderate chronic kidney disease. Regulations guiding its use in patients with stable, modest renal dysfunction have, as a result, become more lenient in recent years.",
+        "note": "matches claim about safety and low\u2011quality evidence",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "Risk of lactic acidosis: 1999 review reports a very low incidence (\u22480.03 per 1000 patient\u2011years) and notes that most cases occur in patients with impaired renal function (serum creatinine >130\u202f\u00b5mol/L).",
+        "cited": [
+          3
+        ],
+        "status": "supported",
+        "method": "llm_judge",
+        "best_cited": 0.001605567871592939,
+        "quote": "The most serious complication associated with metformin is lactic acidosis which has an incidence of about 0.03 cases per 1000 patients years of treatment and a mortality risk of about 0.015 per 1000 patient-years. Most cases occur in patients who are wrongly prescribed the drug, particularly patients with impaired renal function (e.g. serum creatinine level > 130 micromol/L or > 1.5 g/L).",
+        "note": "matches incidence and renal function detail",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "Guideline evolution: Recent guidelines have become more lenient for patients with modest renal dysfunction, reflecting emerging data that question earlier reluctance.",
+        "cited": [
+          1
+        ],
+        "status": "supported",
+        "method": "nli",
+        "best_cited": 0.9984068274497986,
+        "quote": "",
+        "note": "",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      }
+    ],
+    "summary": {
+      "claims": 3,
+      "supported": 3,
+      "partial": 0,
+      "unsupported": 0,
+      "miscited": 0,
+      "not_checkable": 0,
+      "citation_precision": 1.0,
+      "uncited_statements": 4,
+      "citation_coverage": 0.429
+    },
+    "relevance": 5,
+    "relevance_note": "SCORE: 5  \nREASON: The answer directly discusses current evidence on metformin safety in reduced kidney function, cites systematic reviews, highlights risks, guideline changes, and clearly notes evidence gaps.",
+    "invalid_citations": [],
+    "uncited_evidence": [],
+    "timings": {
+      "decompose": 0.7,
+      "retrieve": 20.6,
+      "synthesize": 1.6,
+      "verify": 4.0
+    }
+  },
+  {
+    "category": "subgroup",
+    "question": "What patient characteristics should guide the choice between SGLT2 inhibitors and GLP-1 receptor agonists?",
+    "sub_questions": [
+      "Which patient characteristics (e.g., renal function, cardiovascular risk, heart failure status) influence the selection of an SGLT2 inhibitor over a GLP\u20111 receptor agonist for type 2 diabetes management?",
+      "How do weight loss goals and obesity status affect the decision to prescribe a GLP\u20111 receptor agonist versus an SGLT2 inhibitor in patients with type 2 diabetes?",
+      "What role does hypoglycemia risk and insulin use play in choosing between SGLT2 inhibitors and GLP\u20111 receptor agonists for individual patients with type 2 diabetes?",
+      "How do cost, insurance coverage, and medication adherence considerations guide the choice between SGLT2 inhibitors and GLP\u20111 receptor agonists in type 2 diabetes treatment?"
+    ],
+    "answer": "Patients should be selected for an SGLT2 inhibitor or a GLP\u20111 receptor agonist based on a combination of cardiovascular, renal, weight, hypoglycemia, and practical factors.  \n\n- **Cardiovascular and heart\u2011failure status**: Patients with established cardiovascular disease or heart failure should preferentially receive an SGLT2 inhibitor, whereas those with moderate\u2011to\u2011severe chronic kidney disease may be better served by a GLP\u20111 receptor agonist. [1]  \n- **Weight\u2011loss goals and obesity**: Both classes produce weight loss, but GLP\u20111 receptor agonists tend to yield greater reductions in body weight and are often chosen when weight loss is a primary goal. [4]  \n- **Hypoglycemia risk and insulin use**: SGLT2 inhibitors and GLP\u20111 receptor agonists have similar or lower hypoglycemia risk compared with other agents, and GLP\u20111 receptor agonists are recommended as the first injectable therapy in most patients, offering comparable glycemic control to insulin with lower hypoglycemia risk and weight loss. [5]  \n- **Cost, insurance coverage, and adherence**: GLP\u20111 receptor agonists can reduce overall healthcare costs relative to insulin and may improve adherence by reducing glucose\u2011monitoring burden, but drug discontinuation rates are higher; insurance coverage and patient affordability are critical determinants of choice. [5]  \n\nEvidence gaps: The available evidence does not directly compare cost\u2011effectiveness or adherence outcomes between the two classes in head\u2011to\u2011head trials.",
+    "evidence": [
+      {
+        "id": 1,
+        "pmid": "29944969",
+        "chunk_id": "29944969_0",
+        "title": "Cardiovascular outcome studies in type 2 diabetes: Comparison between SGLT2 inhibitors and GLP-1 receptor agonists.",
+        "year": 2018,
+        "journal": "Diabetes research and clinical practice",
+        "study_type": "Review",
+        "text": "Sodium-glucose cotransporter type 2 inhibitors (SGLT2is) and glucagon-like peptide-1 receptor agonists (GLP-1RAs) are two pharmacological classes that have proven their efficacy to reduce major cardiovascular events (MACEs) in patients with type 2 diabetes mellitus (T2DM) and established cardiovascular disease in large prospective cardiovascular outcome trials (CVOTs): EMPA-REG OUTCOME (empagliflozin), CANVAS (canagliflozin), LEADER (liraglutide) and SUSTAIN 6 (semaglutide). Some heterogeneity appears to exist between the various agents within the two pharmacological classes. Whether these positive results could be extrapolated to patients without cardiovascular disease is still unknown. The underlying mechanisms remain a matter of debate but appear to differ between SGLT2is and GLP-1RAs. One crucial question is which patient's characteristics should be taken into account to guide the choice between a SGLT2i or a GLP-1RA according to a personalized approach. Heart failure should encourage the use of a SGLT2i whereas moderate to severe chronic kidney disease should favour the prescription of a GLP-1RA. Despite the results of recent CVOTs, numerous patients who are good candidates for benefiting of these agents do not receive them in clinical practice. Currently, there is a paradigm shift in T2DM management, moving from a primary objective of glucose control to a cardiovascular and renal protection.",
+        "score": 0.9999997615814209,
+        "sub_questions": [
+          0
+        ]
+      },
+      {
+        "id": 2,
+        "pmid": "30288571",
+        "chunk_id": "30288571_0",
+        "title": "Management of hyperglycaemia in type 2 diabetes, 2018. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD).",
+        "year": 2018,
+        "journal": "Diabetologia",
+        "study_type": "Study",
+        "text": "The American Diabetes Association and the European Association for the Study of Diabetes convened a panel to update the prior position statements, published in 2012 and 2015, on the management of type 2 diabetes in adults. A systematic evaluation of the literature since 2014 informed new recommendations. These include additional focus on lifestyle management and diabetes self-management education and support. For those with obesity, efforts targeting weight loss, including lifestyle, medication and surgical interventions, are recommended. With regards to medication management, for patients with clinical cardiovascular disease, a sodium-glucose cotransporter-2 (SGLT2) inhibitor or a glucagon-like peptide-1 (GLP-1) receptor agonist with proven cardiovascular benefit is recommended. For patients with chronic kidney disease or clinical heart failure and atherosclerotic cardiovascular disease, an SGLT2 inhibitor with proven benefit is recommended. GLP-1 receptor agonists are generally recommended as the first injectable medication.",
+        "score": 0.9999918937683105,
+        "sub_questions": [
+          1,
+          0
+        ]
+      },
+      {
+        "id": 3,
+        "pmid": "27350752",
+        "chunk_id": "27350752_0",
+        "title": "SGLT2 inhibitors or GLP-1 receptor agonists as second-line therapy in type 2 diabetes: patient selection and perspectives.",
+        "year": 2016,
+        "journal": "Vascular health and risk management",
+        "study_type": "Review",
+        "text": "Controversy exists regarding the selection of second-line therapy for patients with type 2 diabetes mellitus (T2DM) who are unable to achieve glycemic control with metformin therapy alone. Newer pharmacologic treatments for T2DM include glucagon-like peptide-1 receptor agonists and sodium-glucose cotransporter 2 inhibitors. Both the classes of medication are efficacious, exhibit positive effects on weight, and are associated with minimal risk of hypoglycemia. The purpose of this review is to compare the clinical trial and real-world effectiveness data of glucagon-like peptide-1 receptor agonists versus sodium-glucose cotransporter 2 inhibitors related to A1c reduction, weight loss, cost-effectiveness, cardiovascular outcomes, and safety in patients with T2DM. This review summarizes comparative evidence for providers who are determining which of the two classes may be the most appropriate for a specific patient.",
+        "score": 0.9999997615814209,
+        "sub_questions": [
+          2,
+          3,
+          1
+        ]
+      },
+      {
+        "id": 4,
+        "pmid": "26700585",
+        "chunk_id": "26700585_1",
+        "title": "Network meta-analysis of treatments for type 2 diabetes mellitus following failure with metformin plus sulfonylurea.",
+        "year": 2016,
+        "journal": "Current medical research and opinion",
+        "study_type": "Meta-analysis",
+        "text": "Aims The efficacy and safety of sodium-glucose linked transporters (SGLT2s) plus metformin and a sulfonylurea (MET\u2009+\u2009SU) for the treatment of type 2 diabetes mellitus (T2DM) in patients who fail to achieve glycemic control with MET\u2009+\u2009SU, relative to other triple therapies licensed in the EU, were estimated. Methods A systematic literature review and network meta-analysis (NMA) of randomized controlled trials (RCTs) involving anti-diabetes treatments added to MET\u2009+\u2009SU were conducted. Of 2236 abstracts identified through a systematic literature review, 30 RCTs published between 2003 and 2013 were included. RCTs ranged from 12 to 52 weeks in duration, included 28 to 1274 patients, were of parallel design, and most were open-label. Comparators included placebo (reference treatment), SGLT2 inhibitors, dipeptidyl peptidase-4 (DPP-4) inhibitors, thiazolidinediones (TZDs), alpha-glucosidase inhibitors (AGIs), meglitinides, glucagon-like peptide 1 (GLP-1) analogues, and basal, bolus, and biphasic insulin, all added on to MET\u2009+\u2009SU, as well as basal and biphasic insulin added to MET and monotherapy. The mean change (%) in HbA1c levels compared to placebo was -0.86 for SGLT2 inhibitors, -0.68 for DPP-4 inhibitors, -0.93 for TZDs, and -1.07 for GLP-1 analogues, respectively. Only SGLT2 inhibitors and GLP-1 analogues led to a weight loss (-1.71 kg and -1.14 kg, respectively) and decrease in systolic blood pressure (SBP; -3.73 mmHg and -2.90 mmHg, respectively), while all other treatments showed either an increase or no changes in weight or SBP. Conclusion SGLT2 inhibitors are at least as effective as other classes of antidiabetic agents at controlling HbA1c levels, while providing the additional benefits of weight loss and reducing SBP. Additionally, since the risk of hypoglycemia is similar or reduced with SGLT2 inhibitors, patients do not have to trade off efficacy for tolerability. Similar findings were observed for GLP-1 analogues.",
+        "score": 0.9999885559082031,
+        "sub_questions": [
+          2
+        ]
+      },
+      {
+        "id": 5,
+        "pmid": "31255662",
+        "chunk_id": "31255662_0",
+        "title": "Initial injectable therapy in type 2 diabetes: Key considerations when choosing between glucagon-like peptide 1 receptor agonists and insulin.",
+        "year": 2019,
+        "journal": "Metabolism: clinical and experimental",
+        "study_type": "Review",
+        "text": "Managing type 2 diabetes is complex and necessitates careful consideration of patient factors such as engagement in self-care, comorbidities and costs. Since type 2 diabetes is a progressive disease, many patients will require injectable agents, usually insulin. Recent ADA-EASD guidelines recommend glucagon-like peptide 1 receptor agonists (GLP-1 RAs) as first injectable therapy in most cases. The basis for this recommendation is the similar glycemic efficacy of GLP-1 RAs and insulin, but with GLP-1 RAs promoting weight loss instead of weight gain, at lower hypoglycemia risk, and with cardiovascular benefits in patients with pre-existing cardiovascular disease. GLP-1 RAs also reduce burden of glucose self-monitoring. However, tolerability and costs are important considerations, and notably, rates of drug discontinuation are often higher for GLP-1 RAs than basal insulin. To minimize risk of gastrointestinal symptoms patients should be started on lowest doses of GLP-1 RAs and up-titrated slowly. Overall healthcare costs may be lower with GLP-1 RAs compared to insulin. Though patient-level costs may still be prohibitive, GLP-1 RAs can replace 50-80\u202funits of insulin daily and reduce costs associated with glucose self-monitoring. Decisions regarding initiating injectable therapy should be individualized. This review provides a framework to guide decision-making in the real-world setting.",
+        "score": 0.9999256134033203,
+        "sub_questions": [
+          3,
+          2
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "claim": "Cardiovascular and heart\u2011failure status: Patients with established cardiovascular disease or heart failure should preferentially receive an SGLT2 inhibitor, whereas those with moderate\u2011to\u2011severe chronic kidney disease may be better served by a GLP\u20111 receptor agonist.",
+        "cited": [
+          1
+        ],
+        "status": "supported",
+        "method": "nli",
+        "best_cited": 0.95821213722229,
+        "quote": "",
+        "note": "",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "Weight\u2011loss goals and obesity: Both classes produce weight loss, but GLP\u20111 receptor agonists tend to yield greater reductions in body weight and are often chosen when weight loss is a primary goal.",
+        "cited": [
+          4
+        ],
+        "status": "partial",
+        "method": "llm_judge",
+        "best_cited": 0.003166371723636985,
+        "quote": "Only SGLT2 inhibitors and GLP-1 analogues led to a weight loss (-1.71 kg and -1.14 kg, respectively)",
+        "note": "does not state GLP-1 > SGLT2",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "Hypoglycemia risk and insulin use: SGLT2 inhibitors and GLP\u20111 receptor agonists have similar or lower hypoglycemia risk compared with other agents, and GLP\u20111 receptor agonists are recommended as the first injectable therapy in most patients, offering comparable glycemic control to insulin with lower hypoglycemia risk and weight loss.",
+        "cited": [
+          5
+        ],
+        "status": "supported",
+        "method": "nli",
+        "best_cited": 0.9246166944503784,
+        "quote": "",
+        "note": "",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "Cost, insurance coverage, and adherence: GLP\u20111 receptor agonists can reduce overall healthcare costs relative to insulin and may improve adherence by reducing glucose\u2011monitoring burden, but drug discontinuation rates are higher; insurance coverage and patient affordability are critical determinants of choice.",
+        "cited": [
+          5
+        ],
+        "status": "partial",
+        "method": "llm_judge",
+        "best_cited": 0.012273755855858326,
+        "quote": "Overall healthcare costs may be lower with GLP-1 RAs compared to insulin.",
+        "note": "does not mention insurance coverage or affordability",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      }
+    ],
+    "summary": {
+      "claims": 4,
+      "supported": 2,
+      "partial": 2,
+      "unsupported": 0,
+      "miscited": 0,
+      "not_checkable": 0,
+      "citation_precision": 0.5,
+      "uncited_statements": 1,
+      "citation_coverage": 0.8
+    },
+    "relevance": 5,
+    "relevance_note": "SCORE: 5  \nREASON: The answer comprehensively lists key patient characteristics (cardiovascular/heart\u2011failure status, renal function, weight goals, hypoglycemia risk, and practical factors like cost and adherence) that guide the choice between SGLT2 inhibitors and GLP\u20111 receptor agonists.",
+    "invalid_citations": [],
+    "uncited_evidence": [
+      2,
+      3
+    ],
+    "timings": {
+      "decompose": 0.7,
+      "retrieve": 39.5,
+      "synthesize": 1.6,
+      "verify": 5.7
+    }
+  },
+  {
+    "category": "safety",
+    "question": "What are the main adverse effects of SGLT2 inhibitors compared with GLP-1 receptor agonists?",
+    "sub_questions": [
+      "What are the most common adverse effects associated with SGLT2 inhibitors in patients with type 2 diabetes?",
+      "What are the most common adverse effects associated with GLP-1 receptor agonists in patients with type 2 diabetes?",
+      "How do the adverse effect profiles of SGLT2 inhibitors compare to those of GLP-1 receptor agonists in terms of frequency and severity?"
+    ],
+    "answer": "SGLT2 inhibitors and GLP\u20111 receptor agonists both improve glycaemic control and cardiovascular outcomes in type\u202f2 diabetes, but their safety profiles differ. The most frequently reported adverse events for SGLT2 inhibitors are genital mycotic infections, with rarer but clinically significant risks of fractures and lower\u2011limb amputations, especially with canagliflozin. GLP\u20111 receptor agonists are most commonly associated with gastrointestinal side\u2011effects such as nausea and other GI discomfort, while hypoglycaemia is uncommon when not combined with sulfonylureas or insulin. Overall, SGLT2 inhibitors tend to cause more genitourinary and musculoskeletal adverse events, whereas GLP\u20111 receptor agonists mainly produce GI symptoms, with a lower incidence of serious events.  \n\n**Adverse effect profile of SGLT2 inhibitors**  \n- Genital mycotic infections are the most common adverse effect. [1]  \n- Fractures and lower\u2011limb amputations have been reported, particularly with canagliflozin. [1]  \n\n**Adverse effect profile of GLP\u20111 receptor agonists**  \n- Nausea and other gastrointestinal discomfort are the most common adverse events. [2]  \n- Hypoglycaemia is rarely reported when not combined with sulfonylureas or insulin. [2]  \n\n**Comparison of frequency and severity**  \n- SGLT2 inhibitors have a higher incidence of genitourinary infections and a small but notable risk of fractures and amputations, which are considered more serious than the typical GI side\u2011effects of GLP\u20111 receptor agonists. [1]  \n- GLP\u20111 receptor agonists produce mainly mild to moderate GI symptoms, with a lower likelihood of severe adverse events compared with the musculoskeletal and genitourinary risks of SGLT2 inhibitors. [2]  \n\nEvidence gaps: No direct head\u2011to\u2011head randomized trials comparing the full spectrum of adverse events between the two classes are reported in the available evidence.",
+    "evidence": [
+      {
+        "id": 1,
+        "pmid": "30148719",
+        "chunk_id": "30148719_0",
+        "title": "SGLT2 inhibitors: practical considerations and recommendations for cardiologists.",
+        "year": 2018,
+        "journal": "Current opinion in cardiology",
+        "study_type": "Review",
+        "text": "To address common concerns regarding sodium-glucose cotransporter 2 (SGLT2) inhibitor use for patients with type 2 diabetes mellitus (T2DM) in cardiovascular practice. SGLT2 inhibitors provide glycemic control and improve cardiovascular and renal endpoints in T2DM. Cardiovascular outcome trials have demonstrated sustained cardiovascular, heart failure and renal benefits independent of glycemic control, which persist down to an eGFR of 30\u200aml/min/1.73\u200am. SGLT2 inhibitors can be safely administered alongside common diuretics, and routine monitoring of renal function is advised at initiation of therapy, particularly for patients on loop diuretics. Mild initial reductions in eGFR are expected, usually stabilizing over time. The most common adverse effect noted with SGLT2 inhibitors is genital mycotic infections, primarily in women. Less common, but concerning effects associated with canagliflozin include increased risk of fractures and lower limb amputations, particularly in patients with previous amputation history. Overall, SGLT2 inhibitors are well tolerated and effective adjuncts to diabetic treatment, for which the benefits seem to outweigh the risks. The care of patients with T2DM requires an interdisciplinary team approach, within which the role of cardiologists is expanding. SGLT2 inhibitors are an encouraging treatment option for achieving glycemic control, whilst also improving cardiovascular and renal outcomes.",
+        "score": 0.9999985694885254,
+        "sub_questions": [
+          0
+        ]
+      },
+      {
+        "id": 2,
+        "pmid": "26573176",
+        "chunk_id": "26573176_0",
+        "title": "Treatment potential of the GLP-1 receptor agonists in type 2 diabetes mellitus: a review.",
+        "year": 2016,
+        "journal": "Expert review of clinical pharmacology",
+        "study_type": "Review",
+        "text": "Over the last decade, the discovery of glucagon-like peptide 1 receptor agonists (GLP-1 RAs) has increased the treatment options for patients with type 2 diabetes mellitus (T2DM). GLP-1 RAs mimic the effects of native GLP-1, which increases insulin secretion, inhibits glucagon secretion, increases satiety and slows gastric emptying. This review evaluates the phase III trials for all approved GLP-1 RAs and reports that all GLP-1 RAs decrease HbA1c, fasting plasma glucose, and lead to a reduction in body weight in the majority of trials. The most common adverse events are nausea and other gastrointestinal discomfort, while hypoglycaemia is rarely reported when GLP-1 RAs not are combined with sulfonylurea or insulin. Treatment options in the near future will include co-formulations of basal insulin and a GLP-1 RA.",
+        "score": 0.9999998807907104,
+        "sub_questions": [
+          1
+        ]
+      },
+      {
+        "id": 3,
+        "pmid": "41454299",
+        "chunk_id": "41454299_0",
+        "title": "SGLT2 inhibitors versus GLP-1 receptor agonists for major adverse cardiovascular events in type 2 diabetes: a systematic review and meta-analysis of randomized controlled trials.",
+        "year": 2025,
+        "journal": "BMC cardiovascular disorders",
+        "study_type": "Meta-analysis",
+        "text": "BACKGROUND: Cardiovascular disease is the leading cause of morbidity and mortality in type 2 diabetes mellitus (T2DM). Sodium-glucose cotransporter-2 inhibitors (SGLT2i) and glucagon-like peptide-1 receptor agonists (GLP-1RA) have been shown to reduce cardiovascular risk, but direct comparison is limited. Objective: Compare the effects of SGLT2 inhibitors and GLP-1 receptor agonist on major adverse cardiovascular events (MACE) in adults with T2DM using randomized controlled trials and indirect comparisons. METHODS: A systematic search of PubMed, Scopus, CENTRAL, and Google Scholar was conducted through October 20, 2025, following PRISMA 2020 guidelines. The protocol was registered with PROSPERO (CRD420251168485). We included randomized controlled trials (RCTs) of SGLT2i or GLP-1RA versus placebo in adults with T2DM that reported cardiovascular or renal outcomes. Pooled hazard ratios (HRs) with 95% confidence intervals (CIs) were calculated using the generic inverse variance method with a random-effects model. An indirect treatment comparison was performed using the Bucher method. Risk of bias was assessed with the Cochrane RoB 1 tool. RESULTS: We reviewed twelve trials involving 99,261 individuals (5 SGLT2i, 7 GLP-1RA). Compared to placebo, SGLT2i significantly reduced MACE (HR 0.89, 95% CI 0.84\u20130.95; p = 0.0003), as did GLP-1RA (HR 0.82, 95% CI 0.78\u20130.87; p < 0.00001). The indirect comparison indicated a nominally greater MACE reduction with GLP-1RA (HR 1.09, 95% CI 1.00\u20131.18; p = 0.0497). SGLT2i demonstrated pronounced benefits for heart failure hospitalization (HR 0.68) and composite renal outcomes (HR 0.69), while GLP-1RA showed significant but more modest effects on these endpoints and greater benefits for atherosclerotic events and weight loss. CONCLUSION: Both SGLT2i and GLP-1RA are highly effective in reducing MACE in high-risk T2DM. Their markedly different secondary outcome profiles for heart failure, renal protection, atherosclerotic events, and weight loss underscore that they are complementary rather than interchangeable. The optimal choice should be individualized based on the patient's predominant comorbidities, treatment goals, and local access.",
+        "score": 0.9999990463256836,
+        "sub_questions": [
+          2
+        ]
+      },
+      {
+        "id": 4,
+        "pmid": "33567084",
+        "chunk_id": "33567084_0",
+        "title": "SGLT2 inhibitors: a narrative review of efficacy and safety.",
+        "year": 2021,
+        "journal": "Journal of osteopathic medicine",
+        "study_type": "Review",
+        "text": "Type 2 diabetes mellitus (T2DM) is a cardio-renal-metabolic condition that is frequently associated with multiple comorbidities, including atherosclerotic cardiovascular disease (ASCVD), heart failure (HF), and chronic kidney disease (CKD). The sodium-glucose co-transporter-2 (SGLT2) inhibitors, which lower glycated hemoglobin, fasting and postprandial plasma glucose levels, body weight, and blood pressure, as well as reduce the risk of a range of cardiovascular and renal outcomes without increasing hypoglycaemic risk, have heralded a paradigm shift in the management of T2DM. These drugs are compatible with most other glucose-lowering agents and can be used in patients with a wide range of comorbid conditions, including ASCVD, HF, and CKD, and in those with estimated glomerular filtration rates as low as 30\u00a0mL/min/1.73\u00a0m2. However, there are misunderstandings surrounding the clinical implications of SGLT2 inhibitors' mechanism of action and concerns about the key adverse events with which this class of drugs has been associated. This narrative review summarizes the data that support the efficacy of SGLT2 inhibitors in reducing the risks of cardiovascular and renal outcomes in patients with T2DM and comorbid conditions and clarifies information relating to SGLT2 inhibitor-related adverse events.",
+        "score": 0.9999984502792358,
+        "sub_questions": [
+          0
+        ]
+      },
+      {
+        "id": 5,
+        "pmid": "39268978",
+        "chunk_id": "39268978_0",
+        "title": "Assessing the therapeutic and toxicological profile of novel GLP-1 receptor agonists for type 2 diabetes.",
+        "year": 2024,
+        "journal": "Expert opinion on drug metabolism & toxicology",
+        "study_type": "Review",
+        "text": "GLP-1 receptor agonists provide multiple benefits for patients with type 2 diabetes. Nonetheless, there are also several significant adverse effects associated with these agents. A thorough understanding of both therapeutic and toxicological profiles of GLP-1 receptor agonists is crucial for appropriate utilization of this medication class. A literature search of PubMed and ClinicalTrials.gov was carried out to inform discussion on the topic. This review article discusses the key advantages and disadvantages derived from the use of GLP-1 receptor agonists in the treatment of type 2 diabetes. Landmark trials which helped characterize the cardiovascular and renal benefits of GLP-1 receptor agonists are highlighted. We also discuss key studies still in progress and new formulations under investigation. GLP-1 receptor agonists provide glycemic and complication-risk reduction benefits for individuals with type 2 diabetes. Current data suggests there is a lot of potential for further applications, even outside of type 2 diabetes management. It would be of particular interest to see the range of benefits conferred from GLP-1 receptor agonists in individuals without type 2 diabetes. Broader application of these medications could be expected given the ongoing development of new oral formulations and combination agents.",
+        "score": 0.9999998807907104,
+        "sub_questions": [
+          1
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "claim": "Genital mycotic infections are the most common adverse effect.",
+        "cited": [
+          1
+        ],
+        "status": "supported",
+        "method": "nli",
+        "best_cited": 0.9619148969650269,
+        "quote": "",
+        "note": "",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "Fractures and lower\u2011limb amputations have been reported, particularly with canagliflozin.",
+        "cited": [
+          1
+        ],
+        "status": "supported",
+        "method": "nli",
+        "best_cited": 0.9931556582450867,
+        "quote": "",
+        "note": "",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "Nausea and other gastrointestinal discomfort are the most common adverse events.",
+        "cited": [
+          2
+        ],
+        "status": "supported",
+        "method": "nli",
+        "best_cited": 0.9934194684028625,
+        "quote": "",
+        "note": "",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "Hypoglycaemia is rarely reported when not combined with sulfonylureas or insulin.",
+        "cited": [
+          2
+        ],
+        "status": "supported",
+        "method": "llm_judge",
+        "best_cited": 0.0031290240585803986,
+        "quote": "hypoglycaemia is rarely reported when GLP-1 RAs not are combined with sulfonylurea or insulin.",
+        "note": "none",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "SGLT2 inhibitors have a higher incidence of genitourinary infections and a small but notable risk of fractures and amputations, which are considered more serious than the typical GI side\u2011effects of GLP\u20111 receptor agonists.",
+        "cited": [
+          1
+        ],
+        "status": "partial",
+        "method": "llm_judge",
+        "best_cited": 0.0035792547278106213,
+        "quote": "The most common adverse effect noted with SGLT2 inhibitors is genital mycotic infections, primarily in women. Less common, but concerning effects associated with canagliflozin include increased risk of fractures and lower limb amputations, particularly in patients with previous amputation history.",
+        "note": "does not compare seriousness to GLP-1 RA GI side\u2011effects",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "GLP\u20111 receptor agonists produce mainly mild to moderate GI symptoms, with a lower likelihood of severe adverse events compared with the musculoskeletal and genitourinary risks of SGLT2 inhibitors.",
+        "cited": [
+          2
+        ],
+        "status": "unsupported",
+        "method": "llm_judge",
+        "best_cited": 0.0006432496593333781,
+        "quote": "",
+        "note": "no mention of musculoskeletal/genitourinary risks of SGLT2 inhibitors",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      }
+    ],
+    "summary": {
+      "claims": 6,
+      "supported": 4,
+      "partial": 1,
+      "unsupported": 1,
+      "miscited": 0,
+      "not_checkable": 0,
+      "citation_precision": 0.667,
+      "uncited_statements": 4,
+      "citation_coverage": 0.6
+    },
+    "relevance": 5,
+    "relevance_note": "SCORE: 5  \nREASON: The answer clearly lists and compares the main adverse effects of SGLT2 inhibitors and GLP\u20111 receptor agonists, addressing the question directly.",
+    "invalid_citations": [],
+    "uncited_evidence": [
+      3,
+      4,
+      5
+    ],
+    "timings": {
+      "decompose": 0.9,
+      "retrieve": 28.2,
+      "synthesize": 2.0,
+      "verify": 14.0
+    }
+  },
+  {
+    "category": "safety",
+    "question": "What is the risk of lactic acidosis with metformin compared with other glucose-lowering drugs?",
+    "sub_questions": [
+      "What is the incidence of lactic acidosis in patients treated with metformin compared to those treated with GLP\u20111 receptor agonists?",
+      "How does the risk of lactic acidosis in metformin users compare with the risk in patients using SGLT2 inhibitors?",
+      "What is the relative risk of lactic acidosis in patients on metformin versus those on insulin therapy?"
+    ],
+    "answer": "Metformin is associated with an extremely low incidence of lactic acidosis in patients with type\u202f2 diabetes. Meta\u2011analyses of over 200 comparative trials and cohort studies found no reported cases of fatal or non\u2011fatal lactic acidosis in more than 47\u202f000 patient\u2011years of metformin exposure, and the upper limit of the true incidence was estimated at 4.3 cases per 100\u202f000 patient\u2011years [1][2]. Similar findings were reported in an earlier review of 176 studies, which also found no cases in 35\u202f000 patient\u2011years of metformin use and calculated an upper limit of 5.4 cases per 100\u202f000 patient\u2011years for non\u2011metformin therapies [4].\n\n**Comparison with other glucose\u2011lowering drugs**\n\n- **GLP\u20111 receptor agonists** \u2013 No direct comparative incidence data are provided in the available evidence; the meta\u2011analyses above compare metformin with placebo or non\u2011metformin therapies in aggregate, but do not separate GLP\u20111 agents [1][2][4].\n- **SGLT2 inhibitors** \u2013 The evidence does not report a comparative risk of lactic acidosis between metformin and SGLT2 inhibitors; no incidence data for SGLT2 inhibitors are included in the cited reviews [1][2][4].\n- **Insulin therapy** \u2013 The reviews do not provide a specific comparison of lactic acidosis risk between metformin and insulin; incidence data for insulin are not reported in the cited studies [1][2][4].\n\n**Evidence gaps:** The available systematic reviews do not provide direct, drug\u2011specific comparisons of lactic acidosis incidence between metformin and GLP\u20111 receptor agonists, SGLT2 inhibitors, or insulin therapy. Further comparative studies are needed to quantify relative risks among these agents.",
+    "evidence": [
+      {
+        "id": 1,
+        "pmid": "16437448",
+        "chunk_id": "16437448_2",
+        "title": "Risk of fatal and nonfatal lactic acidosis with metformin use in type 2 diabetes mellitus.",
+        "year": 2006,
+        "journal": "The Cochrane database of systematic reviews",
+        "study_type": "Meta-analysis",
+        "text": "Metformin is an oral anti-hyperglycemic agent used in the treatment of type 2 diabetes mellitus. The results of the UK Prospective Diabetes Study indicate that metformin treatment is associated with a reduction in total mortality compared to other anti-hyperglycemic treatments. Metformin, however, is thought to increase the risk of lactic acidosis, and is considered to be contraindicated in many chronic hypoxemic conditions that may be associated with lactic acidosis, such as cardiovascular, renal, hepatic and pulmonary disease, and advancing age. To assess the incidence of fatal and nonfatal lactic acidosis with metformin use compared to placebo and other glucose-lowering treatments in patients with type 2 diabetes mellitus. A secondary objective was to evaluate the blood lactate levels for those on metformin treatment compared to placebo or non-metformin therapies. A search was performed of The Cochrane Library (up to 8/2005), MEDLINE (up to 8/2005), EMBASE (up to 11/2000), OLD MEDLINE, and REACTIONS (up to 8/2005), in order to identify all studies of metformin treatment from 1966 to August 2005. The Cumulated Index Medicus was used to search relevant articles from 1959 to 1965. The search was augmented by scanning references of identified articles, and by contacting principal investigators. Date of latest search: August 2005. Prospective trials in patients with type 2 diabetes that lasted longer than one month were included if they evaluated metformin, alone or in combination with other treatments, compared to placebo or any other glucose-lowering therapy. Observational cohort studies of metformin treatment lasting greater than one month were also included. Two reviewers independently selected trials to be included, assessed study quality and extracted data. The incidence of fatal and nonfatal lactic acidosis was recorded as cases per patient-years, for metformin treatment and for placebo or other treatments. The upper limit for the true incidence of cases in the metformin and non-metformin groups were calculated using Poisson statistics. In a second analysis lactate levels were measured as a net change from baseline or as mean treatment values (basal and stimulated by food or exercise) for treatment and comparison groups. The pooled results were recorded as a weighted mean difference (WMD) in mmol/L, using the fixed effect model for continuous data. Pooled data from 206 comparative trials and cohort studies revealed no cases of fatal or nonfatal lactic acidosis in 47,846 patient-years of metformin use or in 38,221 patients-years in the non-metformin ",
+        "score": 0.9999916553497314,
+        "sub_questions": [
+          0,
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "pmid": "20393934",
+        "chunk_id": "20393934_0",
+        "title": "Risk of fatal and nonfatal lactic acidosis with metformin use in type 2 diabetes mellitus.",
+        "year": 2010,
+        "journal": "The Cochrane database of systematic reviews",
+        "study_type": "Review",
+        "text": "Metformin is an oral anti-hyperglycemic agent that has been shown to reduce total mortality compared to other anti-hyperglycemic agents, in the treatment of type 2 diabetes mellitus. Metformin, however, is thought to increase the risk of lactic acidosis, and has been considered to be contraindicated in many chronic hypoxemic conditions that may be associated with lactic acidosis, such as cardiovascular, renal, hepatic and pulmonary disease, and advancing age. To assess the incidence of fatal and nonfatal lactic acidosis, and to evaluate blood lactate levels, for those on metformin treatment compared to placebo or non-metformin therapies. A comprehensive search was performed of electronic databases to identify studies of metformin treatment. The search was augmented by scanning references of identified articles, and by contacting principal investigators. Prospective trials and observational cohort studies in patients with type 2 diabetes of least one month duration were included if they evaluated metformin, alone or in combination with other treatments, compared to placebo or any other glucose-lowering therapy. The incidence of fatal and nonfatal lactic acidosis was recorded as cases per patient-years, for metformin treatment and for non-metformin treatments. The upper limit for the true incidence of cases was calculated using Poisson statistics. In a second analysis lactate levels were measured as a net change from baseline or as mean treatment values (basal and stimulated by food or exercise) for treatment and comparison groups. The pooled results were recorded as a weighted mean difference (WMD) in mmol/L, using the fixed-effect model for continuous data. Pooled data from 347 comparative trials and cohort studies revealed no cases of fatal or nonfatal lactic acidosis in 70,490 patient-years of metformin use or in 55,451 patients-years in the non-metformin group. Using Poisson statistics the upper limit for the true incidence of lactic acidosis per 100,000 patient-years was 4.3 cases in the metformin group and 5.4 cases in the non-metformin group. There was no difference in lactate levels, either as mean treatment levels or as a net change from baseline, for metformin compared to non-metformin therapies. There is no evidence from prospective comparative trials or from observational cohort studies that metformin is associated with an increased risk of lactic acidosis, or with increased levels of lactate, compared to other anti-hyperglycemic treatments.",
+        "score": 0.9999997615814209,
+        "sub_questions": [
+          2,
+          1
+        ]
+      },
+      {
+        "id": 3,
+        "pmid": "14749143",
+        "chunk_id": "14749143_1",
+        "title": "Metformin hydrochloride in the treatment of type 2 diabetes mellitus: a clinical review with a focus on dual therapy.",
+        "year": 2003,
+        "journal": "Clinical therapeutics",
+        "study_type": "Review",
+        "text": "Type 2 diabetes mellitus typically involves abnormal beta-cell function that results in relative insulin deficiency, insulin resistance accompanied by decreased glucose transport into muscle and fat cells, and increased hepatic glucose output, all of which contribute to hyperglycemia. This review examines the pharmacology, pharmacokinetics, drug-interaction potential, adverse effects, and dosing guidelines for metformin hydrochloride, a biguanide agent for the treatment of type 2 diabetes. Clinical trial data are reviewed, including efficacy and tolerability information, with a focus on studies of dual metformin therapy (metformin plus another oral agent or insulin) published from 1998 to the present. Pharmacoeconomic considerations are also discussed. Primary research and review articles were identified through a search of MEDLINE (1966-May 2003) and International Pharmaceutical Abstracts (1970-May 2003) using the terms metformin and/or Glucophage. Web of Science (1995-May 2003) was used to search for additional abstracts. The package inserts for metformin and metformin combination products were consulted. All identified articles and abstracts were assessed for relevance, and all relevant information was included. Priority was given to the primary medical literature and clinical trial reports. Metformin is the only currently available oral antidiabetic/hypoglycemic agent that acts predominantly by inhibiting hepatic glucose release. Because patients with type 2 diabetes often have excess hepatic glucose output, use of metformin is effective in lowering glycosylated hemoglobin (HbA1c) by 1 to 2 percentage points when used as monotherapy or in combination with other blood glucose-lowering agents or insulin. Other metabolic variables (eg, dyslipidemia, fibrinolysis) may be improved with the use of metformin. Body weight is often maintained or slightly reduced from baseline. Metformin is well tolerated and is associated with few clinically deleterious adverse events. The most important and potentially life-threatening adverse event associated with its use is lactic acidosis, which occurs very rarely. Metformin has multiple benefits in patients with type 2 diabetes. It can effectively lower HbA1c values, positively affect lipid profiles, and improve vascular and hemodynamic indices. Adverse effects are generally tolerable and self-limiting. The availability of products combining metformin with a sulfonylurea or rosiglitazone has expanded the array of therapies for the management of type 2 diabetes.",
+        "score": 0.9999836683273315,
+        "sub_questions": [
+          0
+        ]
+      },
+      {
+        "id": 4,
+        "pmid": "12076461",
+        "chunk_id": "12076461_0",
+        "title": "Risk of fatal and nonfatal lactic acidosis with metformin use in type 2 diabetes mellitus.",
+        "year": 2002,
+        "journal": "The Cochrane database of systematic reviews",
+        "study_type": "Review",
+        "text": "Metformin is an oral anti-hyperglycemic agent used in the treatment of type 2 diabetes mellitus. The results of the UK Prospective Diabetes Study indicate that metformin treatment is associated with a reduction in total mortality compared to other anti-hyperglycemic treatments. Metformin, however, is thought to increase the risk of lactic acidosis, and is considered to be contraindicated in many chronic hypoxemic conditions that may be associated with lactic acidosis, such as cardiovascular, renal, hepatic and pulmonary disease, and advancing age. To assess the incidence of fatal and nonfatal lactic acidosis with metformin use compared to placebo and other glucose-lowering treatments in patients with type 2 diabetes mellitus. A secondary objective was to evaluate the blood lactate levels for those on metformin treatment compared to placebo or non-metformin therapies. A search was performed of the Cochrane Controlled Trials Register and the Database of Abstracts of Reviews of Effectiveness (up to 4/2000), Medline (up to 11/2000), Embase (up to 11/2000), Oldmedline, and Reactions (up to 5/2000), in order to identify all studies of metformin treatment from 1966 to November 2000. The Cumulated Index Medicus was used to search relevant articles from 1959 to 1965. The search was augmented by scanning references of identified articles, and by contacting principal investigators. Date of latest search: November 2000. Prospective trials in patients with type 2 diabetes that lasted longer than one month were included if they evaluated metformin, alone or in combination with other treatments, compared to placebo or any other glucose-lowering therapy. Observational cohort studies of metformin treatment lasting greater than one month were also included. Two reviewers independently selected trials to be included, assessed study quality and extracted data. The incidence of fatal and nonfatal lactic acidosis was recorded as cases per patient-years, for metformin treatment and for placebo or other treatments. The upper limit for the true incidence of cases in the metformin and non-metformin groups were calculated using Poisson statistics. In a second analysis lactate levels were measured as a net change from baseline or as mean treatment values (basal and stimulated by food or exercise) for treatment and comparison groups. The pooled results were recorded as a weighted mean difference (WMD) in mmol/L, using the fixed effects model for continuous data. Pooled data from 176 comparative trials and cohort studies revealed no cases of fatal or nonfatal lactic acidosis in 35,61",
+        "score": 0.9999997615814209,
+        "sub_questions": [
+          2
+        ]
+      },
+      {
+        "id": 5,
+        "pmid": "28530382",
+        "chunk_id": "28530382_0",
+        "title": "Diabetes Update: New Pharmacotherapy for Type 2 Diabetes.",
+        "year": 2017,
+        "journal": "FP essentials",
+        "study_type": "Review",
+        "text": "Multiple new drugs for managing type 2 diabetes have entered the market in the past 5 years. Guidelines from the American Diabetes Association recommend metformin for initial therapy, followed by a second drug if A1c goals are not met or initially for patients with A1c levels greater than 9%. Conversely, the American Association of Clinical Endocrinologists recommends initial management with two drugs if the A1c level is greater than 7.5%. The risk of lactic acidosis associated with metformin has been shown to be less than previously thought, with newer guidelines permitting use with an estimated glomerular filtration rate of 45 to 60 mL/min/1.73 m2. Newer studies provide a better understanding of the mechanisms of and indications for use of sodium-dependent glucose cotransporter 2 inhibitors, glucagon-like peptide 1 receptor agonists, and inhaled insulin.",
+        "score": 0.9999829530715942,
+        "sub_questions": [
+          0
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "claim": "Meta\u2011analyses of over 200 comparative trials and cohort studies found no reported cases of fatal or non\u2011fatal lactic acidosis in more than 47\u202f000 patient\u2011years of metformin exposure, and the upper limit of the true incidence was estimated at 4.3 cases per 100\u202f000 patient\u2011years.",
+        "cited": [
+          1,
+          2
+        ],
+        "status": "partial",
+        "method": "nli",
+        "best_cited": 0.9718999266624451,
+        "quote": "",
+        "note": "numbers not in cited evidence: ['000', '100', '200', '47']",
+        "supported_by_other": [],
+        "unverified_numbers": [
+          "000",
+          "100",
+          "200",
+          "47"
+        ]
+      },
+      {
+        "claim": "Similar findings were reported in an earlier review of 176 studies, which also found no cases in 35\u202f000 patient\u2011years of metformin use and calculated an upper limit of 5.4 cases per 100\u202f000 patient\u2011years for non\u2011metformin therapies.",
+        "cited": [
+          4
+        ],
+        "status": "partial",
+        "method": "llm_judge",
+        "best_cited": 0.0003989558608736843,
+        "quote": "Pooled data from 176 comparative trials and cohort studies revealed no cases of fatal or nonfatal lactic acidosis in 35,61",
+        "note": "numbers not in cited evidence: ['000', '100', '35', '5.4']",
+        "supported_by_other": [],
+        "unverified_numbers": [
+          "000",
+          "100",
+          "35",
+          "5.4"
+        ]
+      },
+      {
+        "claim": "GLP\u20111 receptor agonists \u2013 No direct comparative incidence data are provided in the available evidence; the meta\u2011analyses above compare metformin with placebo or non\u2011metformin therapies in aggregate, but do not separate GLP\u20111 agents.",
+        "cited": [
+          1,
+          2,
+          4
+        ],
+        "status": "unsupported",
+        "method": "llm_judge",
+        "best_cited": 0.023896561935544014,
+        "quote": "the meta\u2011analyses above compare metformin with placebo or non\u2011metformin therapies in aggregate, but do not separate GLP\u20111 agents.",
+        "note": "judge's quote not found in cited evidence",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "SGLT2 inhibitors \u2013 The evidence does not report a comparative risk of lactic acidosis between metformin and SGLT2 inhibitors; no incidence data for SGLT2 inhibitors are included in the cited reviews.",
+        "cited": [
+          1,
+          2,
+          4
+        ],
+        "status": "unsupported",
+        "method": "llm_judge",
+        "best_cited": 0.3800148367881775,
+        "quote": "The evidence does not report a comparative risk of lactic acidosis between metformin and SGLT2 inhibitors; no incidence data for SGLT2 inhibitors are included in the cited reviews.",
+        "note": "judge's quote not found in cited evidence",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "Insulin therapy \u2013 The reviews do not provide a specific comparison of lactic acidosis risk between metformin and insulin; incidence data for insulin are not reported in the cited studies.",
+        "cited": [
+          1,
+          2,
+          4
+        ],
+        "status": "not_checkable",
+        "method": "rule",
+        "best_cited": 0.07595759630203247,
+        "quote": "",
+        "note": "",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      }
+    ],
+    "summary": {
+      "claims": 5,
+      "supported": 0,
+      "partial": 2,
+      "unsupported": 2,
+      "miscited": 0,
+      "not_checkable": 1,
+      "citation_precision": 0.0,
+      "uncited_statements": 1,
+      "citation_coverage": 0.833
+    },
+    "relevance": 5,
+    "relevance_note": "SCORE: 5  \nREASON: The answer clearly states the low incidence of lactic acidosis with metformin, compares it to other glucose\u2011lowering drugs, and transparently notes the lack of direct comparative data, fully addressing the question.",
+    "invalid_citations": [],
+    "uncited_evidence": [
+      3,
+      5
+    ],
+    "timings": {
+      "decompose": 1.1,
+      "retrieve": 68.2,
+      "synthesize": 1.6,
+      "verify": 24.2
+    }
+  },
+  {
+    "category": "mechanism",
+    "question": "What mechanisms explain the kidney-protective effects of SGLT2 inhibitors?",
+    "sub_questions": [
+      "What mechanisms explain the kidney-protective effects of SGLT2 inhibitors?"
+    ],
+    "answer": "SGLT2 inhibitors protect the kidney through several interrelated mechanisms that extend beyond glucose lowering. They reduce intraglomerular pressure and filtration load, improve cortical oxygenation, and lessen tubular glucotoxicity, which together dampen inflammation and fibrosis while preserving glomerular filtration rate over time. Additionally, the drugs induce a mild systemic hypoxic signal that stimulates erythropoiesis, enhancing oxygen delivery to renal tissue. They also promote ketogenesis, optimize myocardial energy metabolism, attenuate inflammation, improve iron metabolism, lower blood pressure, reduce uric acid, and enhance endothelial function, all of which contribute to renal protection.  \n\n- **Reduction of glomerular pressure and filtration** \u2192 less physical stress on the filtration barrier and lower oxygen demand for tubular reabsorption, improving cortical oxygenation and reducing pro\u2011inflammatory and profibrotic signaling [2].  \n- **Improved tubular function** through decreased glucotoxicity, enhanced mitochondrial function, and autophagy, preserving tubular health and GFR long term [2].  \n- **Systemic hypoxia\u2011like effect** that stimulates erythropoiesis, increasing oxygen delivery to the kidney and other organs [2].  \n- **Ketogenesis and metabolic shifts** that optimize myocardial and renal energy metabolism, reduce lipotoxicity, and attenuate inflammation [3].  \n- **Blood pressure lowering, uric acid reduction, and improved endothelial function** that collectively support renal perfusion and reduce damage [3].  \n\nEvidence gaps: The mechanisms described are based on review articles; direct experimental evidence from randomized trials or mechanistic studies is not cited here.",
+    "evidence": [
+      {
+        "id": 1,
+        "pmid": "32067179",
+        "chunk_id": "32067179_0",
+        "title": "SGLT2 inhibitor therapy in patients with type-2 diabetes mellitus: is acute kidney injury a concern?",
+        "year": 2020,
+        "journal": "Journal of nephrology",
+        "study_type": "Review",
+        "text": "Sodium-glucose co-transporter-2 (SGLT2) inhibitor drugs are effective for treatment of type-2 diabetes mellitus. These medications target the SGLT2 transporter in the proximal convoluted tubule to prevent reabsorption of filtered glucose, resulting in glucosuria. Other clinically meaningful benefits beyond glycemic control include reductions in blood pressure, weight, and albuminuria. Three large clinical trials and subsequent meta-analyses studying SGLT2 inhibitors demonstrated significant cardiovascular benefits including reductions in heart failure hospitalizations, as well as reduced risk of myocardial infarction, stroke, or cardiovascular death in patients with established atherosclerotic cardiovascular disease. In addition, these agents produced kidney benefits including significant reductions in worsening estimated glomerular filtration rate, progression to end-stage kidney disease, and progression of chronic kidney disease in patients with type-2 diabetes mellitus and albuminuric chronic kidney disease. However, despite these beneficial cardiovascular and kidney effects, numerous reports of acute kidney injury, including need for dialysis and death, have been reported to the FDA adverse events reporting system raising concern among providers and a warning announcement from the FDA. This review will examine the clinical effects of the SGLT2 inhibitor drugs, mechanisms behind both kidney protection and harm, and clinical recommendations for their use.",
+        "score": 0.9999998807907104,
+        "sub_questions": [
+          0
+        ]
+      },
+      {
+        "id": 2,
+        "pmid": "36216484",
+        "chunk_id": "36216484_0",
+        "title": "Renoprotective Effects of SGLT2 Inhibitors.",
+        "year": 2022,
+        "journal": "Heart failure clinics",
+        "study_type": "Review",
+        "text": "SGLT2 inhibitors can protect the kidneys of patients with and without type 2 diabetes from failing. This includes blood glucose dependent and independent mechanisms. SGLT2 inhibitors lower glomerular pressure and filtration, thereby reducing the physical stress on the filtration barrier and the oxygen demand for tubular reabsorption. This improves cortical oxygenation, which, together with lesser tubular glucotoxicity and improved mitochondrial function and autophagy, can reduce proinflammatory and profibrotic signaling and preserve tubular function and GFR in long term. By shifting transport downstream, SGLT2 inhibitors may mimic systemic hypoxia and stimulate erythropoiesis, which improves oxygen delivery to the kidney and other organs.",
+        "score": 0.9999997615814209,
+        "sub_questions": [
+          0
+        ]
+      },
+      {
+        "id": 3,
+        "pmid": "39179723",
+        "chunk_id": "39179723_0",
+        "title": "SGLT2 Inhibitors and How They Work Beyond the Glucosuric Effect. State of the Art.",
+        "year": 2024,
+        "journal": "American journal of cardiovascular drugs : drugs, devices, and other interventions",
+        "study_type": "Review",
+        "text": "Type 2 diabetes mellitus (T2DM) is associated with a heightened risk of cardiovascular and renal complications. While glycemic control remains essential, newer therapeutic options, such as SGLT2 inhibitors, offer additional benefits beyond glucose reduction. This review delves into the mechanisms underlying the cardio-renal protective effects of SGLT2 inhibitors. By inducing relative hypoglycemia, these agents promote ketogenesis, optimize myocardial energy metabolism, and reduce lipotoxicity. Additionally, SGLT2 inhibitors exert renoprotective actions by enhancing renal perfusion, attenuating inflammation, and improving iron metabolism. These pleiotropic effects, including modulation of blood pressure, reduction of uric acid, and improved endothelial function, collectively contribute to the cardiovascular and renal benefits observed with SGLT2 inhibitor therapy. This review will provide clinicians with essential knowledge, understanding, and a clear recollection of this pharmacological group's mechanism of action.",
+        "score": 0.9999995231628418,
+        "sub_questions": [
+          0
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "claim": "Reduction of glomerular pressure and filtration \u2192 less physical stress on the filtration barrier and lower oxygen demand for tubular reabsorption, improving cortical oxygenation and reducing pro\u2011inflammatory and profibrotic signaling.",
+        "cited": [
+          2
+        ],
+        "status": "supported",
+        "method": "nli",
+        "best_cited": 0.9974272847175598,
+        "quote": "",
+        "note": "",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "Improved tubular function through decreased glucotoxicity, enhanced mitochondrial function, and autophagy, preserving tubular health and GFR long term.",
+        "cited": [
+          2
+        ],
+        "status": "supported",
+        "method": "nli",
+        "best_cited": 0.9970719814300537,
+        "quote": "",
+        "note": "",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "Systemic hypoxia\u2011like effect that stimulates erythropoiesis, increasing oxygen delivery to the kidney and other organs.",
+        "cited": [
+          2
+        ],
+        "status": "supported",
+        "method": "nli",
+        "best_cited": 0.9959165453910828,
+        "quote": "",
+        "note": "",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "Ketogenesis and metabolic shifts that optimize myocardial and renal energy metabolism, reduce lipotoxicity, and attenuate inflammation.",
+        "cited": [
+          3
+        ],
+        "status": "supported",
+        "method": "nli",
+        "best_cited": 0.9924955368041992,
+        "quote": "",
+        "note": "",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      },
+      {
+        "claim": "Blood pressure lowering, uric acid reduction, and improved endothelial function that collectively support renal perfusion and reduce damage.",
+        "cited": [
+          3
+        ],
+        "status": "supported",
+        "method": "nli",
+        "best_cited": 0.9960198998451233,
+        "quote": "",
+        "note": "",
+        "supported_by_other": [],
+        "unverified_numbers": []
+      }
+    ],
+    "summary": {
+      "claims": 5,
+      "supported": 5,
+      "partial": 0,
+      "unsupported": 0,
+      "miscited": 0,
+      "not_checkable": 0,
+      "citation_precision": 1.0,
+      "uncited_statements": 4,
+      "citation_coverage": 0.556
+    },
+    "relevance": 5,
+    "relevance_note": "SCORE: 5  \nREASON: The answer thoroughly lists and explains the key mechanisms by which SGLT2 inhibitors confer kidney protection.",
+    "invalid_citations": [],
+    "uncited_evidence": [
+      1
+    ],
+    "timings": {
+      "decompose": 0.7,
+      "retrieve": 40.8,
+      "synthesize": 1.3,
+      "verify": 2.2
+    }
+  },
+  {
+    "category": "out_of_scope",
+    "question": "What dietary patterns are recommended for people with type 1 diabetes?",
+    "sub_questions": [
+      "What dietary patterns are recommended for people with type 1 diabetes?"
+    ],
+    "answer": "The available evidence does not cover dietary patterns for people with type\u202f1 diabetes.",
+    "evidence": [
+      {
+        "id": 1,
+        "pmid": "26042397",
+        "chunk_id": "26042397_0",
+        "title": "Diet and diabetes.",
+        "year": 2015,
+        "journal": "Australian family physician",
+        "study_type": "Review",
+        "text": "Guidelines for the prevention and management of type 2 diabetes mellitus (T2DM) reinforce lifestyle management, yet advice to guide general practitioners on principles around dietary choices is needed. This article provides current evidence regarding the differing diets in diabetes prevention and management once T2DM arises, including the role in management of complications such as hypoglycaemia. Diets should incorporate weight maintenance or loss, while complementing changes in physical activity to optimise the metabolic effects of dietary advice. Using a structured, team-care approach supports pragmatic and sustainable individualised plans, while incorporating current evidence-based dietary approaches.",
+        "score": 0.999189555644989,
+        "sub_questions": [
+          0
+        ]
+      },
+      {
+        "id": 2,
+        "pmid": "28289908",
+        "chunk_id": "28289908_0",
+        "title": "Why should people with type 1 diabetes exercise regularly?",
+        "year": 2017,
+        "journal": "Acta diabetologica",
+        "study_type": "Review",
+        "text": "Plethoric evidence reminds of the protective effects of exercise against a number of health risks, across all ages, in the general population. The benefits of exercise for individuals with type 2 diabetes are indisputable. An in-depth understanding of energy metabolism has reasonably entailed exercise as a cornerstone in the lifestyle of almost all subjects with type 1 diabetes. Nevertheless, individuals with type 1 diabetes often fail in accomplishing exercise guidelines and they are less active than their peer without diabetes. Two major obstacles are feared by people with type 1 diabetes who wish to exercise regularly: management of blood glucose control and hypoglycemia. Nowadays, strategies, including glucose monitoring technology and insulin pump therapy, have significantly contributed to the participation in regular physical activity, and even in competitive sports, for people with type 1 diabetes. Novel modalities of training, like different intensity, interspersed exercise, are as well promising. The beneficial potential of exercise in type 1 diabetes is multi-faceted, and it has to be fully exploited because it goes beyond the insulin-mimetic action, possibly through immunomodulation.",
+        "score": 0.961689829826355,
+        "sub_questions": [
+          0
+        ]
+      },
+      {
+        "id": 3,
+        "pmid": "17036506",
+        "chunk_id": "17036506_0",
+        "title": "[The evolution of insulin therapy and new insight into nutrition recommendations for individuals with diabetes].",
+        "year": 2006,
+        "journal": "Przeglad lekarski",
+        "study_type": "Review",
+        "text": "The dietary guideline has undergone change during the last decades. It has been done by the introduction of new insulin therapy methods, also by the numerous epidemiological studies which have documented the influence of eating habits on macro-vascular diseases, obesity and type 2 diabetes. The Glycemic Index (GI) and Glycemic Load (GL) play a pivotal role in carbohydrate classification and for food choice by diabetic patients. Post-prandial glycemia response and insulinemia strongly relate to value of GI and GL. Intensive insulin therapy as a multiple daily injection or pump therapy has brought a liberalization in diabetic regime and diet. It gives possibility to introduce modern dietary guidelines including healthy eating advice with respect for traditional eating habits.",
+        "score": 0.6506152749061584,
+        "sub_questions": [
+          0
+        ]
+      }
+    ],
+    "claims": [],
+    "summary": {
+      "claims": 0,
+      "supported": 0,
+      "partial": 0,
+      "unsupported": 0,
+      "miscited": 0,
+      "not_checkable": 0,
+      "citation_precision": 0.0,
+      "uncited_statements": 1,
+      "citation_coverage": 0.0
+    },
+    "relevance": 5,
+    "relevance_note": "SCORE: 5  \nREASON: The answer clearly states that there is no evidence covering dietary patterns for type\u202f1 diabetes, directly addressing the lack of recommendations.",
+    "invalid_citations": [],
+    "uncited_evidence": [
+      1,
+      2,
+      3
+    ],
+    "timings": {
+      "decompose": 0.6,
+      "retrieve": 43.4,
+      "synthesize": 0.8,
+      "verify": 0.0
+    }
+  },
+  {
+    "category": "out_of_scope",
+    "question": "How effective are SGLT2 inhibitors for treating type 1 diabetes?",
+    "sub_questions": [
+      "What is the effect of SGLT2 inhibitors on glycemic control (HbA1c, fasting glucose) in patients with type 1 diabetes?",
+      "What are the safety and adverse event profiles (hypoglycemia, ketoacidosis, renal function) of SGLT2 inhibitors in type 1 diabetes?",
+      "How do SGLT2 inhibitors compare to insulin therapy alone in terms of weight loss and cardiovascular outcomes in type 1 diabetes?",
+      "What are the long\u2011term outcomes (microvascular complications, mortality) associated with SGLT2 inhibitor use in type 1 diabetes?"
+    ],
+    "answer": "The available evidence does not cover the use of SGLT2 inhibitors in patients with type\u202f1 diabetes.",
+    "evidence": [
+      {
+        "id": 1,
+        "pmid": "26700585",
+        "chunk_id": "26700585_1",
+        "title": "Network meta-analysis of treatments for type 2 diabetes mellitus following failure with metformin plus sulfonylurea.",
+        "year": 2016,
+        "journal": "Current medical research and opinion",
+        "study_type": "Meta-analysis",
+        "text": "Aims The efficacy and safety of sodium-glucose linked transporters (SGLT2s) plus metformin and a sulfonylurea (MET\u2009+\u2009SU) for the treatment of type 2 diabetes mellitus (T2DM) in patients who fail to achieve glycemic control with MET\u2009+\u2009SU, relative to other triple therapies licensed in the EU, were estimated. Methods A systematic literature review and network meta-analysis (NMA) of randomized controlled trials (RCTs) involving anti-diabetes treatments added to MET\u2009+\u2009SU were conducted. Of 2236 abstracts identified through a systematic literature review, 30 RCTs published between 2003 and 2013 were included. RCTs ranged from 12 to 52 weeks in duration, included 28 to 1274 patients, were of parallel design, and most were open-label. Comparators included placebo (reference treatment), SGLT2 inhibitors, dipeptidyl peptidase-4 (DPP-4) inhibitors, thiazolidinediones (TZDs), alpha-glucosidase inhibitors (AGIs), meglitinides, glucagon-like peptide 1 (GLP-1) analogues, and basal, bolus, and biphasic insulin, all added on to MET\u2009+\u2009SU, as well as basal and biphasic insulin added to MET and monotherapy. The mean change (%) in HbA1c levels compared to placebo was -0.86 for SGLT2 inhibitors, -0.68 for DPP-4 inhibitors, -0.93 for TZDs, and -1.07 for GLP-1 analogues, respectively. Only SGLT2 inhibitors and GLP-1 analogues led to a weight loss (-1.71 kg and -1.14 kg, respectively) and decrease in systolic blood pressure (SBP; -3.73 mmHg and -2.90 mmHg, respectively), while all other treatments showed either an increase or no changes in weight or SBP. Conclusion SGLT2 inhibitors are at least as effective as other classes of antidiabetic agents at controlling HbA1c levels, while providing the additional benefits of weight loss and reducing SBP. Additionally, since the risk of hypoglycemia is similar or reduced with SGLT2 inhibitors, patients do not have to trade off efficacy for tolerability. Similar findings were observed for GLP-1 analogues.",
+        "score": 0.9999749660491943,
+        "sub_questions": [
+          0,
+          2
+        ]
+      },
+      {
+        "id": 2,
+        "pmid": "29916741",
+        "chunk_id": "29916741_0",
+        "title": "Combined SGLT1 and SGLT2 Inhibitors and Their Role in Diabetes Care.",
+        "year": 2018,
+        "journal": "Diabetes technology & therapeutics",
+        "study_type": "Study",
+        "text": "The sodium-glucose cotransporter type 1 (SGLT1) is the primary transporter for absorption of glucose and galactose in the gastrointestinal tract. Inhibition blunts and delays postprandial glucose (PPG) excursion. Sodium-glucose cotransporter type 2 (SGLT2) is expressed in the kidney, where it reabsorbs 90% of filtered glucose. Thus, a dual SGLT1 and SGLT2 inhibition (compared with selective SGLT2 inhibition) could result in lower PPG and robust A1c reduction even in patients with reduced kidney function. Sotagliflozin is an oral potent dual inhibitor of the insulin-independent SGLT1 and SGLT2. Preliminary data released from phase 2 and 3 clinical studies in adults with type 1 diabetes mellitus (T1DM) and type 2 diabetes mellitus (T2DM) showed improved glycemic control, and met efficacy endpoints beyond A1c with a safety profile consistent with the SGLT class: significant reduction in body weight, systolic blood pressure, and efficacy maintained in lower estimated glomerular filtration rate levels with no increased hypoglycemia. Increased risk of diabetic ketoacidosis (DKA) with uncharacteristically mild-to-moderate glucose elevations (euglycemic DKA) is associated with the use of all the approved SGLT2 inhibitors. Factors that trigger DKA include insulin reductions, low caloric and fluid intake, intercurrent illness, and alcohol use. However, DKA is detectable and manageable with proper patient education. With sotagliflozin, DKA rates were not higher than the expected background rate in T1DM, but numerically higher than placebo. Sotagliflozin is the first oral SGLT1 and SGLT2 inhibitor developed for the treatment of adult patients with T1DM, in adjunct with insulin, and has the potential to address unmet needs for patients with T1DM and possibly T2DM, with a favorable benefit/risk profile.",
+        "score": 0.9999994039535522,
+        "sub_questions": [
+          1,
+          0
+        ]
+      },
+      {
+        "id": 3,
+        "pmid": "27350752",
+        "chunk_id": "27350752_0",
+        "title": "SGLT2 inhibitors or GLP-1 receptor agonists as second-line therapy in type 2 diabetes: patient selection and perspectives.",
+        "year": 2016,
+        "journal": "Vascular health and risk management",
+        "study_type": "Review",
+        "text": "Controversy exists regarding the selection of second-line therapy for patients with type 2 diabetes mellitus (T2DM) who are unable to achieve glycemic control with metformin therapy alone. Newer pharmacologic treatments for T2DM include glucagon-like peptide-1 receptor agonists and sodium-glucose cotransporter 2 inhibitors. Both the classes of medication are efficacious, exhibit positive effects on weight, and are associated with minimal risk of hypoglycemia. The purpose of this review is to compare the clinical trial and real-world effectiveness data of glucagon-like peptide-1 receptor agonists versus sodium-glucose cotransporter 2 inhibitors related to A1c reduction, weight loss, cost-effectiveness, cardiovascular outcomes, and safety in patients with T2DM. This review summarizes comparative evidence for providers who are determining which of the two classes may be the most appropriate for a specific patient.",
+        "score": 0.9999963045120239,
+        "sub_questions": [
+          2,
+          0
+        ]
+      },
+      {
+        "id": 4,
+        "pmid": "27535028",
+        "chunk_id": "27535028_0",
+        "title": "Effects of antidiabetic drugs on the incidence of macrovascular complications and mortality in type 2 diabetes mellitus: a new perspective on sodium-glucose co-transporter 2 inhibitors.",
+        "year": 2017,
+        "journal": "Annals of medicine",
+        "study_type": "Review",
+        "text": "Elevated hemoglobin A1c (HbA1c) values correlate with microvascular and macrovascular complications. Thus, patients with type 2 diabetes mellitus (T2DM) are at an increased risk of developing macrovascular events. Treatment of T2DM should be based on a multifactorial approach because of its evidence regarding reduction of macrovascular complications and mortality in T2DM. It is well known that intensive glucose control reduces the risk of microvascular complications in T2DM, but the effects of antidiabetic drugs on macrovascular complications and mortality in T2DM are less clear. The results of recent trials have demonstrated clear evidence that empagliflozin and liraglutide reduce cardiovascular (CV) and all-cause mortality in T2DM, an effect that is absent in other members of antidiabetic drugs. Empagliflozin is a member of a novel class of antidiabetic drugs, the sodium-glucose co-transporter 2 (SGLT2) inhibitors. Two ongoing randomized clinical trials involving other SGLT2 inhibitors, canagliflozin and dapagliflozin, will provide additional evidence of the beneficial effects of SGLT2 inhibitors in T2DM population. The aim of this paper is to systematically present the latest evidence regarding the usage of antidiabetic drugs, and the reduction of macrovascular complications and mortality. A special emphasis is put on the novel class of antidiabetic drugs, of SGLT2 inhibitors. Key messages Macrovascular complications and mortality are best clinical trial endpoints for evaluating the efficacy of antidiabetic drugs. The first antidiabetic drug that demonstrated a reduction in mortality in the treatment of type 2 diabetes mellitus (T2DM) was empagliflozin, a sodium-glucose co-transporter 2 (SGLT2) inhibitor. SGLT2 inhibitors are novel class of antidiabetic drugs that play a promising role in the treatment of T2DM.",
+        "score": 0.9962210059165955,
+        "sub_questions": [
+          3
+        ]
+      },
+      {
+        "id": 5,
+        "pmid": "30933547",
+        "chunk_id": "30933547_0",
+        "title": "An update on the safety of SGLT2 inhibitors.",
+        "year": 2019,
+        "journal": "Expert opinion on drug safety",
+        "study_type": "Review",
+        "text": "Sodium-glucose cotransporter type 2 inhibitors (SGLT2is) are recommended after metformin for a large spectrum of patients with type 2 diabetes, because of a favorable benefit/risk profile despite a variety of adverse events. This narrative review discusses the safety profile of SGLT2is: initial concerns (cardiovascular safety, acute renal failure, hypoglycemia, urinary and genital infections, volume depletion, bladder cancer), further concerns (euglycemic ketoacidosis, bone fractures) and more recent concerns (lower limb amputation, Fournier's gangrene). Overall, the safety profile of SGLT2is is good. The only increased adverse event that was consistently reported in clinical trials and observational studies is genital mycotic infections, with only a borderline increase in urinary tract infections. Among clinical trials, only the CANVAS program reported an unexpected increase in bone fractures and peripheral amputations. A variety of rare adverse events have been described as case reports, including ketoacidosis, amputations and Fournier gangrene, which led to specific warnings by regulatory agencies. Identifying predisposing patient's characteristics and/or precipitating clinical conditions would help prevent the most severe complications. These adverse events should not mask the overall cardiovascular and renal benefit of SGLT2is, especially in patients with type 2 diabetes at high cardiovascular risk.",
+        "score": 0.9999985694885254,
+        "sub_questions": [
+          1
+        ]
+      }
+    ],
+    "claims": [],
+    "summary": {
+      "claims": 0,
+      "supported": 0,
+      "partial": 0,
+      "unsupported": 0,
+      "miscited": 0,
+      "not_checkable": 0,
+      "citation_precision": 0.0,
+      "uncited_statements": 1,
+      "citation_coverage": 0.0
+    },
+    "relevance": 5,
+    "relevance_note": "SCORE: 5  \nREASON: The answer clearly states that there is no evidence on the effectiveness of SGLT2 inhibitors in type\u202f1 diabetes, directly addressing the question.",
+    "invalid_citations": [],
+    "uncited_evidence": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "timings": {
+      "decompose": 0.9,
+      "retrieve": 64.5,
+      "synthesize": 0.8,
+      "verify": 0.0
+    }
+  }
+]
