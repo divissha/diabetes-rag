@@ -66,6 +66,10 @@ def metrics(rs):
         "faithfulness": round((t["supported"] + t["miscited"]) / checkable, 3) if checkable else None,
         "partial": t["partial"],
         "relevance": round(sum(rel) / len(rel), 2) if rel else None,
+        "citation_coverage": (
+            round(t["claims"] / (t["claims"] + sum(r["summary"].get("uncited_statements", 0) for r in rs)), 3)
+            if t["claims"] else None
+        ),
         "invalid_citations": sum(len(r["invalid_citations"]) for r in rs),
     }
 
@@ -79,6 +83,12 @@ def report(results):
         m = metrics([r for r in results if r["category"] == cat])
         print(f"  {cat:13s} claims={m['claims']:3d}  cit_acc={m['citation_accuracy']}  "
               f"faith={m['faithfulness']}  relevance={m['relevance']}")
+        if cat == "out_of_scope":
+            rs = [r for r in results if r["category"] == cat]
+            clean = sum(1 for r in rs
+                        if r["summary"]["supported"] + r["summary"]["partial"]
+                        + r["summary"]["unsupported"] + r["summary"]["miscited"] == 0)
+            print(f"      clean refusals (no factual claims asserted): {clean}/{len(rs)}")
 
 
 def export_label_file(results):
@@ -141,6 +151,7 @@ def main():
             relevance, rel_raw = judge_relevance(question, state["answer"])
         except Exception as e:
             print(f"  FAILED: {e}  (run again to retry)")
+            time.sleep(30)
             continue
 
         v = state["verification"]
@@ -164,7 +175,11 @@ def main():
         time.sleep(SLEEP_SECONDS)
 
     report(results)
-    export_label_file(results)
+    if len(results) == len(QUESTIONS):
+        export_label_file(results)
+    else:
+        print(f"\n{len(QUESTIONS) - len(results)} question(s) still missing: "
+              "run again before labelling")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,122 @@
+{
+  "1": {
+    "status": "partial",
+    "method": "llm_judge",
+    "question": "What patient characteristics should guide the choice between SGLT2 inhibitors and GLP-1 receptor agonists?"
+  },
+  "2": {
+    "status": "partial",
+    "method": "nli",
+    "question": "What evidence supports combining insulin with GLP-1 receptor agonists in type 2 diabetes?"
+  },
+  "3": {
+    "status": "supported",
+    "method": "nli",
+    "question": "How do SGLT2 inhibitors and GLP-1 receptor agonists compare for cardiovascular and kidney outcomes in type 2 diabetes?"
+  },
+  "4": {
+    "status": "unsupported",
+    "method": "llm_judge",
+    "question": "What is the risk of lactic acidosis with metformin compared with other glucose-lowering drugs?"
+  },
+  "5": {
+    "status": "partial",
+    "method": "nli",
+    "question": "What is the risk of lactic acidosis with metformin compared with other glucose-lowering drugs?"
+  },
+  "6": {
+    "status": "miscited",
+    "method": "llm_judge",
+    "question": "What evidence supports combining insulin with GLP-1 receptor agonists in type 2 diabetes?"
+  },
+  "7": {
+    "status": "supported",
+    "method": "nli",
+    "question": "How do SGLT2 inhibitors and GLP-1 receptor agonists compare for cardiovascular and kidney outcomes in type 2 diabetes?"
+  },
+  "8": {
+    "status": "partial",
+    "method": "llm_judge",
+    "question": "How do SGLT2 inhibitors and GLP-1 receptor agonists compare for cardiovascular and kidney outcomes in type 2 diabetes?"
+  },
+  "9": {
+    "status": "supported",
+    "method": "nli",
+    "question": "How does metformin compare with GLP-1 receptor agonists for weight loss in type 2 diabetes?"
+  },
+  "10": {
+    "status": "unsupported",
+    "method": "llm_judge",
+    "question": "What are the main adverse effects of SGLT2 inhibitors compared with GLP-1 receptor agonists?"
+  },
+  "11": {
+    "status": "supported",
+    "method": "nli",
+    "question": "What mechanisms explain the kidney-protective effects of SGLT2 inhibitors?"
+  },
+  "12": {
+    "status": "supported",
+    "method": "llm_judge",
+    "question": "What does the evidence say about metformin safety in patients with reduced kidney function?"
+  },
+  "13": {
+    "status": "supported",
+    "method": "nli",
+    "question": "How do SGLT2 inhibitors differ from metformin in effects on heart failure and mortality?"
+  },
+  "14": {
+    "status": "partial",
+    "method": "llm_judge",
+    "question": "What is the risk of lactic acidosis with metformin compared with other glucose-lowering drugs?"
+  },
+  "15": {
+    "status": "supported",
+    "method": "llm_judge",
+    "question": "How do SGLT2 inhibitors and GLP-1 receptor agonists compare for cardiovascular and kidney outcomes in type 2 diabetes?"
+  },
+  "16": {
+    "status": "supported",
+    "method": "nli",
+    "question": "What patient characteristics should guide the choice between SGLT2 inhibitors and GLP-1 receptor agonists?"
+  },
+  "17": {
+    "status": "supported",
+    "method": "nli",
+    "question": "What are the main adverse effects of SGLT2 inhibitors compared with GLP-1 receptor agonists?"
+  },
+  "18": {
+    "status": "partial",
+    "method": "llm_judge",
+    "question": "What patient characteristics should guide the choice between SGLT2 inhibitors and GLP-1 receptor agonists?"
+  },
+  "19": {
+    "status": "supported",
+    "method": "llm_judge",
+    "question": "How does metformin compare with GLP-1 receptor agonists for weight loss in type 2 diabetes?"
+  },
+  "20": {
+    "status": "supported",
+    "method": "llm_judge",
+    "question": "How do SGLT2 inhibitors and GLP-1 receptor agonists compare for cardiovascular and kidney outcomes in type 2 diabetes?"
+  },
+  "21": {
+    "status": "unsupported",
+    "method": "llm_judge",
+    "question": "What evidence supports combining insulin with GLP-1 receptor agonists in type 2 diabetes?"
+  },
+  "22": {
+    "status": "miscited",
+    "method": "llm_judge",
+    "question": "How does metformin compare with GLP-1 receptor agonists for weight loss in type 2 diabetes?"
+  },
+  "23": {
+    "status": "partial",
+    "method": "llm_judge",
+    "question": "What are the main adverse effects of SGLT2 inhibitors compared with GLP-1 receptor agonists?"
+  },
+  "24": {
+    "status": "supported",
+    "method": "nli",
+    "question": "What mechanisms explain the kidney-protective effects of SGLT2 inhibitors?"
+  }
+}

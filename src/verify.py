@@ -55,19 +55,43 @@ def _model():
     return _state["m"], _state["idx"]
 
 
-def extract_claims(answer):
-    claims = []
-    for line in answer.split("\n"):
-        line = re.sub(r"\*\*", "", line.strip()).lstrip("-*• ").strip()
+def _units(answer):
+    """Sentence-level units: {text, cited, gaps}. A citation that lands after the
+    period (or on its own) attaches to the sentence before it. Headings are skipped."""
+    units, in_gaps = [], False
+    for raw in answer.split("\n"):
+        if not raw.strip():
+            continue
+        if re.fullmatch(r"[-*\u2022\s]*\*\*[^*]+\*\*:?\s*", raw):
+            if re.match(r"(?i)[-*\u2022\s]*\*\*evidence gaps?", raw):
+                in_gaps = True
+            continue
+        line = re.sub(r"\*\*", "", raw.strip()).lstrip("-*\u2022 ").strip()
         if not line:
             continue
+        if re.match(r"(?i)^evidence gaps?\b", line):
+            in_gaps = True
         for sent in _SENT_SPLIT.split(line):
             ids = [int(n) for g in _CITE_GROUP.findall(sent)
                    for n in re.split(r"\s*,\s*", g)]
-            if ids:
-                claims.append({"claim": _CITE_STRIP.sub("", sent).strip(),
-                               "cited": sorted(set(ids))})
-    return claims
+            text = _CITE_STRIP.sub("", sent).strip()
+            if not text:  # citation-only fragment
+                if units and ids:
+                    units[-1]["cited"] = sorted(set(units[-1]["cited"]) | set(ids))
+                continue
+            units.append({"text": text, "cited": sorted(set(ids)), "gaps": in_gaps})
+    return units
+
+
+def extract_claims(answer):
+    return [{"claim": u["text"], "cited": u["cited"]} for u in _units(answer) if u["cited"]]
+
+
+def uncited_statements(answer):
+    """Substantive statements with no citation (headings, evidence gaps, absence claims excluded)."""
+    return [u["text"] for u in _units(answer)
+            if not u["cited"] and not u["gaps"]
+            and len(u["text"].split()) >= 6 and not _is_absence(u["text"])]
 
 
 def citation_stats(answer, evidence):
@@ -244,4 +268,8 @@ def verify_answer(answer, evidence, use_llm=True):
         "not_checkable": count("not_checkable"),
         "citation_precision": round(count("supported") / checkable, 3) if checkable else 0.0,
     }
-    return {"claims": results, "summary": summary}
+    unc = uncited_statements(answer)
+    total = n + len(unc)
+    summary["uncited_statements"] = len(unc)
+    summary["citation_coverage"] = round(n / total, 3) if total else None
+    return {"claims": results, "uncited": unc, "summary": summary}
