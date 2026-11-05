@@ -5,6 +5,7 @@ Add new systems to SYSTEMS in later phases to compare them.
 
 import json
 import math
+import time
 
 from retrieve import retrieve
 
@@ -75,12 +76,15 @@ def main():
 
     all_results = {}
     for name, fn in SYSTEMS.items():
+        t0 = time.time()
         metrics, misses = score(fn, items)
+        secs = (time.time() - t0) / len(items)
         all_results[name] = {"metrics": metrics, "num_misses": len(misses)}
         print(f"=== {name} ===")
         for k, v in metrics.items():
             print(f"  {k:10s} {v:.3f}")
-        print(f"  not found in top {POOL} chunks: {len(misses)}\n")
+        print(f"  not found in top {POOL} chunks: {len(misses)}")
+        print(f"  avg time per query: {secs:.2f}s\n")
 
     json.dump(all_results, open(RESULTS_PATH, "w"), indent=2)
     print(f"Saved to {RESULTS_PATH}")

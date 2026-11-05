@@ -28,7 +28,7 @@ RERANKERS = {
 }
 
 CANDIDATES = 50    # candidates per retriever before fusion
-RERANK_POOL = 40   # fused candidates passed to the cross-encoder
+RERANK_POOL = 20   # fused candidates passed to the cross-encoder
 RRF_K = 60
 
 STUDY_TYPE_FIELDS = {
